@@ -1,0 +1,55 @@
+@mixin flex-center($orientation: row) {
+    @include display-flex(flex);
+    @include flex-direction($orientation);
+    @include flex-wrap(nowrap);
+    @include align-items(center);
+    @include justify-content(center);
+}
+
+@mixin setLayoutWidth($elCount) {
+  @while $elCount > 0 {
+    .np-layout.horizontal > {
+      .np-layout:first-child:nth-last-child(#{$elCount}),
+      .np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
+        width: 100% / $elCount - $spaceBetweenHorizontalEl
+      }
+      $elCount: $elCount - 1
+    }
+  }
+}
+
+@mixin setLayoutHeight($elCount) {
+  @while $elCount > 0 {
+    .np-layout.vertical > {
+      .np-layout:first-child:nth-last-child(#{$elCount}),
+      .np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
+        height: 100% / $elCount - $spaceBetweenVerticalEl
+      }
+      $elCount: $elCount - 1
+    }
+  }
+}
+
+@mixin setButtongridHeight($elCount) {
+  @while $elCount > 0 {
+    .np-buttongrid > {
+      .np-buttongridrow:first-child:nth-last-child(#{$elCount}),
+      .np-buttongridrow:first-child:nth-last-child(#{$elCount}) ~ .np-buttongridrow {
+        height: 100% / $elCount - $spaceBetweenVerticalEl
+      }
+      $elCount: $elCount - 1
+    }
+  }
+}
+
+@mixin setButtonsWidth($elCount) {
+  @while $elCount > 0 {
+    .np-buttongridrow > {
+      .np-button:first-child:nth-last-child(#{$elCount}),
+      .np-button:first-child:nth-last-child(#{$elCount}) ~ .np-button {
+        width: 100% / $elCount - $spaceBetweenHorizontalEl
+      }
+      $elCount: $elCount - 1
+    }
+  }
+}

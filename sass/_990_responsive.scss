@@ -1,0 +1,14 @@
+@media only screen and (max-width: 770px) {
+    .view {
+        display: block;
+        overflow: visible;
+
+        > .np-layout {
+            width: 100% !important;
+
+          &:last-child {
+            padding-top: 1em;
+          }
+        }
+    }
+}

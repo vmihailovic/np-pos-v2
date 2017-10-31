@@ -1,0 +1,415 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_01_layout.scss */
+body {
+  font-family: Segoe UI Semilight, Gill Sans;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 9, ../sass/_01_layout.scss */
+.view {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+/* line 18, ../sass/_01_layout.scss */
+.vertical,
+.horizontal {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* line 28, ../sass/_01_layout.scss */
+.vertical {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+/* line 33, ../sass/_01_layout.scss */
+.np-layout {
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(120, 120, 120, 0.1);
+  overflow: hidden;
+}
+/* line 38, ../sass/_01_layout.scss */
+.np-layout > .control {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(10),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(10) ~ .np-layout {
+  width: 9.5%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(9),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(9) ~ .np-layout {
+  width: 10.61111%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(8),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(8) ~ .np-layout {
+  width: 12%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(7),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(7) ~ .np-layout {
+  width: 13.78571%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(6),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(6) ~ .np-layout {
+  width: 16.16667%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(5),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(5) ~ .np-layout {
+  width: 19.5%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(4),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(4) ~ .np-layout {
+  width: 24.5%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(3),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(3) ~ .np-layout {
+  width: 32.83333%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(2),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(2) ~ .np-layout {
+  width: 49.5%;
+}
+
+/* line 12, ../sass/_001_mixins.scss */
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(1),
+.np-layout.horizontal > .np-layout:first-child:nth-last-child(1) ~ .np-layout {
+  width: 99.5%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(10),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(10) ~ .np-layout {
+  height: 9%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(9),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(9) ~ .np-layout {
+  height: 10.11111%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(8),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(8) ~ .np-layout {
+  height: 11.5%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(7),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(7) ~ .np-layout {
+  height: 13.28571%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(6),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(6) ~ .np-layout {
+  height: 15.66667%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(5),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(5) ~ .np-layout {
+  height: 19%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(4),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(4) ~ .np-layout {
+  height: 24%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(3),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(3) ~ .np-layout {
+  height: 32.33333%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(2),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(2) ~ .np-layout {
+  height: 49%;
+}
+
+/* line 24, ../sass/_001_mixins.scss */
+.np-layout.vertical > .np-layout:first-child:nth-last-child(1),
+.np-layout.vertical > .np-layout:first-child:nth-last-child(1) ~ .np-layout {
+  height: 99%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(10),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(10) ~ .np-buttongridrow {
+  height: 9%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(9),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(9) ~ .np-buttongridrow {
+  height: 10.11111%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(8),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(8) ~ .np-buttongridrow {
+  height: 11.5%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(7),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(7) ~ .np-buttongridrow {
+  height: 13.28571%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(6),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(6) ~ .np-buttongridrow {
+  height: 15.66667%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(5),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(5) ~ .np-buttongridrow {
+  height: 19%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(4),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(4) ~ .np-buttongridrow {
+  height: 24%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(3),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(3) ~ .np-buttongridrow {
+  height: 32.33333%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(2),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(2) ~ .np-buttongridrow {
+  height: 49%;
+}
+
+/* line 36, ../sass/_001_mixins.scss */
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(1),
+.np-buttongrid > .np-buttongridrow:first-child:nth-last-child(1) ~ .np-buttongridrow {
+  height: 99%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(10),
+.np-buttongridrow > .np-button:first-child:nth-last-child(10) ~ .np-button {
+  width: 9.5%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(9),
+.np-buttongridrow > .np-button:first-child:nth-last-child(9) ~ .np-button {
+  width: 10.61111%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(8),
+.np-buttongridrow > .np-button:first-child:nth-last-child(8) ~ .np-button {
+  width: 12%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(7),
+.np-buttongridrow > .np-button:first-child:nth-last-child(7) ~ .np-button {
+  width: 13.78571%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(6),
+.np-buttongridrow > .np-button:first-child:nth-last-child(6) ~ .np-button {
+  width: 16.16667%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(5),
+.np-buttongridrow > .np-button:first-child:nth-last-child(5) ~ .np-button {
+  width: 19.5%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(4),
+.np-buttongridrow > .np-button:first-child:nth-last-child(4) ~ .np-button {
+  width: 24.5%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(3),
+.np-buttongridrow > .np-button:first-child:nth-last-child(3) ~ .np-button {
+  width: 32.83333%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(2),
+.np-buttongridrow > .np-button:first-child:nth-last-child(2) ~ .np-button {
+  width: 49.5%;
+}
+
+/* line 48, ../sass/_001_mixins.scss */
+.np-buttongridrow > .np-button:first-child:nth-last-child(1),
+.np-buttongridrow > .np-button:first-child:nth-last-child(1) ~ .np-button {
+  width: 99.5%;
+}
+
+/* line 1, ../sass/_32_buttons.scss */
+.np-button {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #fff;
+  background: #0072bc;
+  border-radius: 4px;
+}
+/* line 8, ../sass/_32_buttons.scss */
+.np-button > .np-icon {
+  font-size: 4.3vh;
+  height: 43%;
+  margin-bottom: 3.33%;
+}
+/* line 14, ../sass/_32_buttons.scss */
+.np-button > .np-caption {
+  font-size: 1.93vh;
+  height: 25%;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 3.33%;
+  padding: 0 5px;
+  width: calc(100% - 10px);
+  line-height: 1.4;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 770px) {
+  /* line 2, ../sass/_990_responsive.scss */
+  .view {
+    display: block;
+    overflow: visible;
+  }
+  /* line 6, ../sass/_990_responsive.scss */
+  .view > .np-layout {
+    width: 100% !important;
+  }
+  /* line 9, ../sass/_990_responsive.scss */
+  .view > .np-layout:last-child {
+    padding-top: 1em;
+  }
+}

@@ -1,0 +1,25 @@
+.np-button {
+    height: 100%;
+    @include flex-center(column);
+    color: #fff;
+    background: #0072bc;
+    border-radius: 4px;
+
+    > .np-icon {
+        font-size: 4.3vh;
+        height: 43%;
+        margin-bottom: 3.33%;
+    }
+
+    > .np-caption {
+        font-size: 1.93vh;
+        height: 25%;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 3.33%;
+        padding: 0 5px;
+        width: calc(100% - 10px);
+        line-height: 1.4;
+        text-overflow: ellipsis;
+    }
+}
