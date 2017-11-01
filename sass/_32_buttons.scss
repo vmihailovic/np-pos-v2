@@ -88,13 +88,14 @@
         top: 0;
         left: 0;
         pointer-events: none;
-        background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+        background: #000;
         background-repeat: no-repeat;
         background-position: 50%;
         transform: scale(10,10);
         opacity: 0;
-        transition: transform .5s, opacity 1s;
+        transition: transform 1.5s, opacity 1s;
         z-index: 2;
+        border-radius: 4px;
     }
 
     &:active:after {
