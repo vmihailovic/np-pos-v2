@@ -376,21 +376,23 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transform: translate3d(0, 0, 0);
+  position: relative;
+  overflow: hidden;
 }
-/* line 11, ../sass/_32_buttons.scss */
+/* line 13, ../sass/_32_buttons.scss */
 .np-button.icon.text .np-icon {
   margin-bottom: 3.33%;
 }
-/* line 15, ../sass/_32_buttons.scss */
+/* line 17, ../sass/_32_buttons.scss */
 .np-button.icon.text .np-caption {
   margin-top: 3.33%;
 }
-/* line 20, ../sass/_32_buttons.scss */
+/* line 22, ../sass/_32_buttons.scss */
 .np-button .np-icon {
   font-size: 4.3vh;
   height: auto;
 }
-/* line 25, ../sass/_32_buttons.scss */
+/* line 27, ../sass/_32_buttons.scss */
 .np-button .np-caption {
   font-size: 1.93vh;
   height: 27%;
@@ -402,36 +404,15 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 37, ../sass/_32_buttons.scss */
+/* line 39, ../sass/_32_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 43, ../sass/_32_buttons.scss */
-.np-button.image-top, .np-button.image-bottom {
-  position: relative;
-}
-/* line 47, ../sass/_32_buttons.scss */
-.np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
-  height: 23.607%;
-  position: absolute;
-  bottom: 0;
-}
-/* line 55, ../sass/_32_buttons.scss */
-.np-button.image-bottom .np-image {
-  top: auto;
-  bottom: 0;
-  border-radius: 0 0 4px 4px;
-}
-/* line 61, ../sass/_32_buttons.scss */
-.np-button.image-bottom .np-caption {
-  bottom: auto;
-  top: 0;
-}
-/* line 67, ../sass/_32_buttons.scss */
+/* line 45, ../sass/_32_buttons.scss */
 .np-button .np-image {
-  height: 76.393%;
+  height: 66.393%;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -439,8 +420,32 @@ body {
   border-radius: 4px 4px 0 0;
   position: absolute;
   top: 0;
+  left: 0;
 }
-/* line 78, ../sass/_32_buttons.scss */
+/* line 57, ../sass/_32_buttons.scss */
+.np-button.image-top, .np-button.image-bottom {
+  position: relative;
+}
+/* line 61, ../sass/_32_buttons.scss */
+.np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
+  height: 33.607%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 3.33%;
+}
+/* line 71, ../sass/_32_buttons.scss */
+.np-button.image-bottom .np-image {
+  top: auto;
+  bottom: 0;
+  border-radius: 0 0 4px 4px;
+}
+/* line 77, ../sass/_32_buttons.scss */
+.np-button.image-bottom .np-caption {
+  bottom: auto;
+  top: 0;
+}
+/* line 83, ../sass/_32_buttons.scss */
 .np-button:after {
   content: "";
   display: block;
@@ -457,7 +462,7 @@ body {
   opacity: 0;
   transition: transform .5s, opacity 1s;
 }
-/* line 95, ../sass/_32_buttons.scss */
+/* line 100, ../sass/_32_buttons.scss */
 .np-button:active:after {
   transform: scale(0, 0);
   opacity: .2;

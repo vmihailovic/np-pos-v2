@@ -6,6 +6,8 @@
     border-radius: 4px;
     cursor: pointer;
     transform: translate3d(0, 0, 0);
+    position: relative;
+    overflow: hidden;
 
     &.icon.text {
         .np-icon {
@@ -40,32 +42,8 @@
         background-size: cover;
     }
 
-    &.image-top,
-    &.image-bottom {
-      position: relative;
-
-        .np-caption {
-            height: 23.607%;
-            position: absolute;
-            bottom: 0;
-        }
-    }
-
-    &.image-bottom {
-        .np-image {
-            top: auto;
-            bottom: 0;
-          border-radius: 0 0 4px 4px;
-        }
-
-        .np-caption {
-            bottom: auto;
-            top: 0;
-        }
-    }
-
     .np-image {
-        height: 76.393%;
+        height: 66.393%;
         width: 100%;
         background-position: center center;
         background-repeat: no-repeat;
@@ -73,6 +51,33 @@
         border-radius: 4px 4px 0 0;
         position: absolute;
         top: 0;
+        left: 0;
+    }
+
+    &.image-top,
+    &.image-bottom {
+      position: relative;
+
+        .np-caption {
+            height: 33.607%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-top: 3.33%;
+        }
+    }
+
+    &.image-bottom {
+        .np-image {
+            top: auto;
+            bottom: 0;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .np-caption {
+            bottom: auto;
+            top: 0;
+        }
     }
 
     &:after {
