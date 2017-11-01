@@ -6,6 +6,10 @@
     @include justify-content(center);
 }
 
+@function get-vh($target) {
+    @return ($target/80px) * 10vh;
+}
+
 @mixin setLayoutWidth($elCount) {
   @while $elCount > 0 {
     .np-layout.horizontal > {

@@ -8,13 +8,13 @@
     .np-buttongridrow {
         &:first-child {
           .np-button-container {
-            padding-top: 0;
+            //padding-top: 0;
           }
         }
 
         &.horizontal {
           .np-button-container:not(:first-child) {
-              padding-left: 0.5em;
+              padding-left: 0.3em;
           }
         }
     }
