@@ -460,8 +460,9 @@ body {
   transform: scale(10, 10);
   opacity: 0;
   transition: transform .5s, opacity 1s;
+  z-index: 2;
 }
-/* line 99, ../sass/_32_buttons.scss */
+/* line 100, ../sass/_32_buttons.scss */
 .np-button:active:after {
   transform: scale(0, 0);
   opacity: .2;
