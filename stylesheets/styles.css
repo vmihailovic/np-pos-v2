@@ -382,7 +382,7 @@ body {
 /* line 8, ../sass/_32_buttons.scss */
 .np-button > .np-icon {
   font-size: 4.3vh;
-  height: 43%;
+  height: auto;
   margin-bottom: 3.33%;
 }
 /* line 14, ../sass/_32_buttons.scss */
