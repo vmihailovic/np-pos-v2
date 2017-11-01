@@ -5,23 +5,24 @@
     background: #0072bc;
     border-radius: 4px;
     cursor: pointer;
+    transform: translate3d(0, 0, 0);
 
     &.icon.text {
-        > .np-icon {
+        .np-icon {
             margin-bottom: 3.33%;
         }
 
-        > .np-caption {
+        .np-caption {
             margin-top: 3.33%;
         }
     }
 
-    > .np-icon {
+    .np-icon {
         font-size: 4.3vh;
         height: auto;
     }
 
-    > .np-caption {
+    .np-caption {
         font-size: 1.93vh;
         height: 27%;
         overflow: hidden;
@@ -37,5 +38,63 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    &.image-top,
+    &.image-bottom {
+      position: relative;
+
+        .np-caption {
+            height: 23.607%;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    &.image-bottom {
+        .np-image {
+            top: auto;
+            bottom: 0;
+          border-radius: 0 0 4px 4px;
+        }
+
+        .np-caption {
+            bottom: auto;
+            top: 0;
+        }
+    }
+
+    .np-image {
+        height: 76.393%;
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px 4px 0 0;
+        position: absolute;
+        top: 0;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        transform: scale(10,10);
+        opacity: 0;
+        transition: transform .5s, opacity 1s;
+    }
+
+    &:active:after {
+        transform: scale(0,0);
+        opacity: .2;
+        transition: 0s;
     }
 }

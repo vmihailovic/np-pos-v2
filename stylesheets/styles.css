@@ -375,22 +375,23 @@ body {
   background: #0072bc;
   border-radius: 4px;
   cursor: pointer;
+  transform: translate3d(0, 0, 0);
 }
-/* line 10, ../sass/_32_buttons.scss */
-.np-button.icon.text > .np-icon {
+/* line 11, ../sass/_32_buttons.scss */
+.np-button.icon.text .np-icon {
   margin-bottom: 3.33%;
 }
-/* line 14, ../sass/_32_buttons.scss */
-.np-button.icon.text > .np-caption {
+/* line 15, ../sass/_32_buttons.scss */
+.np-button.icon.text .np-caption {
   margin-top: 3.33%;
 }
-/* line 19, ../sass/_32_buttons.scss */
-.np-button > .np-icon {
+/* line 20, ../sass/_32_buttons.scss */
+.np-button .np-icon {
   font-size: 4.3vh;
   height: auto;
 }
-/* line 24, ../sass/_32_buttons.scss */
-.np-button > .np-caption {
+/* line 25, ../sass/_32_buttons.scss */
+.np-button .np-caption {
   font-size: 1.93vh;
   height: 27%;
   overflow: hidden;
@@ -401,11 +402,66 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 36, ../sass/_32_buttons.scss */
+/* line 37, ../sass/_32_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* line 43, ../sass/_32_buttons.scss */
+.np-button.image-top, .np-button.image-bottom {
+  position: relative;
+}
+/* line 47, ../sass/_32_buttons.scss */
+.np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
+  height: 23.607%;
+  position: absolute;
+  bottom: 0;
+}
+/* line 55, ../sass/_32_buttons.scss */
+.np-button.image-bottom .np-image {
+  top: auto;
+  bottom: 0;
+  border-radius: 0 0 4px 4px;
+}
+/* line 61, ../sass/_32_buttons.scss */
+.np-button.image-bottom .np-caption {
+  bottom: auto;
+  top: 0;
+}
+/* line 67, ../sass/_32_buttons.scss */
+.np-button .np-image {
+  height: 76.393%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px 4px 0 0;
+  position: absolute;
+  top: 0;
+}
+/* line 78, ../sass/_32_buttons.scss */
+.np-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #000000 10%, rgba(0, 0, 0, 0) 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform .5s, opacity 1s;
+}
+/* line 95, ../sass/_32_buttons.scss */
+.np-button:active:after {
+  transform: scale(0, 0);
+  opacity: .2;
+  transition: 0s;
 }
 
 @media only screen and (max-width: 770px) {
