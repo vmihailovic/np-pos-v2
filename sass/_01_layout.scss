@@ -41,9 +41,9 @@ body {
         box-sizing: border-box;
     }
 
-    /*.vertical .control:not(:first-child) {
+    .vertical .control:not(:first-child) {
         padding-top: .5em;
-    }*/
+    }
 
     .horizontal .control:not(:first-child) {
         padding-left: .5em;

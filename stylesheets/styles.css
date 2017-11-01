@@ -109,9 +109,6 @@ body {
   display: -webkit-flex;
   display: flex;
   overflow: hidden;
-  /*.vertical .control:not(:first-child) {
-      padding-top: .5em;
-  }*/
 }
 /* line 37, ../sass/_01_layout.scss */
 .np-layout > .control {
@@ -119,6 +116,10 @@ body {
   height: 100%;
   overflow: hidden;
   box-sizing: border-box;
+}
+/* line 44, ../sass/_01_layout.scss */
+.np-layout .vertical .control:not(:first-child) {
+  padding-top: .5em;
 }
 /* line 48, ../sass/_01_layout.scss */
 .np-layout .horizontal .control:not(:first-child) {
@@ -472,6 +473,10 @@ body {
 }
 
 /* line 10, ../sass/_33_buttonsGrid.scss */
+.np-buttongrid .np-buttongridrow:first-child .np-button-container {
+  padding-top: 0;
+}
+/* line 16, ../sass/_33_buttonsGrid.scss */
 .np-buttongrid .np-buttongridrow.horizontal .np-button-container:not(:first-child) {
   padding-left: 0.5em;
 }
