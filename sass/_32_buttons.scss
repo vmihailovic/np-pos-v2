@@ -13,13 +13,14 @@
 
     > .np-caption {
         font-size: 1.93vh;
-        height: 25%;
+        height: 27%;
         overflow: hidden;
         text-align: center;
         margin-top: 3.33%;
-        padding: 0 5px;
-        width: calc(100% - 10px);
+        padding: 0 4%;
+        width: 92%;
         line-height: 1.4;
         text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }
