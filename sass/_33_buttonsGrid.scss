@@ -1,0 +1,15 @@
+.np-buttongrid {
+    &.vertical {
+        .np-buttongridrow.horizontal:not(:first-child) {
+            //padding-top: .5em;
+        }
+    }
+
+    .np-buttongridrow {
+        &.horizontal {
+          .np-button-container:not(:first-child) {
+              padding-left: 0.5em;
+          }
+        }
+    }
+}

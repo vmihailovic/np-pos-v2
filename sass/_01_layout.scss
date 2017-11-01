@@ -32,15 +32,32 @@ body {
 
 .np-layout {
     @include display-flex(flex);
-    background: rgba(120, 120, 120, 0.1);
     overflow: hidden;
 
     > .control {
         width: 100%;
         height: 100%;
         overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    /*.vertical .control:not(:first-child) {
+        padding-top: .5em;
+    }*/
+
+    .horizontal .control:not(:first-child) {
+        padding-left: .5em;
+    }
+
+    &.horizontal > .np-layout:not(:first-child) {
+      padding-left: .5em;
+    }
+
+    &.vertical > .np-layout:not(:first-child) {
+      padding-top: .5em;
     }
 }
+
 
 @include setLayoutWidth(10);
 @include setLayoutHeight(10);

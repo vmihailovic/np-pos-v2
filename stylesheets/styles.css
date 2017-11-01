@@ -108,257 +108,286 @@ body {
 .np-layout {
   display: -webkit-flex;
   display: flex;
-  background: rgba(120, 120, 120, 0.1);
   overflow: hidden;
+  /*.vertical .control:not(:first-child) {
+      padding-top: .5em;
+  }*/
 }
-/* line 38, ../sass/_01_layout.scss */
+/* line 37, ../sass/_01_layout.scss */
 .np-layout > .control {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  box-sizing: border-box;
+}
+/* line 48, ../sass/_01_layout.scss */
+.np-layout .horizontal .control:not(:first-child) {
+  padding-left: .5em;
+}
+/* line 52, ../sass/_01_layout.scss */
+.np-layout.horizontal > .np-layout:not(:first-child) {
+  padding-left: .5em;
+}
+/* line 56, ../sass/_01_layout.scss */
+.np-layout.vertical > .np-layout:not(:first-child) {
+  padding-top: .5em;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(10),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(10) ~ .np-layout {
-  width: 9.5%;
+  width: 10%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(9),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(9) ~ .np-layout {
-  width: 10.61111%;
+  width: 11.11111%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(8),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(8) ~ .np-layout {
-  width: 12%;
+  width: 12.5%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(7),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(7) ~ .np-layout {
-  width: 13.78571%;
+  width: 14.28571%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(6),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(6) ~ .np-layout {
-  width: 16.16667%;
+  width: 16.66667%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(5),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(5) ~ .np-layout {
-  width: 19.5%;
+  width: 20%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(4),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(4) ~ .np-layout {
-  width: 24.5%;
+  width: 25%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(3),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(3) ~ .np-layout {
-  width: 32.83333%;
+  width: 33.33333%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(2),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(2) ~ .np-layout {
-  width: 49.5%;
+  width: 50%;
 }
 
 /* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(1),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(1) ~ .np-layout {
-  width: 99.5%;
+  width: 100%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(10),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(10) ~ .np-layout {
-  height: 9%;
+  height: 10%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(9),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(9) ~ .np-layout {
-  height: 10.11111%;
+  height: 11.11111%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(8),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(8) ~ .np-layout {
-  height: 11.5%;
+  height: 12.5%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(7),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(7) ~ .np-layout {
-  height: 13.28571%;
+  height: 14.28571%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(6),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(6) ~ .np-layout {
-  height: 15.66667%;
+  height: 16.66667%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(5),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(5) ~ .np-layout {
-  height: 19%;
+  height: 20%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(4),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(4) ~ .np-layout {
-  height: 24%;
+  height: 25%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(3),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(3) ~ .np-layout {
-  height: 32.33333%;
+  height: 33.33333%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(2),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(2) ~ .np-layout {
-  height: 49%;
+  height: 50%;
 }
 
 /* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(1),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(1) ~ .np-layout {
-  height: 99%;
+  height: 100%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(10),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(10) ~ .np-buttongridrow {
-  height: 9%;
+  height: 10%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(9),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(9) ~ .np-buttongridrow {
-  height: 10.11111%;
+  height: 11.11111%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(8),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(8) ~ .np-buttongridrow {
-  height: 11.5%;
+  height: 12.5%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(7),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(7) ~ .np-buttongridrow {
-  height: 13.28571%;
+  height: 14.28571%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(6),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(6) ~ .np-buttongridrow {
-  height: 15.66667%;
+  height: 16.66667%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(5),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(5) ~ .np-buttongridrow {
-  height: 19%;
+  height: 20%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(4),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(4) ~ .np-buttongridrow {
-  height: 24%;
+  height: 25%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(3),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(3) ~ .np-buttongridrow {
-  height: 32.33333%;
+  height: 33.33333%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(2),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(2) ~ .np-buttongridrow {
-  height: 49%;
+  height: 50%;
 }
 
 /* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(1),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(1) ~ .np-buttongridrow {
-  height: 99%;
+  height: 100%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(10),
-.np-buttongridrow > .np-button:first-child:nth-last-child(10) ~ .np-button {
-  width: 9.5%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(10),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(10) ~ .np-button-container {
+  width: 10%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(9),
-.np-buttongridrow > .np-button:first-child:nth-last-child(9) ~ .np-button {
-  width: 10.61111%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(9),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(9) ~ .np-button-container {
+  width: 11.11111%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(8),
-.np-buttongridrow > .np-button:first-child:nth-last-child(8) ~ .np-button {
-  width: 12%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(8),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(8) ~ .np-button-container {
+  width: 12.5%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(7),
-.np-buttongridrow > .np-button:first-child:nth-last-child(7) ~ .np-button {
-  width: 13.78571%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(7),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(7) ~ .np-button-container {
+  width: 14.28571%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(6),
-.np-buttongridrow > .np-button:first-child:nth-last-child(6) ~ .np-button {
-  width: 16.16667%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(6),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(6) ~ .np-button-container {
+  width: 16.66667%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(5),
-.np-buttongridrow > .np-button:first-child:nth-last-child(5) ~ .np-button {
-  width: 19.5%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(5),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(5) ~ .np-button-container {
+  width: 20%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(4),
-.np-buttongridrow > .np-button:first-child:nth-last-child(4) ~ .np-button {
-  width: 24.5%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(4),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(4) ~ .np-button-container {
+  width: 25%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(3),
-.np-buttongridrow > .np-button:first-child:nth-last-child(3) ~ .np-button {
-  width: 32.83333%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(3),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(3) ~ .np-button-container {
+  width: 33.33333%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(2),
-.np-buttongridrow > .np-button:first-child:nth-last-child(2) ~ .np-button {
-  width: 49.5%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(2),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(2) ~ .np-button-container {
+  width: 50%;
 }
 
 /* line 48, ../sass/_001_mixins.scss */
-.np-buttongridrow > .np-button:first-child:nth-last-child(1),
-.np-buttongridrow > .np-button:first-child:nth-last-child(1) ~ .np-button {
-  width: 99.5%;
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(1),
+.np-buttongridrow > .np-button-container:first-child:nth-last-child(1) ~ .np-button-container {
+  width: 100%;
 }
 
 /* line 1, ../sass/_32_buttons.scss */
+.np-button-container {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  padding-top: .5em;
+}
+
+/* line 11, ../sass/_32_buttons.scss */
 .np-button {
   height: 100%;
   display: -webkit-flex;
@@ -375,24 +404,21 @@ body {
   background: #0072bc;
   border-radius: 4px;
   cursor: pointer;
-  transform: translate3d(0, 0, 0);
-  position: relative;
-  overflow: hidden;
 }
-/* line 13, ../sass/_32_buttons.scss */
+/* line 20, ../sass/_32_buttons.scss */
 .np-button.icon.text .np-icon {
   margin-bottom: 3.33%;
 }
-/* line 17, ../sass/_32_buttons.scss */
+/* line 24, ../sass/_32_buttons.scss */
 .np-button.icon.text .np-caption {
   margin-top: 3.33%;
 }
-/* line 22, ../sass/_32_buttons.scss */
+/* line 29, ../sass/_32_buttons.scss */
 .np-button .np-icon {
   font-size: 4.3vh;
   height: auto;
 }
-/* line 27, ../sass/_32_buttons.scss */
+/* line 34, ../sass/_32_buttons.scss */
 .np-button .np-caption {
   font-size: 1.93vh;
   height: 27%;
@@ -404,13 +430,13 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 39, ../sass/_32_buttons.scss */
+/* line 46, ../sass/_32_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 45, ../sass/_32_buttons.scss */
+/* line 52, ../sass/_32_buttons.scss */
 .np-button .np-image {
   height: 66.393%;
   width: 100%;
@@ -422,52 +448,32 @@ body {
   top: 0;
   left: 0;
 }
-/* line 57, ../sass/_32_buttons.scss */
+/* line 64, ../sass/_32_buttons.scss */
 .np-button.image-top, .np-button.image-bottom {
   position: relative;
 }
-/* line 61, ../sass/_32_buttons.scss */
+/* line 68, ../sass/_32_buttons.scss */
 .np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
   height: 33.607%;
   position: absolute;
   bottom: -2%;
   left: 0;
 }
-/* line 70, ../sass/_32_buttons.scss */
+/* line 77, ../sass/_32_buttons.scss */
 .np-button.image-bottom .np-image {
   top: auto;
   bottom: 0;
   border-radius: 0 0 4px 4px;
 }
-/* line 76, ../sass/_32_buttons.scss */
+/* line 83, ../sass/_32_buttons.scss */
 .np-button.image-bottom .np-caption {
   bottom: auto;
   top: 4%;
 }
-/* line 82, ../sass/_32_buttons.scss */
-.np-button:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  background: #000;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  transform: scale(10, 10);
-  opacity: 0;
-  transition: transform 1.5s, opacity 1s;
-  z-index: 2;
-  border-radius: 4px;
-}
-/* line 101, ../sass/_32_buttons.scss */
-.np-button:active:after {
-  transform: scale(0, 0);
-  opacity: .2;
-  transition: 0s;
+
+/* line 10, ../sass/_33_buttonsGrid.scss */
+.np-buttongrid .np-buttongridrow.horizontal .np-button-container:not(:first-child) {
+  padding-left: 0.5em;
 }
 
 @media only screen and (max-width: 770px) {
