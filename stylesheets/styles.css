@@ -374,21 +374,22 @@ body {
   color: #fff;
   background: #0072bc;
   border-radius: 4px;
+  cursor: pointer;
 }
-/* line 9, ../sass/_32_buttons.scss */
+/* line 10, ../sass/_32_buttons.scss */
 .np-button.icon.text > .np-icon {
   margin-bottom: 3.33%;
 }
-/* line 13, ../sass/_32_buttons.scss */
+/* line 14, ../sass/_32_buttons.scss */
 .np-button.icon.text > .np-caption {
   margin-top: 3.33%;
 }
-/* line 18, ../sass/_32_buttons.scss */
+/* line 19, ../sass/_32_buttons.scss */
 .np-button > .np-icon {
   font-size: 4.3vh;
   height: auto;
 }
-/* line 23, ../sass/_32_buttons.scss */
+/* line 24, ../sass/_32_buttons.scss */
 .np-button > .np-caption {
   font-size: 1.93vh;
   height: 27%;
@@ -400,7 +401,7 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 35, ../sass/_32_buttons.scss */
+/* line 36, ../sass/_32_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
