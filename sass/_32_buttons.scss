@@ -5,10 +5,19 @@
     background: #0072bc;
     border-radius: 4px;
 
+    &.icon.text {
+        > .np-icon {
+            margin-bottom: 3.33%;
+        }
+
+        > .np-caption {
+            margin-top: 3.33%;
+        }
+    }
+
     > .np-icon {
         font-size: 4.3vh;
         height: auto;
-        margin-bottom: 3.33%;
     }
 
     > .np-caption {
@@ -16,11 +25,15 @@
         height: 27%;
         overflow: hidden;
         text-align: center;
-        margin-top: 3.33%;
         padding: 0 4%;
         width: 92%;
         line-height: 1.4;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+
+    &.image {
+        background: url(../images/khaleesi.jpg) no-repeat center center;
+        background-size: 100%;
     }
 }
