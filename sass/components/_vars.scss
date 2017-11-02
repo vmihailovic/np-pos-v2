@@ -1,1 +1,12 @@
-$fontBase: Segoe UI Semilight, Gill Sans;
+$font: (
+		family: ('Segoe UI Semilight', 'Gill Sans'),
+		color: #707070,
+		size: 16px,
+);
+
+$button: (
+		radius: 4px,
+		padding: 0.8vh,
+		background: #0072bc,
+		color: #fff
+)

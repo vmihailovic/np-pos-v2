@@ -8,6 +8,8 @@
     }
 }
 
+@include setButtongridHeight(10);
+@include setButtonsWidth(10);
 
 .np-items-list {
     height: 100%;

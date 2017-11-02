@@ -1,18 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-    font-family: $fontBase;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    color: #707070;
-}
-
 .view {
     @include display-flex(flex);
     width: 100%;
@@ -82,5 +67,4 @@ body {
 @include setLayoutWidth(10);
 @include setLayoutHeight(10);
 
-@include setButtongridHeight(10);
-@include setButtonsWidth(10);
+

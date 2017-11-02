@@ -1,5 +1,4 @@
 .np-button-container {
-    box-sizing: border-box;
     @include display-flex(flex);
     @include flex-direction(column);
     @include flex-wrap(nowrap);
@@ -11,16 +10,12 @@
 .np-button {
     height: 100%;
     @include flex-center(column);
-    color: #fff;
-    background: #0072bc;
-    border-radius: 4px;
-    cursor: pointer;
-    box-sizing: border-box;
-    padding: 8px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    color: map-get($button, color);
+    background: map-get($button, background);
+    border-radius: map-get($button, radius);
+  	padding: map-get($button, padding);
+  	cursor: pointer;
+    @include user-select(none);
 
     &.icon.text {
         .np-icon {
