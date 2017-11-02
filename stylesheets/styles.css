@@ -66,13 +66,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/_01_layout.scss */
 body {
   font-family: Segoe UI Semilight, Gill Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   padding: 0;
   margin: 0;
   width: 100vw;
   height: 100vh;
 }
 
-/* line 9, ../sass/_01_layout.scss */
+/* line 11, ../sass/_01_layout.scss */
 .view {
   display: -webkit-flex;
   display: flex;
@@ -83,7 +85,7 @@ body {
   background: #fff;
 }
 
-/* line 18, ../sass/_01_layout.scss */
+/* line 20, ../sass/_01_layout.scss */
 .vertical,
 .horizontal {
   display: -webkit-flex;
@@ -96,7 +98,7 @@ body {
   overflow: hidden;
 }
 
-/* line 28, ../sass/_01_layout.scss */
+/* line 30, ../sass/_01_layout.scss */
 .vertical {
   -webkit-flex-direction: column;
   flex-direction: column;
@@ -104,267 +106,267 @@ body {
   flex-wrap: nowrap;
 }
 
-/* line 33, ../sass/_01_layout.scss */
+/* line 35, ../sass/_01_layout.scss */
 .np-layout {
   display: -webkit-flex;
   display: flex;
   overflow: hidden;
 }
-/* line 37, ../sass/_01_layout.scss */
+/* line 39, ../sass/_01_layout.scss */
 .np-layout > .control {
   width: 100%;
   height: 100%;
   overflow: hidden;
   box-sizing: border-box;
 }
-/* line 48, ../sass/_01_layout.scss */
+/* line 50, ../sass/_01_layout.scss */
 .np-layout .horizontal .control:not(:first-child) {
   padding-left: .5em;
 }
-/* line 52, ../sass/_01_layout.scss */
+/* line 54, ../sass/_01_layout.scss */
 .np-layout.horizontal > .np-layout:not(:first-child) {
   padding-left: .5em;
 }
-/* line 56, ../sass/_01_layout.scss */
+/* line 58, ../sass/_01_layout.scss */
 .np-layout.vertical > .np-layout:not(:first-child) {
   padding-top: .5em;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(10),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(10) ~ .np-layout {
   width: 10%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(9),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(9) ~ .np-layout {
   width: 11.11111%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(8),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(8) ~ .np-layout {
   width: 12.5%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(7),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(7) ~ .np-layout {
   width: 14.28571%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(6),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(6) ~ .np-layout {
   width: 16.66667%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(5),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(5) ~ .np-layout {
   width: 20%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(4),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(4) ~ .np-layout {
   width: 25%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(3),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(3) ~ .np-layout {
   width: 33.33333%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(2),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(2) ~ .np-layout {
   width: 50%;
 }
 
-/* line 16, ../sass/_001_mixins.scss */
+/* line 12, ../sass/_001_mixins.scss */
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(1),
 .np-layout.horizontal > .np-layout:first-child:nth-last-child(1) ~ .np-layout {
   width: 100%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(10),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(10) ~ .np-layout {
   height: 10%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(9),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(9) ~ .np-layout {
   height: 11.11111%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(8),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(8) ~ .np-layout {
   height: 12.5%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(7),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(7) ~ .np-layout {
   height: 14.28571%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(6),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(6) ~ .np-layout {
   height: 16.66667%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(5),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(5) ~ .np-layout {
   height: 20%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(4),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(4) ~ .np-layout {
   height: 25%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(3),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(3) ~ .np-layout {
   height: 33.33333%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(2),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(2) ~ .np-layout {
   height: 50%;
 }
 
-/* line 28, ../sass/_001_mixins.scss */
+/* line 24, ../sass/_001_mixins.scss */
 .np-layout.vertical > .np-layout:first-child:nth-last-child(1),
 .np-layout.vertical > .np-layout:first-child:nth-last-child(1) ~ .np-layout {
   height: 100%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(10),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(10) ~ .np-buttongridrow {
   height: 10%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(9),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(9) ~ .np-buttongridrow {
   height: 11.11111%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(8),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(8) ~ .np-buttongridrow {
   height: 12.5%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(7),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(7) ~ .np-buttongridrow {
   height: 14.28571%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(6),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(6) ~ .np-buttongridrow {
   height: 16.66667%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(5),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(5) ~ .np-buttongridrow {
   height: 20%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(4),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(4) ~ .np-buttongridrow {
   height: 25%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(3),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(3) ~ .np-buttongridrow {
   height: 33.33333%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(2),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(2) ~ .np-buttongridrow {
   height: 50%;
 }
 
-/* line 40, ../sass/_001_mixins.scss */
+/* line 36, ../sass/_001_mixins.scss */
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(1),
 .np-buttongrid > .np-buttongridrow:first-child:nth-last-child(1) ~ .np-buttongridrow {
   height: 100%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(10),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(10) ~ .np-button-container {
   width: 10%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(9),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(9) ~ .np-button-container {
   width: 11.11111%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(8),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(8) ~ .np-button-container {
   width: 12.5%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(7),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(7) ~ .np-button-container {
   width: 14.28571%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(6),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(6) ~ .np-button-container {
   width: 16.66667%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(5),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(5) ~ .np-button-container {
   width: 20%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(4),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(4) ~ .np-button-container {
   width: 25%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(3),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(3) ~ .np-button-container {
   width: 33.33333%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(2),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(2) ~ .np-button-container {
   width: 50%;
 }
 
-/* line 52, ../sass/_001_mixins.scss */
+/* line 48, ../sass/_001_mixins.scss */
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(1),
 .np-buttongridrow > .np-button-container:first-child:nth-last-child(1) ~ .np-button-container {
   width: 100%;
@@ -433,11 +435,17 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  font-size: 4.25vh;
+  font-size: 4.3vh;
 }
-/* line 48, ../sass/_32_buttons.scss */
+@media screen and (min-height: 800px) {
+  /* line 40, ../sass/_32_buttons.scss */
+  .np-button .np-icon {
+    font-size: 36px;
+  }
+}
+/* line 49, ../sass/_32_buttons.scss */
 .np-button .np-caption {
-  font-size: 13px;
+  font-size: 1.9vh;
   height: 100%;
   text-align: center;
   padding: 0;
@@ -453,14 +461,21 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.3;
+  overflow: hidden;
 }
-/* line 58, ../sass/_32_buttons.scss */
+@media screen and (min-height: 800px) {
+  /* line 49, ../sass/_32_buttons.scss */
+  .np-button .np-caption {
+    font-size: 14px;
+  }
+}
+/* line 64, ../sass/_32_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 64, ../sass/_32_buttons.scss */
+/* line 70, ../sass/_32_buttons.scss */
 .np-button .np-image {
   height: 66.393%;
   width: 100%;
@@ -472,11 +487,11 @@ body {
   top: 0;
   left: 0;
 }
-/* line 76, ../sass/_32_buttons.scss */
+/* line 82, ../sass/_32_buttons.scss */
 .np-button.image-top, .np-button.image-bottom {
   position: relative;
 }
-/* line 80, ../sass/_32_buttons.scss */
+/* line 86, ../sass/_32_buttons.scss */
 .np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
   height: 33.607%;
   position: absolute;
@@ -484,20 +499,20 @@ body {
   left: .3em;
   width: calc(100% - 0.6em);
 }
-/* line 87, ../sass/_32_buttons.scss */
+/* line 93, ../sass/_32_buttons.scss */
 .np-button.image-top .np-caption span, .np-button.image-bottom .np-caption span {
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 97, ../sass/_32_buttons.scss */
+/* line 103, ../sass/_32_buttons.scss */
 .np-button.image-bottom .np-image {
   top: auto;
   bottom: 0;
   border-radius: 0 0 4px 4px;
 }
-/* line 103, ../sass/_32_buttons.scss */
+/* line 109, ../sass/_32_buttons.scss */
 .np-button.image-bottom .np-caption {
   bottom: auto;
   top: 0;
