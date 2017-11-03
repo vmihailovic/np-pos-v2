@@ -20,4 +20,10 @@ $(function() {
     $inputField.on( "click", ".reset", function() {
         $(this).parent().find("input").val('').focus();
     });
+
+
+    $('.np-item').on( "click", function() {
+        $('.np-item').removeClass('active');
+        $(this).addClass('active');
+    });
 });
