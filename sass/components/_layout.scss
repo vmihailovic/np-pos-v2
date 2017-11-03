@@ -18,6 +18,14 @@
 .vertical {
     @include flex-direction(column);
     @include flex-wrap(nowrap);
+
+    &.vertical-children > .np-row {
+        @include flex-direction(column);
+    }
+
+    &.visible-scroll > .np-row {
+        overflow: visible;
+    }
 }
 
 .np-layout {
@@ -43,7 +51,7 @@
     }
 
     &.vertical > .np-layout:not(:first-child) {
-      padding-top: 1em;
+      padding-top: 0.5em;
     }
 }
 
@@ -62,7 +70,6 @@
         padding-top: 50px;
     }
 }
-
 
 @include setLayoutWidth(10);
 @include setLayoutHeight(10);

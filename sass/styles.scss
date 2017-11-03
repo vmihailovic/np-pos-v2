@@ -2,11 +2,10 @@
 @import "compass/css3";
 @import "components/vars";
 @import "components/mixins";
+@import "components/global";
 @import "components/layout";
-@import "components/variables";
-@import "components/color";
-@import "components/input-fields";
+@import "components/forms";
 @import "components/buttons";
-@import "components/buttonsGrid";
+@import "components/grid";
 @import "components/waves";
 @import "components/responsive";

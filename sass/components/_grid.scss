@@ -1,19 +1,32 @@
-.np-buttongrid {
-    .np-buttongridrow {
-        &.horizontal {
-            .np-button-container:not(:first-child) {
-                padding-left: 0.3em;
-            }
+.np-grid {
+    @include display-flex(flex);
+    @include flex-wrap(nowrap);
+    @include justify-content(space-between);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    &.visible-scroll {
+        overflow-y: scroll;
+    }
+
+    .np-row {
+        @include display-flex(flex);
+        @include justify-content(space-between);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .np-button-container:not(:first-child) {
+            padding-left: 0.3em;
         }
     }
 }
 
-@include setButtongridHeight(10);
-@include setButtonsWidth(10);
+@include setGridHeight(20);
+@include setBoxesWidth(20);
 
-.np-items-list {
-    height: 100%;
-    overflow-y: scroll;
+.np-grid {
 
     .np-item {
         background: #f2f2f2;

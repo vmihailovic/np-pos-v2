@@ -30,11 +30,11 @@
   }
 }
 
-@mixin setButtongridHeight($elCount) {
+@mixin setGridHeight($elCount) {
   @while $elCount > 0 {
-    .np-buttongrid > {
-      .np-buttongridrow:first-child:nth-last-child(#{$elCount}),
-      .np-buttongridrow:first-child:nth-last-child(#{$elCount}) ~ .np-buttongridrow {
+    .np-grid:not(.visible-scroll) > {
+      .np-row:first-child:nth-last-child(#{$elCount}),
+      .np-row:first-child:nth-last-child(#{$elCount}) ~ .np-row {
         height: 100% / $elCount
       }
       $elCount: $elCount - 1
@@ -42,9 +42,9 @@
   }
 }
 
-@mixin setButtonsWidth($elCount) {
+@mixin setBoxesWidth($elCount) {
   @while $elCount > 0 {
-    .np-buttongridrow > {
+    .np-row > {
       .np-button-container:first-child:nth-last-child(#{$elCount}),
       .np-button-container:first-child:nth-last-child(#{$elCount}) ~ .np-button-container {
         width: 100% / $elCount

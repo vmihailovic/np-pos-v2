@@ -8,6 +8,7 @@
     <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jFx.js"></script>
     <script src="https://use.fontawesome.com/84218cddf1.js"></script>
 </head>
 
@@ -16,19 +17,20 @@
             <div id="navbar">NP Retail 2016</div>
             <div class="np-layout horizontal">
                 <div class="np-layout vertical">
-                    <div style="height: 4%" class="np-layout vertical">
+                    <div style="height: 5%" class="np-layout vertical">
                         <div class="control">
-                            <div class="np-input-field input-field">
+                            <div class="np-input-field lookup">
                                 <label>Enter or scan item number</label>
                                 <input type="text" class="" />
+                                <button class="fa fa-times reset"></button>
                                 <button class="fa fa-search waves-effect"></button>
                             </div>
                         </div>
                     </div>
                     <div style="height: 60%" class="np-layout">
                         <div class="control">
-                            <div class="np-items-list">
-                                <div class="np-item">
+                            <div class="np-grid vertical vertical-children visible-scroll">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -42,7 +44,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Ladies Certina DS Black Watch</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -62,7 +64,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item active">
+                                <div class="np-item np-row active">
                                     <div class="name">Beer, on tap, imported, small</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -83,7 +85,7 @@
                                     </div>
                                 </div>
 
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Ladies Certina DS Black Watch</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -97,7 +99,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -111,7 +113,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -125,7 +127,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -139,7 +141,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -153,7 +155,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -167,7 +169,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -181,7 +183,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="np-item">
+                                <div class="np-item np-row">
                                     <div class="name">Festina Men’s Watch Chronograph with a very long title that really needs some space</div>
                                     <div class="item-info">
                                         <div class="qty">
@@ -198,13 +200,14 @@
                             </div>
                         </div>
                     </div>
-                    <div style="height: 36%" class="np-layout vertical">
+                    <div style="height: 35%" class="np-layout vertical">
                         <div style="height: 60%" class="np-layout horizontal">
                             <div class="np-layout vertical">
                                 <div class="control">
-                                    <div class="np-input-field">
+                                    <div class="np-input-field lookup">
                                         <label>Enter customer number</label>
                                         <input type="text" class="" />
+                                        <button class="fa fa-times reset"></button>
                                         <button class="fa fa-search waves-effect"></button>
                                     </div>
                                 </div>
@@ -215,33 +218,33 @@
                         </div>
                         <div style="height: 40%;" class="np-layout horizontal">
                             <div class="control">
-                                <div class="np-buttongrid vertical">
-                                    <div class="np-buttongridrow horizontal">
-                                        <div class="np-button-container">
+                                <div class="np-buttongrid np-grid">
+                                    <div class="np-buttongridrow np-row">
+                                        <div class="np-button-container np-box">
                                             <div class="np-button waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
                                                 <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                             </div>
                                         </div>
-                                        <div class="np-button-container">
+                                        <div class="np-button-container np-box">
                                             <div class="np-button waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
                                                 <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                             </div>
                                         </div>
-                                        <div class="np-button-container">
+                                        <div class="np-button-container np-box">
                                             <div class="np-button waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
                                                 <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                             </div>
                                         </div>
-                                        <div class="np-button-container">
+                                        <div class="np-button-container np-box">
                                             <div class="np-button waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
                                                 <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                             </div>
                                         </div>
-                                        <div class="np-button-container">
+                                        <div class="np-button-container np-box">
                                             <div class="np-button waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
                                                 <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
@@ -254,9 +257,9 @@
                     </div>
                 </div>
                 <div class="np-layout vertical">
-                    <div class="np-buttongrid vertical">
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                    <div class="np-buttongrid np-grid vertical">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text waves-effect">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption">
@@ -264,168 +267,168 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect text">
                                     <div class="np-caption"><span>Membership ManagementMembershipManagement</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div style="background-image: url(images/khaleesi.jpg)" class="np-button image waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div style="background-image: url(images/khaleesi2.jpg)" class="np-button image waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div style="background-image: url(images/khaleesi3.jpg)" class="np-button image waves-effect text">
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div style="background-image: url(images/sansa.jpg)" class="np-button image waves-effect"></div>
                             </div>
                         </div>
 
 
 
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect waves-dark icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>I'm different</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect image-top">
                                     <div style="background-image: url(images/sansa.jpg)" class="np-image"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect image-bottom">
                                     <div style="background-image: url(images/sansa.jpg)" class="np-image"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="np-buttongridrow horizontal">
-                            <div class="np-button-container">
+                        <div class="np-buttongridrow np-row">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon text">
                                     <div class="np-icon fa fa-cog"></div>
                                     <div class="np-caption"><span>Membership Management</span></div>
                                 </div>
                             </div>
-                            <div class="np-button-container">
+                            <div class="np-button-container np-box">
                                 <div class="np-button waves-effect icon">
                                     <div class="np-icon fa fa-cog"></div>
                                 </div>

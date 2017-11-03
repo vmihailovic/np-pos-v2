@@ -4,9 +4,12 @@ $font: (
 		size: 16px,
 );
 
+$colors:(
+        default: #0072bc
+);
+
 $button: (
 		radius: 4px,
 		padding: 0.8vh,
-		background: #0072bc,
 		color: #fff
-)
+);

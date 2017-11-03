@@ -11,7 +11,7 @@
     height: 100%;
     @include flex-center(column);
     color: map-get($button, color);
-    background: map-get($button, background);
+    background: map-get($colors, default);
     border-radius: map-get($button, radius);
   	padding: map-get($button, padding);
   	cursor: pointer;
@@ -73,7 +73,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        border-radius: 4px 4px 0 0;
+        border-radius: map-get($button, radius) map-get($button, radius) 0 0;
         position: absolute;
         top: 0;
         left: 0;
@@ -104,7 +104,7 @@
         .np-image {
             top: auto;
             bottom: 0;
-            border-radius: 0 0 4px 4px;
+            border-radius: 0 0 map-get($button, radius) map-get($button, radius);
         }
 
         .np-caption {
