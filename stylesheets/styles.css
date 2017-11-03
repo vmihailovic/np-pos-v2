@@ -116,7 +116,7 @@ body {
 }
 /* line 26, ../sass/components/_layout.scss */
 .vertical.visible-scroll > .np-row {
-  overflow: visible;
+  height: auto;
 }
 
 /* line 31, ../sass/components/_layout.scss */
@@ -555,8 +555,9 @@ body {
 /* line 9, ../sass/components/_grid.scss */
 .np-grid.visible-scroll {
   overflow-y: scroll;
+  display: block;
 }
-/* line 13, ../sass/components/_grid.scss */
+/* line 14, ../sass/components/_grid.scss */
 .np-grid .np-row {
   display: -webkit-flex;
   display: flex;
@@ -566,7 +567,7 @@ body {
   height: 100%;
   overflow: hidden;
 }
-/* line 20, ../sass/components/_grid.scss */
+/* line 21, ../sass/components/_grid.scss */
 .np-grid .np-row .np-button-container:not(:first-child) {
   padding-left: 0.3em;
 }
@@ -811,54 +812,54 @@ body {
   width: 100%;
 }
 
-/* line 31, ../sass/components/_grid.scss */
+/* line 32, ../sass/components/_grid.scss */
 .np-grid .np-item {
   background: #f2f2f2;
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 10px;
 }
-/* line 37, ../sass/components/_grid.scss */
+/* line 38, ../sass/components/_grid.scss */
 .np-grid .np-item .item-info {
   font-size: 16px;
   overflow: hidden;
 }
-/* line 41, ../sass/components/_grid.scss */
+/* line 42, ../sass/components/_grid.scss */
 .np-grid .np-item .item-info > div {
   width: 20%;
   float: left;
 }
-/* line 45, ../sass/components/_grid.scss */
+/* line 46, ../sass/components/_grid.scss */
 .np-grid .np-item .item-info > div:last-child {
   float: right;
   text-align: right;
 }
-/* line 51, ../sass/components/_grid.scss */
+/* line 52, ../sass/components/_grid.scss */
 .np-grid .np-item .item-info span {
   display: inline-block;
 }
-/* line 54, ../sass/components/_grid.scss */
+/* line 55, ../sass/components/_grid.scss */
 .np-grid .np-item .item-info span:first-child {
   font-size: 11px;
   padding-right: 20px;
 }
-/* line 61, ../sass/components/_grid.scss */
+/* line 62, ../sass/components/_grid.scss */
 .np-grid .np-item .name {
   font-size: 18px;
   padding-bottom: 10px;
 }
-/* line 66, ../sass/components/_grid.scss */
+/* line 67, ../sass/components/_grid.scss */
 .np-grid .np-item.active {
   padding: 0;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 70, ../sass/components/_grid.scss */
 .np-grid .np-item.active .name {
   background: #0072bc;
   color: #fff;
   padding: 10px;
   border-radius: 4px 4px 0 0;
 }
-/* line 76, ../sass/components/_grid.scss */
+/* line 77, ../sass/components/_grid.scss */
 .np-grid .np-item.active .item-info {
   background: #0085dc;
   color: #fff;
@@ -866,22 +867,22 @@ body {
   text-align: center;
   border-radius: 0 0 4px 4px;
 }
-/* line 83, ../sass/components/_grid.scss */
+/* line 84, ../sass/components/_grid.scss */
 .np-grid .np-item.active .item-info > div {
   border-right: 1px solid #46a9ea;
   padding: 5px 0;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 88, ../sass/components/_grid.scss */
 .np-grid .np-item.active .item-info > div:last-child {
   text-align: center;
   border: none;
 }
-/* line 93, ../sass/components/_grid.scss */
+/* line 94, ../sass/components/_grid.scss */
 .np-grid .np-item.active .item-info span {
   display: block;
   padding: 0;
 }
-/* line 97, ../sass/components/_grid.scss */
+/* line 98, ../sass/components/_grid.scss */
 .np-grid .np-item.active .item-info span:first-child {
   padding: 0 0 8px;
 }

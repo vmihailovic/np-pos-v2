@@ -24,7 +24,7 @@
     }
 
     &.visible-scroll > .np-row {
-        overflow: visible;
+        height: auto;
     }
 }
 
