@@ -18,89 +18,154 @@
         height: 100%;
         overflow: hidden;
 
-        .np-button-container:not(:first-child) {
-            padding-left: 0.3em;
-        }
+		&.horizontal {
+			.np-box {
+				@include flex-direction(column);
+
+				&:not(:first-child) {
+					padding-left: 0.3em;
+				}
+			}
+		}
+
+		&.vertical {
+			.np-box {
+				@include flex-direction(row);
+			}
+		}
     }
+
+    .np-box {
+        @include display-flex(flex);
+        @include flex-direction(row);
+        @include flex-wrap(nowrap);
+        width: 100%;
+        height: 100%;
+        padding-top: .3em;
+    }
+
+    /*&.vertical-children {
+        .np-box {
+            @include flex-direction(row);
+        }
+    }*/
 }
 
 @include setGridHeight(20);
 @include setBoxesWidth(20);
 
-.np-grid {
+.np-item {
+	background: #f2f2f2;
+	border-radius: 4px;
+	//padding: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
 
-    .np-item {
-        background: #f2f2f2;
-        border-radius: 4px;
-        padding: 10px;
-        margin-bottom: 10px;
-        cursor: pointer;
+	.name {
+		font-size: 18px;
+		padding: 10px;
+		transition: all .5s ease-out;
+		position: relative;
+		z-index: 5;
+	}
 
-        .item-info {
-            font-size: 16px;
-            overflow: hidden;
+	.item-info {
+		font-size: 16px;
+		overflow: hidden;
+		transition: all .5s ease-out;
+		padding: 0 10px;
 
-            > div {
-                width: 20%;
-                float: left;
+		> div {
+			width: 20%;
+			float: left;
 
-                &:last-child {
-                    float: right;
-                    text-align: right;
-                }
-            }
+			&:last-child {
+				float: right;
+				text-align: right;
+			}
+		}
 
-            span {
-              display: inline-block;
+		span {
+			display: inline-block;
 
-                &:first-child {
-                    font-size: 11px;
-                    padding-right: 20px;
-                }
-            }
-        }
+			&:first-child {
+				font-size: 11px;
+				padding-right: 20px;
+			}
+		}
 
-        .name {
-            font-size: 18px;
-            padding-bottom: 10px;
-        }
+		&.edit {
+			//display: none;
+			opacity: 0;
+			transform: translateY(50px);
+			background: #0085dc;
+			color: #fff;
+			position: relative;
+			z-index: 1;
+		}
+	}
 
-        &.active {
-          padding: 0;
 
-            .name {
-                background: #0072bc;
-                color: #fff;
-                padding: 10px;
-                border-radius: 4px 4px 0 0;
-            }
+	&.active {
+		.name {
+			background: #0072bc;
+			color: #fff;
+		}
 
-            .item-info {
-                background: #0085dc;
-                color: #fff;
-                padding: 0 10px;
-                text-align: center;
-                border-radius: 0 0 4px 4px;
+		.item-info {
+			opacity: 0;
+			transform: translateY(-50px);
+			//display: none;
+		}
 
-                > div {
-                    border-right: 1px solid #46a9ea;
-                    padding: 5px 0;
+		.edit {
+			//display: block;
+			transform: translateY(0px);
+			opacity: 1;
 
-                    &:last-child {
-                        text-align: center;
-                        border: none;
-                    }
-                }
+		}
 
-                span {
-                    display: block;
-                    padding: 0;
 
-                    &:first-child {
-                      padding: 0 0 8px;
-                    }
-                }
-            }
-        }
-    }
+	}
+
+
+
+
+	/* &.active {
+		padding: 0;
+
+		.name {
+			background: #0072bc;
+			color: #fff;
+			padding: 10px;
+			border-radius: 4px 4px 0 0;
+		}
+
+		.item-info {
+			background: #0085dc;
+			color: #fff;
+			padding: 0 10px;
+			text-align: center;
+			border-radius: 0 0 4px 4px;
+
+			> div {
+				border-right: 1px solid #46a9ea;
+				padding: 5px 0;
+
+				&:last-child {
+					text-align: center;
+					border: none;
+				}
+			}
+
+			span {
+				display: block;
+				padding: 0;
+
+				&:first-child {
+					padding: 0 0 8px;
+				}
+			}
+		}
+	} */
 }

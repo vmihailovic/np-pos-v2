@@ -7,49 +7,49 @@
 }
 
 @mixin setLayoutWidth($elCount) {
-  @while $elCount > 0 {
-    .np-layout.horizontal > {
-      .np-layout:first-child:nth-last-child(#{$elCount}),
-      .np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
-        width: 100% / $elCount
-      }
-      $elCount: $elCount - 1
-    }
-  }
+	@while $elCount > 0 {
+		.np-layout.horizontal > {
+		  	.np-layout:first-child:nth-last-child(#{$elCount}),
+		  	.np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
+			  	width: 100% / $elCount
+		  	}
+		  	$elCount: $elCount - 1
+		}
+	}
 }
 
 @mixin setLayoutHeight($elCount) {
-  @while $elCount > 0 {
-    .np-layout.vertical > {
-      .np-layout:first-child:nth-last-child(#{$elCount}),
-      .np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
-        height: 100% / $elCount
-      }
-      $elCount: $elCount - 1
-    }
-  }
+  	@while $elCount > 0 {
+    	.np-layout.vertical > {
+      		.np-layout:first-child:nth-last-child(#{$elCount}),
+      		.np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
+        		height: 100% / $elCount
+      		}
+      		$elCount: $elCount - 1
+    	}
+  	}
 }
 
 @mixin setGridHeight($elCount) {
-  @while $elCount > 0 {
-    .np-grid:not(.visible-scroll) > {
-      .np-row:first-child:nth-last-child(#{$elCount}),
-      .np-row:first-child:nth-last-child(#{$elCount}) ~ .np-row {
-        height: 100% / $elCount
-      }
-      $elCount: $elCount - 1
-    }
-  }
+  	@while $elCount > 0 {
+		.np-grid:not(.visible-scroll) > {
+      		.np-row:first-child:nth-last-child(#{$elCount}),
+      		.np-row:first-child:nth-last-child(#{$elCount}) ~ .np-row {
+        		height: 100% / $elCount
+      		}
+      	$elCount: $elCount - 1
+    	}
+  	}
 }
 
 @mixin setBoxesWidth($elCount) {
-  @while $elCount > 0 {
-    .np-row > {
-      .np-button-container:first-child:nth-last-child(#{$elCount}),
-      .np-button-container:first-child:nth-last-child(#{$elCount}) ~ .np-button-container {
-        width: 100% / $elCount
-      }
-      $elCount: $elCount - 1
-    }
-  }
+  	@while $elCount > 0 {
+    	.np-row:not(.vertical) > {
+      		.np-box:first-child:nth-last-child(#{$elCount}),
+      		.np-box:first-child:nth-last-child(#{$elCount}) ~ .np-box {
+        		width: 100% / $elCount
+      		}
+      	$elCount: $elCount - 1
+    	}
+  	}
 }

@@ -1,12 +1,3 @@
-.np-button-container {
-    @include display-flex(flex);
-    @include flex-direction(column);
-    @include flex-wrap(nowrap);
-    width: 100%;
-    height: 100%;
-    padding-top: .3em;
-}
-
 .np-button {
     height: 100%;
     @include flex-center(column);

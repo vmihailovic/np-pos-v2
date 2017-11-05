@@ -1,1 +1,1 @@
-Sale view: https://goo.gl/AtZmEF
+DEMO: https://goo.gl/gWLQzG

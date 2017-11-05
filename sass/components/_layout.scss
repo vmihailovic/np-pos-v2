@@ -19,9 +19,9 @@
     @include flex-direction(column);
     @include flex-wrap(nowrap);
 
-    &.vertical-children > .np-row {
+    /*&.vertical-children > .np-row {
         @include flex-direction(column);
-    }
+    }*/
 
     &.visible-scroll > .np-row {
         height: auto;
