@@ -65,7 +65,10 @@
 	.name {
 		font-size: 18px;
 		padding: 10px;
-		transition: all .5s ease-out;
+		//transition: all .5s ease-out;
+		@include transition-property(all);
+		@include transition-duration(.5s);
+		@include transition-timing-function(ease-out);
 		position: relative;
 		z-index: 5;
 	}
@@ -73,7 +76,10 @@
 	.item-info {
 		font-size: 16px;
 		overflow: hidden;
-		transition: all .5s ease-out;
+		//transition: all .5s ease-out;
+		@include transition-property(all);
+		@include transition-duration(.5s);
+		@include transition-timing-function(ease-out);
 		padding: 0 10px;
 
 		> div {
@@ -98,7 +104,8 @@
 		&.edit {
 			//display: none;
 			opacity: 0;
-			transform: translateY(50px);
+			//transform: translateY(50px);
+			@include transform(translateY(50px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
@@ -115,21 +122,18 @@
 
 		.item-info {
 			opacity: 0;
-			transform: translateY(-50px);
+			//transform: translateY(-50px);
+			@include transform(translateY(-50px));
 			//display: none;
 		}
 
 		.edit {
 			//display: block;
-			transform: translateY(0px);
+			//transform: translateY(0px);
+			@include transform(translateY(0px));
 			opacity: 1;
-
 		}
-
-
 	}
-
-
 
 
 	/* &.active {
