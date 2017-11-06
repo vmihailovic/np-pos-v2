@@ -12,19 +12,27 @@
         cursor: text;
         background: #fff;
         padding: 0 5px;
-        transition: transform .2s ease-out;
-        transform-origin: 0 100%;
-        transform: translateY(1.5vh);
+        //transition: transform .2s ease-out;
+        @include transition-property(transform);
+        @include transition-duration(.2s);
+        @include transition-timing-function(ease-out);
+        //transform-origin: 0 100%;
+        @include transform-origin(0 100%);
+        //transform: translateY(1.5vh);
+        @include transform(translateY(1.5vh));
         pointer-events: none;
 
         &:not(.label-icon).active {
-            transform: translateY(-1px) scale(.8);
-            transform-origin: 0 0;
+            //transform: translateY(-1px) scale(.8);
+            @include transform(translateY(-1px) scale(.8));
+            //transform-origin: 0 0;
+            @include transform-origin(0 0);
         }
 
         @media screen and (min-height: 800px) {
             font-size: 16px;
-            transform: translateY(11px);
+            //transform: translateY(11px);
+            @include transform(translateY(11px));
             left: 6px;
         }
     }
@@ -80,7 +88,10 @@
             height: auto;
             font-size: 15px;
             opacity: 0;
-            transition: opacity .2s ease-out;
+            //transition: opacity .2s ease-out;
+            @include transition-property(opacity);
+            @include transition-duration(.2s);
+            @include transition-timing-function(ease-out);
         }
 
         @media screen and (min-height: 800px) {

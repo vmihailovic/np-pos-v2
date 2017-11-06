@@ -296,25 +296,51 @@ body {
   cursor: text;
   background: #fff;
   padding: 0 5px;
-  transition: transform .2s ease-out;
-  transform-origin: 0 100%;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -moz-transform-origin: 0 100% 50%;
+  -ms-transform-origin: 0 100% 50%;
+  -webkit-transform-origin: 0 100% 50%;
+  transform-origin: 0 100% 50%;
+  -moz-transform: translateY(1.5vh);
+  -ms-transform: translateY(1.5vh);
+  -webkit-transform: translateY(1.5vh);
   transform: translateY(1.5vh);
   pointer-events: none;
 }
-/* line 20, ../sass/components/_forms.scss */
+/* line 25, ../sass/components/_forms.scss */
 .np-input-field label:not(.label-icon).active {
+  -moz-transform: translateY(-1px) scale(0.8);
+  -ms-transform: translateY(-1px) scale(0.8);
+  -webkit-transform: translateY(-1px) scale(0.8);
   transform: translateY(-1px) scale(0.8);
-  transform-origin: 0 0;
+  -moz-transform-origin: 0 0 50%;
+  -ms-transform-origin: 0 0 50%;
+  -webkit-transform-origin: 0 0 50%;
+  transform-origin: 0 0 50%;
 }
 @media screen and (min-height: 800px) {
   /* line 6, ../sass/components/_forms.scss */
   .np-input-field label {
     font-size: 16px;
+    -moz-transform: translateY(11px);
+    -ms-transform: translateY(11px);
+    -webkit-transform: translateY(11px);
     transform: translateY(11px);
     left: 6px;
   }
 }
-/* line 32, ../sass/components/_forms.scss */
+/* line 40, ../sass/components/_forms.scss */
 .np-input-field input {
   border: 1px solid #0072bc;
   border-radius: 4px;
@@ -326,18 +352,18 @@ body {
   padding: 0 30px 0 10px;
   outline: none;
 }
-/* line 43, ../sass/components/_forms.scss */
+/* line 51, ../sass/components/_forms.scss */
 .np-input-field input:focus {
   outline: none;
 }
 @media screen and (min-height: 800px) {
-  /* line 32, ../sass/components/_forms.scss */
+  /* line 40, ../sass/components/_forms.scss */
   .np-input-field input {
     font-size: 15px;
     max-height: 30px;
   }
 }
-/* line 53, ../sass/components/_forms.scss */
+/* line 61, ../sass/components/_forms.scss */
 .np-input-field button {
   padding: 0;
   background: none;
@@ -354,11 +380,11 @@ body {
   width: 40px;
   font-size: 2.5vh;
 }
-/* line 69, ../sass/components/_forms.scss */
+/* line 77, ../sass/components/_forms.scss */
 .np-input-field button:active, .np-input-field button:focus {
   outline: none;
 }
-/* line 74, ../sass/components/_forms.scss */
+/* line 82, ../sass/components/_forms.scss */
 .np-input-field button.reset {
   background: none;
   color: #595959;
@@ -368,24 +394,35 @@ body {
   height: auto;
   font-size: 15px;
   opacity: 0;
-  transition: opacity .2s ease-out;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 @media screen and (min-height: 800px) {
-  /* line 53, ../sass/components/_forms.scss */
+  /* line 61, ../sass/components/_forms.scss */
   .np-input-field button {
     max-height: 30px;
     font-size: 19px;
   }
 }
-/* line 93, ../sass/components/_forms.scss */
+/* line 104, ../sass/components/_forms.scss */
 .np-input-field.lookup button.reset {
   right: 50px;
 }
-/* line 97, ../sass/components/_forms.scss */
+/* line 108, ../sass/components/_forms.scss */
 .np-input-field.lookup input {
   padding-right: 55px;
 }
-/* line 103, ../sass/components/_forms.scss */
+/* line 114, ../sass/components/_forms.scss */
 .np-input-field.active button.reset {
   opacity: 1;
 }
