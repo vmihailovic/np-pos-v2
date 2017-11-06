@@ -44,12 +44,6 @@
         height: 100%;
         padding-top: .3em;
     }
-
-    /*&.vertical-children {
-        .np-box {
-            @include flex-direction(row);
-        }
-    }*/
 }
 
 @include setGridHeight(20);
@@ -58,14 +52,12 @@
 .np-item {
 	background: #f2f2f2;
 	border-radius: 4px;
-	//padding: 10px;
 	margin-bottom: 10px;
 	cursor: pointer;
 
 	.name {
 		font-size: 18px;
 		padding: 10px;
-		//transition: all .5s ease-out;
 		@include transition-property(all);
 		@include transition-duration(.5s);
 		@include transition-timing-function(ease-out);
@@ -76,7 +68,6 @@
 	.item-info {
 		font-size: 16px;
 		overflow: hidden;
-		//transition: all .5s ease-out;
 		@include transition-property(all);
 		@include transition-duration(.5s);
 		@include transition-timing-function(ease-out);
@@ -85,6 +76,7 @@
 		> div {
 			width: 20%;
 			float: left;
+			padding-bottom: 10px;
 
 			&:last-child {
 				float: right;
@@ -102,14 +94,34 @@
 		}
 
 		&.edit {
-			//display: none;
 			opacity: 0;
-			//transform: translateY(50px);
 			@include transform(translateY(50px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
 			z-index: 1;
+			padding: 0;
+			margin-top: -55px;
+
+			span {
+				display: block;
+				padding: 0;
+
+				&:first-child {
+					padding: 0 0 8px;
+				}
+			}
+
+			> div {
+				border-right: 1px solid #46a9ea;
+				padding: 10px;
+				text-align: center;
+
+				&:last-child {
+					text-align: center;
+					border: none;
+				}
+			}
 		}
 	}
 
@@ -122,15 +134,12 @@
 
 		.item-info {
 			opacity: 0;
-			//transform: translateY(-50px);
 			@include transform(translateY(-50px));
-			//display: none;
+			margin-top: -13px;
 		}
 
 		.edit {
-			//display: block;
-			//transform: translateY(0px);
-			@include transform(translateY(0px));
+			@include transform(translateY(0));
 			opacity: 1;
 		}
 	}

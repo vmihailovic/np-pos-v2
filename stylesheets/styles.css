@@ -1,4 +1,4 @@
-/* line 5, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -108,16 +108,13 @@ body {
   flex-direction: column;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  /*&.vertical-children > .np-row {
-      @include flex-direction(column);
-  }*/
 }
-/* line 26, ../sass/components/_layout.scss */
+/* line 22, ../sass/components/_layout.scss */
 .vertical.visible-scroll > .np-row {
   height: auto;
 }
 
-/* line 31, ../sass/components/_layout.scss */
+/* line 27, ../sass/components/_layout.scss */
 .np-layout {
   display: -webkit-flex;
   display: flex;
@@ -125,26 +122,26 @@ body {
   width: 100%;
   height: 100%;
 }
-/* line 37, ../sass/components/_layout.scss */
+/* line 33, ../sass/components/_layout.scss */
 .np-layout > .control {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 47, ../sass/components/_layout.scss */
+/* line 43, ../sass/components/_layout.scss */
 .np-layout .horizontal > .control:not(:first-child) {
   padding-left: .5em;
 }
-/* line 51, ../sass/components/_layout.scss */
+/* line 47, ../sass/components/_layout.scss */
 .np-layout.horizontal > .np-layout:not(:first-child) {
   padding-left: 1.5em;
 }
-/* line 55, ../sass/components/_layout.scss */
+/* line 51, ../sass/components/_layout.scss */
 .np-layout.vertical > .np-layout:not(:first-child) {
   padding-top: 0.5em;
 }
 
-/* line 61, ../sass/components/_layout.scss */
+/* line 57, ../sass/components/_layout.scss */
 #navbar {
   position: absolute;
   top: 0;
@@ -155,7 +152,7 @@ body {
   padding: 15px 10px;
   box-shadow: 0px 0 3px #ccc;
 }
-/* line 71, ../sass/components/_layout.scss */
+/* line 67, ../sass/components/_layout.scss */
 #navbar + .np-layout {
   padding-top: 50px;
 }
@@ -575,11 +572,6 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  /*&.vertical-children {
-      .np-box {
-          @include flex-direction(row);
-      }
-  }*/
 }
 /* line 9, ../sass/components/_grid.scss */
 .np-grid.visible-scroll {
@@ -864,7 +856,7 @@ body {
   width: 100%;
 }
 
-/* line 58, ../sass/components/_grid.scss */
+/* line 52, ../sass/components/_grid.scss */
 .np-item {
   background: #f2f2f2;
   border-radius: 4px;
@@ -908,7 +900,7 @@ body {
   		}
   	} */
 }
-/* line 65, ../sass/components/_grid.scss */
+/* line 58, ../sass/components/_grid.scss */
 .np-item .name {
   font-size: 18px;
   padding: 10px;
@@ -927,7 +919,7 @@ body {
   position: relative;
   z-index: 5;
 }
-/* line 76, ../sass/components/_grid.scss */
+/* line 68, ../sass/components/_grid.scss */
 .np-item .item-info {
   font-size: 16px;
   overflow: hidden;
@@ -945,26 +937,27 @@ body {
   transition-timing-function: ease-out;
   padding: 0 10px;
 }
-/* line 85, ../sass/components/_grid.scss */
+/* line 76, ../sass/components/_grid.scss */
 .np-item .item-info > div {
   width: 20%;
   float: left;
+  padding-bottom: 10px;
 }
-/* line 89, ../sass/components/_grid.scss */
+/* line 81, ../sass/components/_grid.scss */
 .np-item .item-info > div:last-child {
   float: right;
   text-align: right;
 }
-/* line 95, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .np-item .item-info span {
   display: inline-block;
 }
-/* line 98, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .np-item .item-info span:first-child {
   font-size: 11px;
   padding-right: 20px;
 }
-/* line 104, ../sass/components/_grid.scss */
+/* line 96, ../sass/components/_grid.scss */
 .np-item .item-info.edit {
   opacity: 0;
   -moz-transform: translateY(50px);
@@ -975,26 +968,49 @@ body {
   color: #fff;
   position: relative;
   z-index: 1;
+  padding: 0;
+  margin-top: -55px;
 }
-/* line 118, ../sass/components/_grid.scss */
+/* line 106, ../sass/components/_grid.scss */
+.np-item .item-info.edit span {
+  display: block;
+  padding: 0;
+}
+/* line 110, ../sass/components/_grid.scss */
+.np-item .item-info.edit span:first-child {
+  padding: 0 0 8px;
+}
+/* line 115, ../sass/components/_grid.scss */
+.np-item .item-info.edit > div {
+  border-right: 1px solid #46a9ea;
+  padding: 10px;
+  text-align: center;
+}
+/* line 120, ../sass/components/_grid.scss */
+.np-item .item-info.edit > div:last-child {
+  text-align: center;
+  border: none;
+}
+/* line 130, ../sass/components/_grid.scss */
 .np-item.active .name {
   background: #0072bc;
   color: #fff;
 }
-/* line 123, ../sass/components/_grid.scss */
+/* line 135, ../sass/components/_grid.scss */
 .np-item.active .item-info {
   opacity: 0;
   -moz-transform: translateY(-50px);
   -ms-transform: translateY(-50px);
   -webkit-transform: translateY(-50px);
   transform: translateY(-50px);
+  margin-top: -13px;
 }
-/* line 130, ../sass/components/_grid.scss */
+/* line 141, ../sass/components/_grid.scss */
 .np-item.active .edit {
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
