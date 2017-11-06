@@ -53,3 +53,15 @@
     	}
   	}
 }
+
+@mixin setContentWidth($elCount) {
+	@while $elCount > 0 {
+		.np-box > {
+			div:first-child:nth-last-child(#{$elCount}),
+			div:first-child:nth-last-child(#{$elCount}) ~ div {
+				width: 100% / $elCount
+			}
+			$elCount: $elCount - 1
+		}
+	}
+}

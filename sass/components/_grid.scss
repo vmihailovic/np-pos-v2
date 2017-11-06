@@ -48,6 +48,7 @@
 
 @include setGridHeight(20);
 @include setBoxesWidth(20);
+@include setContentWidth(20);
 
 .np-item {
 	background: #f2f2f2;
@@ -74,8 +75,6 @@
 		padding: 0 10px;
 
 		> div {
-			width: 20%;
-			float: left;
 			padding-bottom: 10px;
 
 			&:last-child {
@@ -134,7 +133,7 @@
 
 		.item-info {
 			opacity: 0;
-			@include transform(translateY(-50px));
+			@include transform(translateY(-20px));
 			margin-top: -13px;
 		}
 

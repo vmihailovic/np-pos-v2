@@ -22,7 +22,9 @@ $(function() {
     });
 
 
-    $('.np-item').on( "click", function() {
+    var $npItem = $('.np-item');
+
+    $npItem.on( "click", function() {
         $('.np-item').removeClass('active');
         $(this).addClass('active');
     });

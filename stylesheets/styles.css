@@ -286,7 +286,7 @@ body {
 /* line 6, ../sass/components/_forms.scss */
 .np-input-field label {
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 1vh;
   font-size: 2vh;
   color: #8dbad9;
@@ -315,16 +315,25 @@ body {
   transform: translateY(1.5vh);
   pointer-events: none;
 }
-/* line 25, ../sass/components/_forms.scss */
+/* line 22, ../sass/components/_forms.scss */
 .np-input-field label:not(.label-icon).active {
-  -moz-transform: translateY(-1px) scale(0.8);
-  -ms-transform: translateY(-1px) scale(0.8);
-  -webkit-transform: translateY(-1px) scale(0.8);
-  transform: translateY(-1px) scale(0.8);
+  -moz-transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
+  -ms-transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
+  -webkit-transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
+  transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
   -moz-transform-origin: 0 0 50%;
   -ms-transform-origin: 0 0 50%;
   -webkit-transform-origin: 0 0 50%;
   transform-origin: 0 0 50%;
+}
+@media screen and (min-height: 800px) {
+  /* line 22, ../sass/components/_forms.scss */
+  .np-input-field label:not(.label-icon).active {
+    -moz-transform: translateY(-6px) translateX(-16px) scale(0.8);
+    -ms-transform: translateY(-6px) translateX(-16px) scale(0.8);
+    -webkit-transform: translateY(-6px) translateX(-16px) scale(0.8);
+    transform: translateY(-6px) translateX(-16px) scale(0.8);
+  }
 }
 @media screen and (min-height: 800px) {
   /* line 6, ../sass/components/_forms.scss */
@@ -337,30 +346,30 @@ body {
     left: 6px;
   }
 }
-/* line 40, ../sass/components/_forms.scss */
+/* line 38, ../sass/components/_forms.scss */
 .np-input-field input {
   border: 1px solid #0072bc;
   border-radius: 4px;
   width: 100%;
   height: 100%;
-  max-height: 4vh;
+  max-height: 5vh;
   font-size: 2vh;
   color: #595959;
   padding: 0 30px 0 10px;
   outline: none;
 }
-/* line 51, ../sass/components/_forms.scss */
+/* line 49, ../sass/components/_forms.scss */
 .np-input-field input:focus {
   outline: none;
 }
 @media screen and (min-height: 800px) {
-  /* line 40, ../sass/components/_forms.scss */
+  /* line 38, ../sass/components/_forms.scss */
   .np-input-field input {
     font-size: 15px;
-    max-height: 30px;
+    max-height: 38px;
   }
 }
-/* line 61, ../sass/components/_forms.scss */
+/* line 59, ../sass/components/_forms.scss */
 .np-input-field button {
   padding: 0;
   background: none;
@@ -369,7 +378,7 @@ body {
   background: #0072bc;
   color: #fff;
   height: 100%;
-  max-height: 4vh;
+  max-height: 5vh;
   border-radius: 0 4px 4px 0;
   position: absolute;
   top: 5px;
@@ -377,15 +386,15 @@ body {
   width: 40px;
   font-size: 2.5vh;
 }
-/* line 77, ../sass/components/_forms.scss */
+/* line 75, ../sass/components/_forms.scss */
 .np-input-field button:active, .np-input-field button:focus {
   outline: none;
 }
-/* line 82, ../sass/components/_forms.scss */
+/* line 80, ../sass/components/_forms.scss */
 .np-input-field button.reset {
   background: none;
   color: #595959;
-  top: 12px;
+  top: 2.4vh;
   right: 15px;
   width: auto;
   height: auto;
@@ -405,21 +414,27 @@ body {
   transition-timing-function: ease-out;
 }
 @media screen and (min-height: 800px) {
-  /* line 61, ../sass/components/_forms.scss */
+  /* line 80, ../sass/components/_forms.scss */
+  .np-input-field button.reset {
+    top: 17px;
+  }
+}
+@media screen and (min-height: 800px) {
+  /* line 59, ../sass/components/_forms.scss */
   .np-input-field button {
-    max-height: 30px;
+    max-height: 38px;
     font-size: 19px;
   }
 }
-/* line 104, ../sass/components/_forms.scss */
+/* line 105, ../sass/components/_forms.scss */
 .np-input-field.lookup button.reset {
   right: 50px;
 }
-/* line 108, ../sass/components/_forms.scss */
+/* line 109, ../sass/components/_forms.scss */
 .np-input-field.lookup input {
   padding-right: 55px;
 }
-/* line 114, ../sass/components/_forms.scss */
+/* line 115, ../sass/components/_forms.scss */
 .np-input-field.active button.reset {
   opacity: 1;
 }
@@ -856,7 +871,127 @@ body {
   width: 100%;
 }
 
-/* line 52, ../sass/components/_grid.scss */
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(20),
+.np-box > div:first-child:nth-last-child(20) ~ div {
+  width: 5%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(19),
+.np-box > div:first-child:nth-last-child(19) ~ div {
+  width: 5.26316%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(18),
+.np-box > div:first-child:nth-last-child(18) ~ div {
+  width: 5.55556%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(17),
+.np-box > div:first-child:nth-last-child(17) ~ div {
+  width: 5.88235%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(16),
+.np-box > div:first-child:nth-last-child(16) ~ div {
+  width: 6.25%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(15),
+.np-box > div:first-child:nth-last-child(15) ~ div {
+  width: 6.66667%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(14),
+.np-box > div:first-child:nth-last-child(14) ~ div {
+  width: 7.14286%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(13),
+.np-box > div:first-child:nth-last-child(13) ~ div {
+  width: 7.69231%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(12),
+.np-box > div:first-child:nth-last-child(12) ~ div {
+  width: 8.33333%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(11),
+.np-box > div:first-child:nth-last-child(11) ~ div {
+  width: 9.09091%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(10),
+.np-box > div:first-child:nth-last-child(10) ~ div {
+  width: 10%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(9),
+.np-box > div:first-child:nth-last-child(9) ~ div {
+  width: 11.11111%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(8),
+.np-box > div:first-child:nth-last-child(8) ~ div {
+  width: 12.5%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(7),
+.np-box > div:first-child:nth-last-child(7) ~ div {
+  width: 14.28571%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(6),
+.np-box > div:first-child:nth-last-child(6) ~ div {
+  width: 16.66667%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(5),
+.np-box > div:first-child:nth-last-child(5) ~ div {
+  width: 20%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(4),
+.np-box > div:first-child:nth-last-child(4) ~ div {
+  width: 25%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(3),
+.np-box > div:first-child:nth-last-child(3) ~ div {
+  width: 33.33333%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(2),
+.np-box > div:first-child:nth-last-child(2) ~ div {
+  width: 50%;
+}
+
+/* line 60, ../sass/components/_mixins.scss */
+.np-box > div:first-child:nth-last-child(1),
+.np-box > div:first-child:nth-last-child(1) ~ div {
+  width: 100%;
+}
+
+/* line 53, ../sass/components/_grid.scss */
 .np-item {
   background: #f2f2f2;
   border-radius: 4px;
@@ -900,7 +1035,7 @@ body {
   		}
   	} */
 }
-/* line 58, ../sass/components/_grid.scss */
+/* line 59, ../sass/components/_grid.scss */
 .np-item .name {
   font-size: 18px;
   padding: 10px;
@@ -919,7 +1054,7 @@ body {
   position: relative;
   z-index: 5;
 }
-/* line 68, ../sass/components/_grid.scss */
+/* line 69, ../sass/components/_grid.scss */
 .np-item .item-info {
   font-size: 16px;
   overflow: hidden;
@@ -937,27 +1072,25 @@ body {
   transition-timing-function: ease-out;
   padding: 0 10px;
 }
-/* line 76, ../sass/components/_grid.scss */
+/* line 77, ../sass/components/_grid.scss */
 .np-item .item-info > div {
-  width: 20%;
-  float: left;
   padding-bottom: 10px;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 80, ../sass/components/_grid.scss */
 .np-item .item-info > div:last-child {
   float: right;
   text-align: right;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 86, ../sass/components/_grid.scss */
 .np-item .item-info span {
   display: inline-block;
 }
-/* line 90, ../sass/components/_grid.scss */
+/* line 89, ../sass/components/_grid.scss */
 .np-item .item-info span:first-child {
   font-size: 11px;
   padding-right: 20px;
 }
-/* line 96, ../sass/components/_grid.scss */
+/* line 95, ../sass/components/_grid.scss */
 .np-item .item-info.edit {
   opacity: 0;
   -moz-transform: translateY(50px);
@@ -971,41 +1104,41 @@ body {
   padding: 0;
   margin-top: -55px;
 }
-/* line 106, ../sass/components/_grid.scss */
+/* line 105, ../sass/components/_grid.scss */
 .np-item .item-info.edit span {
   display: block;
   padding: 0;
 }
-/* line 110, ../sass/components/_grid.scss */
+/* line 109, ../sass/components/_grid.scss */
 .np-item .item-info.edit span:first-child {
   padding: 0 0 8px;
 }
-/* line 115, ../sass/components/_grid.scss */
+/* line 114, ../sass/components/_grid.scss */
 .np-item .item-info.edit > div {
   border-right: 1px solid #46a9ea;
   padding: 10px;
   text-align: center;
 }
-/* line 120, ../sass/components/_grid.scss */
+/* line 119, ../sass/components/_grid.scss */
 .np-item .item-info.edit > div:last-child {
   text-align: center;
   border: none;
 }
-/* line 130, ../sass/components/_grid.scss */
+/* line 129, ../sass/components/_grid.scss */
 .np-item.active .name {
   background: #0072bc;
   color: #fff;
 }
-/* line 135, ../sass/components/_grid.scss */
+/* line 134, ../sass/components/_grid.scss */
 .np-item.active .item-info {
   opacity: 0;
-  -moz-transform: translateY(-50px);
-  -ms-transform: translateY(-50px);
-  -webkit-transform: translateY(-50px);
-  transform: translateY(-50px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
   margin-top: -13px;
 }
-/* line 141, ../sass/components/_grid.scss */
+/* line 140, ../sass/components/_grid.scss */
 .np-item.active .edit {
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
