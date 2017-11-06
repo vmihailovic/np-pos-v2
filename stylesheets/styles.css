@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -122,27 +122,29 @@ body {
   display: -webkit-flex;
   display: flex;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
-/* line 35, ../sass/components/_layout.scss */
+/* line 37, ../sass/components/_layout.scss */
 .np-layout > .control {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 45, ../sass/components/_layout.scss */
+/* line 47, ../sass/components/_layout.scss */
 .np-layout .horizontal > .control:not(:first-child) {
   padding-left: .5em;
 }
-/* line 49, ../sass/components/_layout.scss */
+/* line 51, ../sass/components/_layout.scss */
 .np-layout.horizontal > .np-layout:not(:first-child) {
   padding-left: 1.5em;
 }
-/* line 53, ../sass/components/_layout.scss */
+/* line 55, ../sass/components/_layout.scss */
 .np-layout.vertical > .np-layout:not(:first-child) {
   padding-top: 0.5em;
 }
 
-/* line 59, ../sass/components/_layout.scss */
+/* line 61, ../sass/components/_layout.scss */
 #navbar {
   position: absolute;
   top: 0;
@@ -153,7 +155,7 @@ body {
   padding: 15px 10px;
   box-shadow: 0px 0 3px #ccc;
 }
-/* line 69, ../sass/components/_layout.scss */
+/* line 71, ../sass/components/_layout.scss */
 #navbar + .np-layout {
   padding-top: 50px;
 }
@@ -570,8 +572,9 @@ body {
 .np-grid .np-row.vertical .np-box {
   -webkit-flex-direction: row;
   flex-direction: row;
+  height: auto;
 }
-/* line 38, ../sass/components/_grid.scss */
+/* line 39, ../sass/components/_grid.scss */
 .np-grid .np-box {
   display: -webkit-flex;
   display: flex;
@@ -824,7 +827,7 @@ body {
   width: 100%;
 }
 
-/* line 57, ../sass/components/_grid.scss */
+/* line 58, ../sass/components/_grid.scss */
 .np-item {
   background: #f2f2f2;
   border-radius: 4px;
@@ -868,7 +871,7 @@ body {
   		}
   	} */
 }
-/* line 64, ../sass/components/_grid.scss */
+/* line 65, ../sass/components/_grid.scss */
 .np-item .name {
   font-size: 18px;
   padding: 10px;
@@ -876,33 +879,33 @@ body {
   position: relative;
   z-index: 5;
 }
-/* line 72, ../sass/components/_grid.scss */
+/* line 73, ../sass/components/_grid.scss */
 .np-item .item-info {
   font-size: 16px;
   overflow: hidden;
   transition: all .5s ease-out;
   padding: 0 10px;
 }
-/* line 78, ../sass/components/_grid.scss */
+/* line 79, ../sass/components/_grid.scss */
 .np-item .item-info > div {
   width: 20%;
   float: left;
 }
-/* line 82, ../sass/components/_grid.scss */
+/* line 83, ../sass/components/_grid.scss */
 .np-item .item-info > div:last-child {
   float: right;
   text-align: right;
 }
-/* line 88, ../sass/components/_grid.scss */
+/* line 89, ../sass/components/_grid.scss */
 .np-item .item-info span {
   display: inline-block;
 }
-/* line 91, ../sass/components/_grid.scss */
+/* line 92, ../sass/components/_grid.scss */
 .np-item .item-info span:first-child {
   font-size: 11px;
   padding-right: 20px;
 }
-/* line 97, ../sass/components/_grid.scss */
+/* line 98, ../sass/components/_grid.scss */
 .np-item .item-info.edit {
   opacity: 0;
   transform: translateY(50px);
@@ -911,17 +914,17 @@ body {
   position: relative;
   z-index: 1;
 }
-/* line 110, ../sass/components/_grid.scss */
+/* line 111, ../sass/components/_grid.scss */
 .np-item.active .name {
   background: #0072bc;
   color: #fff;
 }
-/* line 115, ../sass/components/_grid.scss */
+/* line 116, ../sass/components/_grid.scss */
 .np-item.active .item-info {
   opacity: 0;
   transform: translateY(-50px);
 }
-/* line 121, ../sass/components/_grid.scss */
+/* line 122, ../sass/components/_grid.scss */
 .np-item.active .edit {
   transform: translateY(0px);
   opacity: 1;
