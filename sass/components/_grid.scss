@@ -144,7 +144,6 @@
 
 		.edit {
 			@include transform(translateY(0));
-			@include transition-delay(.5s);
 		}
 	}
 
