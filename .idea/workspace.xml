@@ -5,10 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jFx.js" afterPath="$PROJECT_DIR$/js/jFx.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale-view-v2.html" afterPath="$PROJECT_DIR$/sale-view-v2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/sass/components/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/components/_forms.scss" afterPath="$PROJECT_DIR$/sass/components/_forms.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/components/_grid.scss" afterPath="$PROJECT_DIR$/sass/components/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/components/_mixins.scss" afterPath="$PROJECT_DIR$/sass/components/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/styles.css" afterPath="$PROJECT_DIR$/stylesheets/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/styles.css.map" afterPath="$PROJECT_DIR$/stylesheets/styles.css.map" />
     </list>
@@ -24,7 +21,7 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/components/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="408">
               <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
@@ -44,8 +41,8 @@
       <file leaf-file-name="sale-view-v2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale-view-v2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="184" column="38" lean-forward="false" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
+            <state relative-caret-position="159">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +51,8 @@
       <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/components/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="151" column="14" lean-forward="false" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+            <state relative-caret-position="431">
+              <caret line="114" column="44" lean-forward="false" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -65,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/js/jFx.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -110,8 +107,8 @@
         <option value="$PROJECT_DIR$/sass/components/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/components/_forms.scss" />
         <option value="$PROJECT_DIR$/sass/components/_buttons.scss" />
-        <option value="$PROJECT_DIR$/sale-view-v2.html" />
         <option value="$PROJECT_DIR$/sass/components/_grid.scss" />
+        <option value="$PROJECT_DIR$/sale-view-v2.html" />
         <option value="$PROJECT_DIR$/js/jFx.js" />
       </list>
     </option>
@@ -131,10 +128,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="655" />
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1366" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -224,12 +220,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509983846340</updated>
       <workItem from="1509983848865" duration="2810000" />
-      <workItem from="1510043751944" duration="24225000" />
+      <workItem from="1510043751944" duration="25692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27035000" />
+    <option name="totallyTimeSpent" value="28502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1375" extended-state="6" />
@@ -316,14 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/components/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/components/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -340,14 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale-view-v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="184" column="38" lean-forward="false" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/components/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
@@ -356,10 +336,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/components/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="151" column="14" lean-forward="false" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+        <state relative-caret-position="431">
+          <caret line="114" column="44" lean-forward="false" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale-view-v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -367,7 +363,7 @@
     <entry file="file://$PROJECT_DIR$/js/jFx.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>

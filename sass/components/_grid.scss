@@ -51,11 +51,15 @@
 @include setContentWidth(20);
 
 .np-item {
-	//background: #f2f2f2;
-	//border-radius: 4px;
 	margin-bottom: 10px;
 	cursor: pointer;
 	@include user-select(none);
+
+	> .np-box:first-child {
+		background: #fff;
+		z-index: 2;
+		position: relative;
+	}
 
 	.np-box {
 		padding: 0;
@@ -108,7 +112,7 @@
 		}
 
 		&.edit-mode {
-			@include transform(translateY(-200px));
+			@include transform(translateY(-80px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
@@ -149,7 +153,7 @@
 		}
 
 		.not-relevant {
-			//@include transform(translateY(-15px));
+			@include transform(translateY(-15px));
 			margin-top: -26px;
 		}
 

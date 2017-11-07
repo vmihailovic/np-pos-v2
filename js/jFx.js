@@ -28,20 +28,17 @@ $(function() {
     });
 
 
-
     $npItem.each(function () {
         $(this).find('.edit-mode').css('transform', 'translateY(' + -$(this).height() + 'px)');
     });
 
     $npItem.on( "click", function() {
-        var $notRelevantItem = $(this).find('.not-relevant');
-
         $('.np-item').removeClass('active');
         $('.not-relevant').css('margin-top', 0);
         $(this).addClass('active');
 
         if($(this).hasClass('active')) {
-            $notRelevantItem.css('margin-top', -$notRelevantItem.height());
+            $(this).find('.not-relevant').css('margin-top', -$(this).find('.not-relevant').height());
         }
     });
 });
