@@ -10,9 +10,7 @@
 .horizontal {
     @include display-flex(flex);
     @include justify-content(space-between);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+	@include setWH100();
 }
 
 .vertical {
@@ -26,14 +24,10 @@
 
 .np-layout {
     @include display-flex(flex);
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
+	@include setWH100();
 
     > .control {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
+		@include setWH100();
     }
 
     .vertical .control:not(:first-child) {

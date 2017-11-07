@@ -6,6 +6,12 @@
     @include justify-content(center);
 }
 
+@mixin setWH100() {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
 @mixin setLayoutWidth($elCount) {
 	@while $elCount > 0 {
 		.np-layout.horizontal > {
