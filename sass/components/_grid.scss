@@ -60,10 +60,16 @@
 		font-size: 18px;
 		padding: 10px;
 		@include transition-property(all);
-		@include transition-duration(.5s);
+		@include transition-duration(.2s);
 		@include transition-timing-function(ease-out);
 		position: relative;
 		z-index: 5;
+		background: #f2f2f2;
+	}
+
+	.edit {
+		@include transition-delay(.5s);
+		@include transition-duration(.3s);
 	}
 
 	.item-info {
@@ -73,6 +79,8 @@
 		@include transition-duration(.5s);
 		@include transition-timing-function(ease-out);
 		padding: 0 10px;
+		position: relative;
+		z-index: 1;
 
 		> div {
 			padding-bottom: 10px;
@@ -93,8 +101,7 @@
 		}
 
 		&.edit {
-			opacity: 0;
-			@include transform(translateY(50px));
+			@include transform(translateY(-100px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
@@ -132,14 +139,13 @@
 		}
 
 		.item-info {
-			opacity: 0;
-			@include transform(translateY(-20px));
+			@include transform(translateY(-15px));
 			margin-top: -13px;
 		}
 
 		.edit {
 			@include transform(translateY(0));
-			opacity: 1;
+
 		}
 	}
 
