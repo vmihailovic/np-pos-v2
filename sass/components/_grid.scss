@@ -100,7 +100,7 @@
 		}
 
 		&.edit {
-			@include transform(translateY(-100px));
+			@include transform(translateY(-50px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
