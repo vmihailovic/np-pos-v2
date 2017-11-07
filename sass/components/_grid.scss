@@ -68,7 +68,6 @@
 	}
 
 	.edit {
-		@include transition-delay(.5s);
 		@include transition-duration(.3s);
 	}
 
@@ -145,7 +144,7 @@
 
 		.edit {
 			@include transform(translateY(0));
-
+			@include transition-delay(.5s);
 		}
 	}
 
