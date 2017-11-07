@@ -51,10 +51,15 @@
 @include setContentWidth(20);
 
 .np-item {
-	background: #f2f2f2;
-	border-radius: 4px;
+	//background: #f2f2f2;
+	//border-radius: 4px;
 	margin-bottom: 10px;
 	cursor: pointer;
+	@include user-select(none);
+
+	.np-box {
+		padding: 0;
+	}
 
 	.name {
 		font-size: 18px;
@@ -65,9 +70,10 @@
 		position: relative;
 		z-index: 5;
 		background: #f2f2f2;
+		border-radius: 4px 4px 0 0;
 	}
 
-	.edit {
+	.edit-mode {
 		@include transition-duration(.3s);
 	}
 
@@ -80,6 +86,8 @@
 		padding: 0 10px;
 		position: relative;
 		z-index: 1;
+		background: #f2f2f2;
+		border-radius: 0 0 4px 4px;
 
 		> div {
 			padding-bottom: 10px;
@@ -99,14 +107,15 @@
 			}
 		}
 
-		&.edit {
-			@include transform(translateY(-50px));
+		&.edit-mode {
+			@include transform(translateY(-200px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
 			z-index: 1;
 			padding: 0;
 			margin-top: -55px;
+			@include user-select(none);
 
 			span {
 				display: block;
@@ -123,66 +132,34 @@
 				text-align: center;
 
 				&:last-child {
-					text-align: center;
 					border: none;
 				}
 			}
 		}
 	}
-
 
 	&.active {
 		.name {
-			background: #0072bc;
-			color: #fff;
+			background: map-get($colors, default);
+			color: map-get($button, color);
 		}
 
 		.item-info {
-			@include transform(translateY(-15px));
-			margin-top: -13px;
+
 		}
 
-		.edit {
-			@include transform(translateY(0));
+		.not-relevant {
+			//@include transform(translateY(-15px));
+			margin-top: -26px;
+		}
+
+		.edit-mode {
+			//@include transform(translateY(0));
+			-moz-transform: translateY(0) !important;
+			-ms-transform: translateY(0) !important;
+			-webkit-transform: translateY(0) !important;
+			transform: translateY(0) !important;
+			margin: 0;
 		}
 	}
-
-
-	/* &.active {
-		padding: 0;
-
-		.name {
-			background: #0072bc;
-			color: #fff;
-			padding: 10px;
-			border-radius: 4px 4px 0 0;
-		}
-
-		.item-info {
-			background: #0085dc;
-			color: #fff;
-			padding: 0 10px;
-			text-align: center;
-			border-radius: 0 0 4px 4px;
-
-			> div {
-				border-right: 1px solid #46a9ea;
-				padding: 5px 0;
-
-				&:last-child {
-					text-align: center;
-					border: none;
-				}
-			}
-
-			span {
-				display: block;
-				padding: 0;
-
-				&:first-child {
-					padding: 0 0 8px;
-				}
-			}
-		}
-	} */
 }

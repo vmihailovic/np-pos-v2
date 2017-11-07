@@ -1,7 +1,8 @@
 $(function() {
-    var $inputField = $( ".np-input-field" );
+    var $inputField = $( ".np-form" );
+    var $npItem = $('.np-item');
 
-    $inputField.each(function (e) {
+    $inputField.each(function () {
         if ($(this).find("input").val()) {
             $(this).addClass('active');
         }
@@ -18,14 +19,29 @@ $(function() {
     });
 
     $inputField.on( "click", ".reset", function() {
-        $(this).parent().find("input").val('').focus();
+        if (!$(this).parent().find('input').val()) {
+            $(this).parent().find('input').blur();
+        }
+        else {
+            $(this).parent().find("input").val('').focus();
+        }
     });
 
 
-    var $npItem = $('.np-item');
+
+    $npItem.each(function () {
+        $(this).find('.edit-mode').css('transform', 'translateY(' + -$(this).height() + 'px)');
+    });
 
     $npItem.on( "click", function() {
+        var $notRelevantItem = $(this).find('.not-relevant');
+
         $('.np-item').removeClass('active');
+        $('.not-relevant').css('margin-top', 0);
         $(this).addClass('active');
+
+        if($(this).hasClass('active')) {
+            $notRelevantItem.css('margin-top', -$notRelevantItem.height());
+        }
     });
 });

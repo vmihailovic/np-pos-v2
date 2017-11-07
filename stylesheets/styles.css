@@ -278,13 +278,13 @@ body {
 }
 
 /* line 1, ../sass/components/_forms.scss */
-.np-input-field {
+.np-form {
   position: relative;
   height: 100%;
   padding-top: 5px;
 }
 /* line 6, ../sass/components/_forms.scss */
-.np-input-field label {
+.np-form label {
   position: absolute;
   top: 4px;
   left: 1vh;
@@ -316,7 +316,7 @@ body {
   pointer-events: none;
 }
 /* line 22, ../sass/components/_forms.scss */
-.np-input-field label:not(.label-icon).active {
+.np-form label:not(.label-icon).active {
   -moz-transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
   -ms-transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
   -webkit-transform: translateY(-0.7vh) translateX(-2.1vh) scale(0.8);
@@ -328,7 +328,7 @@ body {
 }
 @media screen and (min-height: 800px) {
   /* line 22, ../sass/components/_forms.scss */
-  .np-input-field label:not(.label-icon).active {
+  .np-form label:not(.label-icon).active {
     -moz-transform: translateY(-6px) translateX(-16px) scale(0.8);
     -ms-transform: translateY(-6px) translateX(-16px) scale(0.8);
     -webkit-transform: translateY(-6px) translateX(-16px) scale(0.8);
@@ -337,7 +337,7 @@ body {
 }
 @media screen and (min-height: 800px) {
   /* line 6, ../sass/components/_forms.scss */
-  .np-input-field label {
+  .np-form label {
     font-size: 16px;
     -moz-transform: translateY(11px);
     -ms-transform: translateY(11px);
@@ -347,7 +347,7 @@ body {
   }
 }
 /* line 38, ../sass/components/_forms.scss */
-.np-input-field input {
+.np-form input {
   border: 1px solid #0072bc;
   border-radius: 4px;
   width: 100%;
@@ -359,46 +359,35 @@ body {
   outline: none;
 }
 /* line 49, ../sass/components/_forms.scss */
-.np-input-field input:focus {
+.np-form input:focus {
   outline: none;
 }
 @media screen and (min-height: 800px) {
   /* line 38, ../sass/components/_forms.scss */
-  .np-input-field input {
+  .np-form input {
     font-size: 15px;
     max-height: 38px;
   }
 }
 /* line 59, ../sass/components/_forms.scss */
-.np-input-field button {
+.np-form .np-button {
   padding: 0;
-  background: none;
   border: none;
   cursor: pointer;
-  background: #0072bc;
-  color: #fff;
-  height: 100%;
   max-height: 5vh;
   border-radius: 0 4px 4px 0;
   position: absolute;
   top: 5px;
   right: 0;
   width: 40px;
+}
+/* line 70, ../sass/components/_forms.scss */
+.np-form .np-button .np-icon {
   font-size: 2.5vh;
 }
-/* line 75, ../sass/components/_forms.scss */
-.np-input-field button:active, .np-input-field button:focus {
-  outline: none;
-}
-/* line 80, ../sass/components/_forms.scss */
-.np-input-field button.reset {
+/* line 74, ../sass/components/_forms.scss */
+.np-form .np-button.reset {
   background: none;
-  color: #595959;
-  top: 2.4vh;
-  right: 15px;
-  width: auto;
-  height: auto;
-  font-size: 15px;
   opacity: 0;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
@@ -412,30 +401,45 @@ body {
   -o-transition-timing-function: ease-out;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+  top: 2.2vh;
+  right: 15px;
+  width: auto;
+  height: auto;
+}
+/* line 85, ../sass/components/_forms.scss */
+.np-form .np-button.reset .np-icon {
+  background: none;
+  color: #595959;
+  width: auto;
+  height: auto;
+  font-size: 15px;
 }
 @media screen and (min-height: 800px) {
-  /* line 80, ../sass/components/_forms.scss */
-  .np-input-field button.reset {
+  /* line 74, ../sass/components/_forms.scss */
+  .np-form .np-button.reset {
     top: 17px;
   }
 }
 @media screen and (min-height: 800px) {
   /* line 59, ../sass/components/_forms.scss */
-  .np-input-field button {
+  .np-form .np-button {
     max-height: 38px;
+  }
+  /* line 101, ../sass/components/_forms.scss */
+  .np-form .np-button .np-icon {
     font-size: 19px;
   }
 }
-/* line 105, ../sass/components/_forms.scss */
-.np-input-field.lookup button.reset {
+/* line 108, ../sass/components/_forms.scss */
+.np-form.lookup .np-button.reset {
   right: 50px;
 }
-/* line 109, ../sass/components/_forms.scss */
-.np-input-field.lookup input {
+/* line 112, ../sass/components/_forms.scss */
+.np-form.lookup input {
   padding-right: 55px;
 }
-/* line 115, ../sass/components/_forms.scss */
-.np-input-field.active button.reset {
+/* line 118, ../sass/components/_forms.scss */
+.np-form.active .np-button.reset {
   opacity: 1;
 }
 
@@ -462,19 +466,23 @@ body {
   -webkit-user-select: none;
   user-select: none;
 }
-/* line 12, ../sass/components/_buttons.scss */
+/* line 11, ../sass/components/_buttons.scss */
+.np-button:active, .np-button:focus {
+  outline: none;
+}
+/* line 17, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-icon {
   height: 67%;
 }
-/* line 16, ../sass/components/_buttons.scss */
+/* line 21, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-caption {
   height: 33%;
 }
-/* line 19, ../sass/components/_buttons.scss */
+/* line 24, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-caption span {
   white-space: nowrap;
 }
-/* line 25, ../sass/components/_buttons.scss */
+/* line 30, ../sass/components/_buttons.scss */
 .np-button .np-icon {
   display: -webkit-flex;
   display: flex;
@@ -489,12 +497,12 @@ body {
   font-size: 4.3vh;
 }
 @media screen and (min-height: 800px) {
-  /* line 25, ../sass/components/_buttons.scss */
+  /* line 30, ../sass/components/_buttons.scss */
   .np-button .np-icon {
     font-size: 36px;
   }
 }
-/* line 34, ../sass/components/_buttons.scss */
+/* line 39, ../sass/components/_buttons.scss */
 .np-button .np-caption {
   font-size: 1.9vh;
   height: 100%;
@@ -514,25 +522,25 @@ body {
   line-height: 1.3;
   overflow: hidden;
 }
-/* line 44, ../sass/components/_buttons.scss */
+/* line 49, ../sass/components/_buttons.scss */
 .np-button .np-caption span {
   display: block;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 @media screen and (min-height: 800px) {
-  /* line 34, ../sass/components/_buttons.scss */
+  /* line 39, ../sass/components/_buttons.scss */
   .np-button .np-caption {
     font-size: 14px;
   }
 }
-/* line 55, ../sass/components/_buttons.scss */
+/* line 60, ../sass/components/_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 61, ../sass/components/_buttons.scss */
+/* line 66, ../sass/components/_buttons.scss */
 .np-button .np-image {
   height: 66.393%;
   width: 100%;
@@ -545,11 +553,11 @@ body {
   left: 0;
   z-index: -2;
 }
-/* line 74, ../sass/components/_buttons.scss */
+/* line 79, ../sass/components/_buttons.scss */
 .np-button.image-top, .np-button.image-bottom {
   position: relative;
 }
-/* line 78, ../sass/components/_buttons.scss */
+/* line 83, ../sass/components/_buttons.scss */
 .np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
   height: 33.607%;
   position: absolute;
@@ -557,20 +565,20 @@ body {
   left: .3em;
   width: calc(100% - 0.6em);
 }
-/* line 85, ../sass/components/_buttons.scss */
+/* line 90, ../sass/components/_buttons.scss */
 .np-button.image-top .np-caption span, .np-button.image-bottom .np-caption span {
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 95, ../sass/components/_buttons.scss */
+/* line 100, ../sass/components/_buttons.scss */
 .np-button.image-bottom .np-image {
   top: auto;
   bottom: 0;
   border-radius: 0 0 4px 4px;
 }
-/* line 101, ../sass/components/_buttons.scss */
+/* line 106, ../sass/components/_buttons.scss */
 .np-button.image-bottom .np-caption {
   bottom: auto;
   top: 0;
@@ -632,242 +640,242 @@ body {
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(20),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(20) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(20),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(20) ~ div {
   height: 5%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(19),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(19) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(19),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(19) ~ div {
   height: 5.26316%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(18),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(18) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(18),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(18) ~ div {
   height: 5.55556%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(17),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(17) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(17),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(17) ~ div {
   height: 5.88235%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(16),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(16) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(16),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(16) ~ div {
   height: 6.25%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(15),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(15) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(15),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(15) ~ div {
   height: 6.66667%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(14),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(14) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(14),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(14) ~ div {
   height: 7.14286%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(13),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(13) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(13),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(13) ~ div {
   height: 7.69231%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(12),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(12) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(12),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(12) ~ div {
   height: 8.33333%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(11),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(11) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(11),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(11) ~ div {
   height: 9.09091%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(10),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(10) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(10),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(10) ~ div {
   height: 10%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(9),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(9) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(9),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(9) ~ div {
   height: 11.11111%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(8),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(8) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(8),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(8) ~ div {
   height: 12.5%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(7),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(7) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(7),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(7) ~ div {
   height: 14.28571%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(6),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(6) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(6),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(6) ~ div {
   height: 16.66667%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(5),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(5) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(5),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(5) ~ div {
   height: 20%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(4),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(4) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(4),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(4) ~ div {
   height: 25%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(3),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(3) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(3),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(3) ~ div {
   height: 33.33333%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(2),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(2) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(2),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(2) ~ div {
   height: 50%;
 }
 
 /* line 36, ../sass/components/_mixins.scss */
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(1),
-.np-grid:not(.visible-scroll) > .np-row:first-child:nth-last-child(1) ~ .np-row {
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(1),
+.np-grid:not(.visible-scroll) > div:first-child:nth-last-child(1) ~ div {
   height: 100%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(20),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(20) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(20),
+.np-row:not(.vertical) > div:first-child:nth-last-child(20) ~ div {
   width: 5%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(19),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(19) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(19),
+.np-row:not(.vertical) > div:first-child:nth-last-child(19) ~ div {
   width: 5.26316%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(18),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(18) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(18),
+.np-row:not(.vertical) > div:first-child:nth-last-child(18) ~ div {
   width: 5.55556%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(17),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(17) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(17),
+.np-row:not(.vertical) > div:first-child:nth-last-child(17) ~ div {
   width: 5.88235%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(16),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(16) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(16),
+.np-row:not(.vertical) > div:first-child:nth-last-child(16) ~ div {
   width: 6.25%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(15),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(15) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(15),
+.np-row:not(.vertical) > div:first-child:nth-last-child(15) ~ div {
   width: 6.66667%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(14),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(14) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(14),
+.np-row:not(.vertical) > div:first-child:nth-last-child(14) ~ div {
   width: 7.14286%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(13),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(13) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(13),
+.np-row:not(.vertical) > div:first-child:nth-last-child(13) ~ div {
   width: 7.69231%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(12),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(12) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(12),
+.np-row:not(.vertical) > div:first-child:nth-last-child(12) ~ div {
   width: 8.33333%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(11),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(11) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(11),
+.np-row:not(.vertical) > div:first-child:nth-last-child(11) ~ div {
   width: 9.09091%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(10),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(10) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(10),
+.np-row:not(.vertical) > div:first-child:nth-last-child(10) ~ div {
   width: 10%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(9),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(9) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(9),
+.np-row:not(.vertical) > div:first-child:nth-last-child(9) ~ div {
   width: 11.11111%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(8),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(8) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(8),
+.np-row:not(.vertical) > div:first-child:nth-last-child(8) ~ div {
   width: 12.5%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(7),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(7) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(7),
+.np-row:not(.vertical) > div:first-child:nth-last-child(7) ~ div {
   width: 14.28571%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(6),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(6) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(6),
+.np-row:not(.vertical) > div:first-child:nth-last-child(6) ~ div {
   width: 16.66667%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(5),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(5) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(5),
+.np-row:not(.vertical) > div:first-child:nth-last-child(5) ~ div {
   width: 20%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(4),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(4) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(4),
+.np-row:not(.vertical) > div:first-child:nth-last-child(4) ~ div {
   width: 25%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(3),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(3) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(3),
+.np-row:not(.vertical) > div:first-child:nth-last-child(3) ~ div {
   width: 33.33333%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(2),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(2) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(2),
+.np-row:not(.vertical) > div:first-child:nth-last-child(2) ~ div {
   width: 50%;
 }
 
 /* line 48, ../sass/components/_mixins.scss */
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(1),
-.np-row:not(.vertical) > .np-box:first-child:nth-last-child(1) ~ .np-box {
+.np-row:not(.vertical) > div:first-child:nth-last-child(1),
+.np-row:not(.vertical) > div:first-child:nth-last-child(1) ~ div {
   width: 100%;
 }
 
@@ -993,49 +1001,18 @@ body {
 
 /* line 53, ../sass/components/_grid.scss */
 .np-item {
-  background: #f2f2f2;
-  border-radius: 4px;
   margin-bottom: 10px;
   cursor: pointer;
-  	/* &.active {
-  		padding: 0;
-  
-  		.name {
-  			background: #0072bc;
-  			color: #fff;
-  			padding: 10px;
-  			border-radius: 4px 4px 0 0;
-  		}
-  
-  		.item-info {
-  			background: #0085dc;
-  			color: #fff;
-  			padding: 0 10px;
-  			text-align: center;
-  			border-radius: 0 0 4px 4px;
-  
-  			> div {
-  				border-right: 1px solid #46a9ea;
-  				padding: 5px 0;
-  
-  				&:last-child {
-  					text-align: center;
-  					border: none;
-  				}
-  			}
-  
-  			span {
-  				display: block;
-  				padding: 0;
-  
-  				&:first-child {
-  					padding: 0 0 8px;
-  				}
-  			}
-  		}
-  	} */
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
-/* line 59, ../sass/components/_grid.scss */
+/* line 60, ../sass/components/_grid.scss */
+.np-item .np-box {
+  padding: 0;
+}
+/* line 64, ../sass/components/_grid.scss */
 .np-item .name {
   font-size: 18px;
   padding: 10px;
@@ -1054,15 +1031,16 @@ body {
   position: relative;
   z-index: 5;
   background: #f2f2f2;
+  border-radius: 4px 4px 0 0;
 }
-/* line 70, ../sass/components/_grid.scss */
-.np-item .edit {
+/* line 76, ../sass/components/_grid.scss */
+.np-item .edit-mode {
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 74, ../sass/components/_grid.scss */
+/* line 80, ../sass/components/_grid.scss */
 .np-item .item-info {
   font-size: 16px;
   overflow: hidden;
@@ -1081,77 +1059,79 @@ body {
   padding: 0 10px;
   position: relative;
   z-index: 1;
+  background: #f2f2f2;
+  border-radius: 0 0 4px 4px;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 92, ../sass/components/_grid.scss */
 .np-item .item-info > div {
   padding-bottom: 10px;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 95, ../sass/components/_grid.scss */
 .np-item .item-info > div:last-child {
   float: right;
   text-align: right;
 }
-/* line 93, ../sass/components/_grid.scss */
+/* line 101, ../sass/components/_grid.scss */
 .np-item .item-info span {
   display: inline-block;
 }
-/* line 96, ../sass/components/_grid.scss */
+/* line 104, ../sass/components/_grid.scss */
 .np-item .item-info span:first-child {
   font-size: 11px;
   padding-right: 20px;
 }
-/* line 102, ../sass/components/_grid.scss */
-.np-item .item-info.edit {
-  -moz-transform: translateY(-50px);
-  -ms-transform: translateY(-50px);
-  -webkit-transform: translateY(-50px);
-  transform: translateY(-50px);
+/* line 110, ../sass/components/_grid.scss */
+.np-item .item-info.edit-mode {
+  -moz-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  -webkit-transform: translateY(-200px);
+  transform: translateY(-200px);
   background: #0085dc;
   color: #fff;
   position: relative;
   z-index: 1;
   padding: 0;
   margin-top: -55px;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
-/* line 111, ../sass/components/_grid.scss */
-.np-item .item-info.edit span {
+/* line 120, ../sass/components/_grid.scss */
+.np-item .item-info.edit-mode span {
   display: block;
   padding: 0;
 }
-/* line 115, ../sass/components/_grid.scss */
-.np-item .item-info.edit span:first-child {
+/* line 124, ../sass/components/_grid.scss */
+.np-item .item-info.edit-mode span:first-child {
   padding: 0 0 8px;
 }
-/* line 120, ../sass/components/_grid.scss */
-.np-item .item-info.edit > div {
+/* line 129, ../sass/components/_grid.scss */
+.np-item .item-info.edit-mode > div {
   border-right: 1px solid #46a9ea;
   padding: 10px;
   text-align: center;
 }
-/* line 125, ../sass/components/_grid.scss */
-.np-item .item-info.edit > div:last-child {
-  text-align: center;
+/* line 134, ../sass/components/_grid.scss */
+.np-item .item-info.edit-mode > div:last-child {
   border: none;
 }
-/* line 135, ../sass/components/_grid.scss */
+/* line 142, ../sass/components/_grid.scss */
 .np-item.active .name {
   background: #0072bc;
   color: #fff;
 }
-/* line 140, ../sass/components/_grid.scss */
-.np-item.active .item-info {
-  -moz-transform: translateY(-15px);
-  -ms-transform: translateY(-15px);
-  -webkit-transform: translateY(-15px);
-  transform: translateY(-15px);
-  margin-top: -13px;
+/* line 151, ../sass/components/_grid.scss */
+.np-item.active .not-relevant {
+  margin-top: -26px;
 }
-/* line 145, ../sass/components/_grid.scss */
-.np-item.active .edit {
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+/* line 156, ../sass/components/_grid.scss */
+.np-item.active .edit-mode {
+  -moz-transform: translateY(0) !important;
+  -ms-transform: translateY(0) !important;
+  -webkit-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+  margin: 0;
 }
 
 /*!

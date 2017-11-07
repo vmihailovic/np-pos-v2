@@ -8,6 +8,11 @@
   	cursor: pointer;
     @include user-select(none);
 
+    &:active,
+    &:focus {
+        outline: none;
+    }
+
     &.icon.text {
         .np-icon {
             height: 67%;

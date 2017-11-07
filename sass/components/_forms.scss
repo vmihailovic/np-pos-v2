@@ -1,4 +1,4 @@
-.np-input-field {
+.np-form {
     position: relative;
     height: 100%;
     padding-top: 5px;
@@ -56,53 +56,56 @@
         }
     }
 
-    button {
+    .np-button {
         padding: 0;
-        background: none;
         border: none;
         cursor: pointer;
-        background: map-get($colors, default);
-        color: #fff;
-        height: 100%;
         max-height: 5vh;
         border-radius: 0 map-get($button, radius) map-get($button, radius) 0;
         position: absolute;
         top: 5px;
         right: 0;
         width: 40px;
-        font-size: 2.5vh;
 
-        &:active,
-        &:focus {
-            outline: none;
+        .np-icon {
+            font-size: 2.5vh;
         }
 
         &.reset {
             background: none;
-            color: #595959;
-			top: 2.4vh;
-            right: 15px;
-            width: auto;
-            height: auto;
-            font-size: 15px;
             opacity: 0;
             @include transition-property(opacity);
             @include transition-duration(.2s);
             @include transition-timing-function(ease-out);
+            top: 2.2vh;
+            right: 15px;
+            width: auto;
+            height: auto;
 
-			@media screen and (min-height: 800px) {
-				top: 17px;
-			}
+            .np-icon {
+                background: none;
+                color: #595959;
+                width: auto;
+                height: auto;
+                font-size: 15px;
+            }
+
+            @media screen and (min-height: 800px) {
+                top: 17px;
+            }
         }
 
         @media screen and (min-height: 800px) {
             max-height: 38px;
-            font-size: 19px;
+
+            .np-icon {
+                font-size: 19px;
+            }
         }
     }
 
     &.lookup {
-        button.reset {
+        .np-button.reset {
             right: 50px;
         }
 
@@ -112,7 +115,7 @@
     }
 
     &.active {
-        button.reset {
+        .np-button.reset {
             opacity: 1;
         }
     }

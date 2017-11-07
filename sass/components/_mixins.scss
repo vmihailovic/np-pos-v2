@@ -33,8 +33,8 @@
 @mixin setGridHeight($elCount) {
   	@while $elCount > 0 {
 		.np-grid:not(.visible-scroll) > {
-      		.np-row:first-child:nth-last-child(#{$elCount}),
-      		.np-row:first-child:nth-last-child(#{$elCount}) ~ .np-row {
+      		div:first-child:nth-last-child(#{$elCount}),
+			div:first-child:nth-last-child(#{$elCount}) ~ div {
         		height: 100% / $elCount
       		}
       	$elCount: $elCount - 1
@@ -45,8 +45,8 @@
 @mixin setBoxesWidth($elCount) {
   	@while $elCount > 0 {
     	.np-row:not(.vertical) > {
-      		.np-box:first-child:nth-last-child(#{$elCount}),
-      		.np-box:first-child:nth-last-child(#{$elCount}) ~ .np-box {
+      		div:first-child:nth-last-child(#{$elCount}),
+      		div:first-child:nth-last-child(#{$elCount}) ~ div {
         		width: 100% / $elCount
       		}
       	$elCount: $elCount - 1
