@@ -1,23 +1,23 @@
 $(function() {
-    var $inputField = $( ".np-form" );
+    var $npForm = $(".np-form");
 
-    $inputField.each(function () {
+    $npForm.each(function () {
         if ($(this).find("input").val()) {
             $(this).addClass('active');
         }
     });
 
-    $inputField.on( "focusin", "input", function() {
+    $npForm.on( "focusin", "input", function() {
         $(this).parent().addClass('active');
     });
 
-    $inputField.on( "focusout", "input", function() {
+    $npForm.on( "focusout", "input", function() {
         if (!$(this).val()) {
             $(this).parent().removeClass('active');
         }
     });
 
-    $inputField.on( "click", ".reset", function() {
+    $npForm.on( "click", ".reset", function() {
         if (!$(this).parent().find('input').val()) {
             $(this).parent().find('input').blur();
         }
@@ -46,34 +46,61 @@ $(function() {
 
 
 
+    function menuIndicator(el) {
+        var $npNavigation = $(el);
+        var $navActive = $npNavigation.find('.active');
+        var $indicator = $npNavigation.append('<div class="indicator"></div>').find('.indicator');
 
-    var $npNavigation = $('.np-navigation');
-    var $navActive = $npNavigation.find('.active');
-    var $indicator = $npNavigation.append('<div class="indicator"></div>').find('.indicator');
+        var $rightPos = function(el) {
+            return $npNavigation.width() - ( el.position().left + el.outerWidth() );
+        };
 
-    var $right = function(el) {
-        return $npNavigation.width() - ( el.position().left + el.outerWidth() );
-    };
+        var $leftPos = function(el) {
+            return el.position().left;
+        };
 
-    var $left = function(el) {
-        return el.position().left;
-    };
+        // on ready, set position on indicator without animation
+        $indicator.css({
+            'left' : $leftPos($navActive),
+            'right' : $rightPos($navActive)
+        });
 
-    $indicator.css({
-        'left' : $left($navActive),
-        'right' : $right($navActive)
+        $npNavigation.find('div').on( "click", function() {
+            $npNavigation.find('div').removeClass('active');
+            $(this).addClass('active');
+
+            $indicator.velocity({
+                "right": $rightPos($npNavigation.find('.active')) }, { duration: 300, queue: false, easing: 'easeOutQuad'
+            });
+            $indicator.velocity({
+                "left": $leftPos($npNavigation.find('.active')) }, {duration: 300, queue: false, easing: 'easeOutQuad', delay: 90
+            });
+
+            /* if we dont want to use velocity for animations, comment above code and use following one:
+            $indicator.css({
+                'left' : $leftPos($npNavigation.find('.active')),
+                'right' : $rightPos($npNavigation.find('.active'))
+            });
+            */
+        });
+    }
+
+    menuIndicator('.main-menu');
+    menuIndicator('.sub-menu');
+
+
+    $(window).on('delayed-resize', function () {
+        menuIndicator('.main-menu');
+        menuIndicator('.sub-menu');
     });
 
-    $npNavigation.find('div').on( "click", function() {
-        $npNavigation.find('div').removeClass('active');
-        $(this).addClass('active');
+});
 
-        $indicator.velocity({
-            "right": $right($npNavigation.find('.active')) }, { duration: 300, queue: false, easing: 'easeOutQuad'
-        });
-        $indicator.velocity({
-            "left": $left($npNavigation.find('.active')) }, {duration: 300, queue: false, easing: 'easeOutQuad', delay: 90
-        });
-    });
-
+// Using setTimeout since Web-Kit and some other browsers call the resize function constantly upon window resizing.
+var resizeTimer;
+$(window).resize(function (e) {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+        $(window).trigger('delayed-resize', e);
+    }, 250);
 });
