@@ -19,21 +19,13 @@
         @include transform(translateY(1.5vh));
         pointer-events: none;
 
-        &:not(.label-icon).active {
-            @include transform(translateY(-0.7vh) translateX(-2.1vh) scale(0.8));
-            @include transform-origin(0 0);
-
-			@media screen and (min-height: 800px) {
-				@include transform(translateY(-6px) translateX(-16px) scale(0.8));
-			}
-        }
-
         @media screen and (min-height: 800px) {
             font-size: 16px;
             @include transform(translateY(11px));
             left: 6px;
         }
     }
+
 
     input {
         border: 1px solid map-get($colors, default);
@@ -115,6 +107,17 @@
     }
 
     &.active {
+        label {
+            &:not(.label-icon) {
+                @include transform(translateY(-0.7vh) translateX(-2.1vh) scale(0.8));
+                @include transform-origin(0 0);
+
+                @media screen and (min-height: 800px) {
+                    @include transform(translateY(-6px) translateX(-16px) scale(0.8));
+                }
+            }
+        }
+
         .np-button.reset {
             opacity: 1;
         }

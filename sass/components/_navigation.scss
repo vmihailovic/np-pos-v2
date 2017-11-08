@@ -1,0 +1,24 @@
+.np-navigation {
+	text-align: center;
+	border-bottom: 1px solid #c2d8f3;
+	position: relative;
+
+	> div {
+		display: inline-block;
+		padding: 10px 40px;
+		cursor: pointer;
+		text-transform: uppercase;
+		color: #bdbdbd;
+
+		&.active {
+			color: #1c6eb2;
+		}
+
+		&.indicator {
+			position: absolute;
+			bottom: 0;
+			padding: 0;
+			border-bottom: 4px solid #1c6eb2;
+		}
+	}
+}

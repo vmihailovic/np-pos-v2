@@ -75,6 +75,7 @@
 
 	.edit-mode {
 		@include transition-duration(.3s);
+		margin-top: -55px;
 	}
 
 	.item-info {
@@ -108,7 +109,7 @@
 		}
 
 		&.edit-mode {
-			@include transform(translateY(-80px));
+			@include transform(translateY(-200px));
 			background: #0085dc;
 			color: #fff;
 			position: relative;
