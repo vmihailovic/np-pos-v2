@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    @include user-select(none);
 }
 
 body {
@@ -11,4 +12,8 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+}
+
+.no-padding {
+    padding: 0 !important;
 }

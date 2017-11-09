@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -66,9 +66,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/components/_global.scss */
 * {
   box-sizing: border-box;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-/* line 5, ../sass/components/_global.scss */
+/* line 6, ../sass/components/_global.scss */
 body {
   font-family: "Segoe UI Semilight", "Gill Sans";
   color: #707070;
@@ -78,6 +82,11 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+}
+
+/* line 17, ../sass/components/_global.scss */
+.no-padding {
+  padding: 0 !important;
 }
 
 /* line 1, ../sass/components/_layout.scss */
@@ -268,38 +277,64 @@ body {
   left: 0;
   width: 100%;
   background: #f5f5f5;
+  padding: 0;
+  box-shadow: 0 0 3px #ccc;
   border-bottom: 1px solid #c2d8f3;
-  padding: 15px 0 0;
-  box-shadow: 0px 0 3px #ccc;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
 }
-/* line 11, ../sass/components/_navigation.scss */
-#navbar + .np-layout {
-  padding-top: 50px;
+/* line 15, ../sass/components/_navigation.scss */
+#navbar #logo {
+  padding: 5px 10px;
+}
+/* line 18, ../sass/components/_navigation.scss */
+#navbar #logo img {
+  height: 30px;
+}
+/* line 23, ../sass/components/_navigation.scss */
+#navbar .np-navigation {
+  border: none;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
 }
 
-/* line 16, ../sass/components/_navigation.scss */
+/* line 29, ../sass/components/_navigation.scss */
 .np-navigation {
   text-align: center;
   border-bottom: 1px solid #c2d8f3;
   position: relative;
 }
-/* line 21, ../sass/components/_navigation.scss */
+/* line 34, ../sass/components/_navigation.scss */
 .np-navigation > div {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 2vh 3vh;
   cursor: pointer;
   text-transform: uppercase;
   color: #bdbdbd;
-  /* if we dont use velocity, uncomment following code
-  @include transition-property(all);
-  @include transition-duration(.2s);
-  @include transition-timing-function(ease-out); */
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-/* line 32, ../sass/components/_navigation.scss */
+/* line 44, ../sass/components/_navigation.scss */
 .np-navigation > div.active {
   color: #1c6eb2;
 }
-/* line 36, ../sass/components/_navigation.scss */
+/* line 48, ../sass/components/_navigation.scss */
 .np-navigation > div.indicator {
   position: absolute;
   bottom: 0;
@@ -491,28 +526,24 @@ body {
   border-radius: 4px;
   padding: 0.8vh;
   cursor: pointer;
-  -moz-user-select: -moz-none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
-/* line 11, ../sass/components/_buttons.scss */
+/* line 10, ../sass/components/_buttons.scss */
 .np-button:active, .np-button:focus {
   outline: none;
 }
-/* line 17, ../sass/components/_buttons.scss */
+/* line 16, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-icon {
   height: 67%;
 }
-/* line 21, ../sass/components/_buttons.scss */
+/* line 20, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-caption {
   height: 33%;
 }
-/* line 24, ../sass/components/_buttons.scss */
+/* line 23, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-caption span {
   white-space: nowrap;
 }
-/* line 30, ../sass/components/_buttons.scss */
+/* line 29, ../sass/components/_buttons.scss */
 .np-button .np-icon {
   display: -webkit-flex;
   display: flex;
@@ -527,12 +558,12 @@ body {
   font-size: 4.3vh;
 }
 @media screen and (min-height: 800px) {
-  /* line 30, ../sass/components/_buttons.scss */
+  /* line 29, ../sass/components/_buttons.scss */
   .np-button .np-icon {
     font-size: 36px;
   }
 }
-/* line 39, ../sass/components/_buttons.scss */
+/* line 38, ../sass/components/_buttons.scss */
 .np-button .np-caption {
   font-size: 1.9vh;
   height: 100%;
@@ -552,25 +583,25 @@ body {
   line-height: 1.3;
   overflow: hidden;
 }
-/* line 49, ../sass/components/_buttons.scss */
+/* line 48, ../sass/components/_buttons.scss */
 .np-button .np-caption span {
   display: block;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 @media screen and (min-height: 800px) {
-  /* line 39, ../sass/components/_buttons.scss */
+  /* line 38, ../sass/components/_buttons.scss */
   .np-button .np-caption {
     font-size: 14px;
   }
 }
-/* line 60, ../sass/components/_buttons.scss */
+/* line 59, ../sass/components/_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 66, ../sass/components/_buttons.scss */
+/* line 65, ../sass/components/_buttons.scss */
 .np-button .np-image {
   height: 66.393%;
   width: 100%;
@@ -583,11 +614,11 @@ body {
   left: 0;
   z-index: -2;
 }
-/* line 79, ../sass/components/_buttons.scss */
+/* line 78, ../sass/components/_buttons.scss */
 .np-button.image-top, .np-button.image-bottom {
   position: relative;
 }
-/* line 83, ../sass/components/_buttons.scss */
+/* line 82, ../sass/components/_buttons.scss */
 .np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
   height: 33.607%;
   position: absolute;
@@ -595,20 +626,20 @@ body {
   left: .3em;
   width: calc(100% - 0.6em);
 }
-/* line 90, ../sass/components/_buttons.scss */
+/* line 89, ../sass/components/_buttons.scss */
 .np-button.image-top .np-caption span, .np-button.image-bottom .np-caption span {
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 100, ../sass/components/_buttons.scss */
+/* line 99, ../sass/components/_buttons.scss */
 .np-button.image-bottom .np-image {
   top: auto;
   bottom: 0;
   border-radius: 0 0 4px 4px;
 }
-/* line 106, ../sass/components/_buttons.scss */
+/* line 105, ../sass/components/_buttons.scss */
 .np-button.image-bottom .np-caption {
   bottom: auto;
   top: 0;

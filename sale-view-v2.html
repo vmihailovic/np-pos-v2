@@ -8,222 +8,291 @@
     <link href="stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/velocity.min.js"></script>
-    <script type="text/javascript" src="js/waves.js"></script>
+    <script type="text/javascript" src="js/ripple.js"></script>
+    <script type="text/javascript" src="js/menu-indicator.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
     <script type="text/javascript" src="js/jFx.js"></script>
     <script src="https://use.fontawesome.com/84218cddf1.js"></script>
 </head>
 
     <body>
         <div class="np-layout view">
-            <div style="height: 10%" class="np-layout vertical">
-                <div id="navbar">
-                    <div class="np-navigation main-menu">
-                        <div class="active">Caffe</div>
-                        <div>Food</div>
-                        <div>Favorites</div>
+            <div class="np-layout vertical">
+                <div style="height: 5%" class="np-layout">
+                    <div class="control">
+                        <div id="navbar">
+                            <div id="logo">
+                                <img src="images/logo.png" alt="NP Retail 2017" title="NP Retail 2017" />
+                            </div>
+                            <div class="np-navigation main-menu">
+                                <div class="active np-content">Login</div>
+                                <div class="np-content">Sale</div>
+                                <div class="np-content">Payment</div>
+                            </div>
+                            <div id="burger">logo</div>
+                        </div>
                     </div>
-
-                    <div>123</div>
                 </div>
-            </div>
 
-            <div style="height: 90%" class="np-layout horizontal">
-                <div class="np-layout vertical">
-                    <div style="height: 7%" class="np-layout vertical">
-                        <div class="control">
-                            <div class="np-form lookup">
-                                <label>Enter or scan item number</label>
-                                <input type="text" class="" autocomplete="off" />
-                                <div class="np-button icon reset">
-                                    <div class="np-icon fa fa-times"></div>
-                                </div>
-                                <div class="np-button waves-effect icon submit">
-                                    <div class="np-icon fa fa-search"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="height: 60%" class="np-layout">
-                        <div class="control">
-                            <div class="np-grid vertical visible-scroll">
-                                <div class="np-row np-item vertical">
-                                    <div class="np-box">
-                                        <div class="np-content">
-                                            <div class="np-caption name">
-                                                <span>Festina Men’s Watch Chronograph with a very long title that really needs some space</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box item-info not-relevant">
-                                        <div class="np-content">
-                                            <span class="np-caption">Quantity</span>
-                                            <span class="np-value">1</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-caption">Unit price</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-value">108,00</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-caption">Line amount</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="np-box item-info edit-mode">
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Quantity</span>
-                                            <span class="np-value">1</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Unit Price</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Discount %</span>
-                                            <span class="np-value">15</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Discount Amount</span>
-                                            <span class="np-value">108,00</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Line Amount</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="np-row np-item vertical">
-                                    <div class="np-box">
-                                        <div class="np-content">
-                                            <div class="np-caption name">
-                                                <span>Festina Men’s Watch Chronograph with a very long title that really needs some space</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box item-info not-relevant">
-                                        <div class="np-content">
-                                            <span class="np-caption">Quantity</span>
-                                            <span class="np-value">1</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-caption">Unit price</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-value">108,00</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-caption">Line amount</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="np-box item-info edit-mode">
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Quantity</span>
-                                            <span class="np-value">1</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Unit Price</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Discount %</span>
-                                            <span class="np-value">15</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Discount Amount</span>
-                                            <span class="np-value">108,00</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Line Amount</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="np-row np-item vertical">
-                                    <div class="np-box">
-                                        <div class="np-content">
-                                            <div class="np-caption name">
-                                                <span>Festina Men’s Watch Chronograph with a very long title that really needs some space</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box item-info not-relevant">
-                                        <div class="np-content">
-                                            <span class="np-caption">Quantity</span>
-                                            <span class="np-value">1</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-caption">Unit price</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-value">108,00</span>
-                                        </div>
-                                        <div class="np-content">
-                                            <span class="np-caption">Line amount</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="np-box item-info edit-mode">
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Quantity</span>
-                                            <span class="np-value">1</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Unit Price</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Discount %</span>
-                                            <span class="np-value">15</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Discount Amount</span>
-                                            <span class="np-value">108,00</span>
-                                        </div>
-                                        <div class="np-content waves-effect">
-                                            <span class="np-caption">Set Line Amount</span>
-                                            <span class="np-value">1.498,00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="height: 33%" class="np-layout vertical">
-                        <div style="height: 60%" class="np-layout horizontal">
-                            <div class="np-layout vertical">
-                                <div class="control">
-                                    <div class="np-form lookup">
-                                        <label>Enter or scan item number</label>
-                                        <input type="text" class="" autocomplete="off" />
-                                        <div class="np-button icon reset">
-                                            <div class="np-icon fa fa-times"></div>
-                                        </div>
-                                        <div class="np-button waves-effect icon submit">
-                                            <div class="np-icon fa fa-search"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="np-layout vertical">
-                                <div class="control">subtotal</div>
-                            </div>
-                        </div>
-                        <div style="height: 40%;" class="np-layout horizontal">
+                <div style="height: 95%" class="np-layout horizontal no-padding">
+                    <div class="np-layout vertical">
+                        <div style="height: 7%" class="np-layout vertical">
                             <div class="control">
-                                <div class="np-buttongrid np-grid">
+                                <div class="np-form lookup">
+                                    <label>Enter or scan item number</label>
+                                    <input type="text" class="" autocomplete="off" />
+                                    <div class="np-button icon reset">
+                                        <div class="np-icon fa fa-times"></div>
+                                    </div>
+                                    <div class="np-button waves-effect icon submit">
+                                        <div class="np-icon fa fa-search"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 60%" class="np-layout">
+                            <div class="control">
+                                <div class="np-grid vertical visible-scroll">
+                                    <div class="np-row np-item vertical">
+                                        <div class="np-box">
+                                            <div class="np-content">
+                                                <div class="np-caption name">
+                                                    <span>Festina Men’s Watch Chronograph with a very long title that really needs some space</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box item-info not-relevant">
+                                            <div class="np-content">
+                                                <span class="np-caption">Quantity</span>
+                                                <span class="np-value">1</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-caption">Unit price</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-value">108,00</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-caption">Line amount</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="np-box item-info edit-mode">
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Quantity</span>
+                                                <span class="np-value">1</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Unit Price</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Discount %</span>
+                                                <span class="np-value">15</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Discount Amount</span>
+                                                <span class="np-value">108,00</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Line Amount</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="np-row np-item vertical">
+                                        <div class="np-box">
+                                            <div class="np-content">
+                                                <div class="np-caption name">
+                                                    <span>Festina Men’s Watch Chronograph with a very long title that really needs some space</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box item-info not-relevant">
+                                            <div class="np-content">
+                                                <span class="np-caption">Quantity</span>
+                                                <span class="np-value">1</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-caption">Unit price</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-value">108,00</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-caption">Line amount</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="np-box item-info edit-mode">
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Quantity</span>
+                                                <span class="np-value">1</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Unit Price</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Discount %</span>
+                                                <span class="np-value">15</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Discount Amount</span>
+                                                <span class="np-value">108,00</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Line Amount</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="np-row np-item vertical">
+                                        <div class="np-box">
+                                            <div class="np-content">
+                                                <div class="np-caption name">
+                                                    <span>Festina Men’s Watch Chronograph with a very long title that really needs some space</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box item-info not-relevant">
+                                            <div class="np-content">
+                                                <span class="np-caption">Quantity</span>
+                                                <span class="np-value">1</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-caption">Unit price</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-value">108,00</span>
+                                            </div>
+                                            <div class="np-content">
+                                                <span class="np-caption">Line amount</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="np-box item-info edit-mode">
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Quantity</span>
+                                                <span class="np-value">1</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Unit Price</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Discount %</span>
+                                                <span class="np-value">15</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Discount Amount</span>
+                                                <span class="np-value">108,00</span>
+                                            </div>
+                                            <div class="np-content waves-effect">
+                                                <span class="np-caption">Set Line Amount</span>
+                                                <span class="np-value">1.498,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 33%" class="np-layout vertical">
+                            <div style="height: 60%" class="np-layout horizontal">
+                                <div class="np-layout vertical">
+                                    <div class="control">
+                                        <div class="np-form lookup">
+                                            <label>Enter or scan item number</label>
+                                            <input type="text" class="" autocomplete="off" />
+                                            <div class="np-button icon reset">
+                                                <div class="np-icon fa fa-times"></div>
+                                            </div>
+                                            <div class="np-button waves-effect icon submit">
+                                                <div class="np-icon fa fa-search"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="np-layout vertical">
+                                    <div class="control">subtotal</div>
+                                </div>
+                            </div>
+                            <div style="height: 40%;" class="np-layout horizontal">
+                                <div class="control">
+                                    <div class="np-buttongrid np-grid">
+                                        <div class="np-row horizontal">
+                                            <div class="np-box">
+                                                <div class="np-button waves-effect icon text">
+                                                    <div class="np-icon fa fa-cog"></div>
+                                                    <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="np-box">
+                                                <div class="np-button waves-effect icon text">
+                                                    <div class="np-icon fa fa-cog"></div>
+                                                    <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="np-box">
+                                                <div class="np-button waves-effect icon text">
+                                                    <div class="np-icon fa fa-cog"></div>
+                                                    <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="np-box">
+                                                <div class="np-button waves-effect icon text">
+                                                    <div class="np-icon fa fa-cog"></div>
+                                                    <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="np-box">
+                                                <div class="np-button waves-effect icon text">
+                                                    <div class="np-icon fa fa-cog"></div>
+                                                    <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="np-layout vertical">
+                        <div style="height: 7%" class="np-layout vertical">
+                            <div class="control">
+                                <div class="np-navigation sub-menu">
+                                    <div class="active np-content">Caffe</div>
+                                    <div class="np-content">Food</div>
+                                    <div class="np-content">Favorites</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 93%" class="np-layout vertical">
+                            <div class="control">
+                                <div class="np-grid vertical">
                                     <div class="np-row horizontal">
                                         <div class="np-box">
                                             <div class="np-button waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
-                                                <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                <div class="np-caption">
+                                                    <span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon">
+                                                <div class="np-icon fa fa-cog"></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect text">
+                                                <div class="np-caption"><span>Membership ManagementMembershipManagement</span></div>
                                             </div>
                                         </div>
                                         <div class="np-box">
@@ -232,214 +301,153 @@
                                                 <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="np-row horizontal">
                                         <div class="np-box">
-                                            <div class="np-button waves-effect icon text">
+                                            <div style="background-image: url(images/khaleesi.jpg)" class="np-button image waves-effect icon text">
                                                 <div class="np-icon fa fa-cog"></div>
-                                                <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
-                                            </div>
-                                        </div>
-                                        <div class="np-box">
-                                            <div class="np-button waves-effect icon text">
-                                                <div class="np-icon fa fa-cog"></div>
-                                                <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
                                             </div>
                                         </div>
                                         <div class="np-box">
-                                            <div class="np-button waves-effect icon text">
+                                            <div style="background-image: url(images/khaleesi2.jpg)" class="np-button image waves-effect icon">
                                                 <div class="np-icon fa fa-cog"></div>
-                                                <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="np-layout vertical">
-                    <div style="height: 7%" class="np-layout vertical">
-                        <div class="control">
-                            <div class="np-navigation sub-menu">
-                                <div class="active">Caffe</div>
-                                <div>Food</div>
-                                <div>Favorites</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="height: 93%" class="np-layout vertical">
-                        <div class="control">
-                            <div class="np-grid vertical">
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption">
-                                                <span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span>
+                                        <div class="np-box">
+                                            <div style="background-image: url(images/khaleesi3.jpg)" class="np-button image waves-effect text">
+                                                <div class="np-caption"><span>Membership Management</span></div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
+                                        <div class="np-box">
+                                            <div style="background-image: url(images/sansa.jpg)" class="np-button image waves-effect"></div>
                                         </div>
                                     </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect text">
-                                            <div class="np-caption"><span>Membership ManagementMembershipManagement</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Very long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non aliquet urna. Aliquam venenatis, ipsum ut aliquet ullamcorper, sem dui posuere libero, ut condimentum lectus elit in metus. Sed ut vestibulum tortor. Praesent luctus nibh in placerat laoreet. Proin feugiat justo ac rhoncus imperdiet.</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div style="background-image: url(images/khaleesi.jpg)" class="np-button image waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div style="background-image: url(images/khaleesi2.jpg)" class="np-button image waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div style="background-image: url(images/khaleesi3.jpg)" class="np-button image waves-effect text">
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div style="background-image: url(images/sansa.jpg)" class="np-button image waves-effect"></div>
-                                    </div>
-                                </div>
 
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
+                                    <div class="np-row horizontal">
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon">
+                                                <div class="np-icon fa fa-cog"></div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect waves-dark icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>I'm different</span></div>
+                                    <div class="np-row horizontal">
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect waves-dark icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>I'm different</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon">
+                                                <div class="np-icon fa fa-cog"></div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
+                                    <div class="np-row horizontal">
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect image-top">
+                                                <div style="background-image: url(images/sansa.jpg)" class="np-image"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect image-bottom">
+                                                <div style="background-image: url(images/sansa.jpg)" class="np-image"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon">
+                                                <div class="np-icon fa fa-cog"></div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
+                                    <div class="np-row horizontal">
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon">
+                                                <div class="np-icon fa fa-cog"></div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
+                                    <div class="np-row horizontal">
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect image-top">
-                                            <div style="background-image: url(images/sansa.jpg)" class="np-image"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon text">
+                                                <div class="np-icon fa fa-cog"></div>
+                                                <div class="np-caption"><span>Membership Management</span></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect image-bottom">
-                                            <div style="background-image: url(images/sansa.jpg)" class="np-image"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="np-row horizontal">
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon text">
-                                            <div class="np-icon fa fa-cog"></div>
-                                            <div class="np-caption"><span>Membership Management</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="np-box">
-                                        <div class="np-button waves-effect icon">
-                                            <div class="np-icon fa fa-cog"></div>
+                                        <div class="np-box">
+                                            <div class="np-button waves-effect icon">
+                                                <div class="np-icon fa fa-cog"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
