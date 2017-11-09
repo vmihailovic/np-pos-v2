@@ -71,3 +71,18 @@
 		}
 	}
 }
+
+@mixin generate-margins-paddings($value) {
+	.margin-#{$value}           {margin:        #{$value}px !important;}
+	.margin-top-#{$value}       {margin-top:    #{$value}px !important;}
+	.margin-bottom-#{$value}    {margin-bottom: #{$value}px !important;}
+	.margin-left-#{$value}      {margin-left:   #{$value}px !important;}
+	.margin-right-#{$value}     {margin-right:  #{$value}px !important;}
+
+	.padding-#{$value}          {padding:           #{$value}px !important;}
+	.padding-top-#{$value}      {padding-top:       #{$value}px !important;}
+	.padding-bottom-#{$value}   {padding-bottom:    #{$value}px !important;}
+	.padding-left-#{$value}     {padding-left:      #{$value}px !important;}
+	.padding-right-#{$value}    {padding-right:     #{$value}px !important;}
+}
+

@@ -28,10 +28,10 @@
 
     .np-icon {
         @include flex-center();
-        font-size: 4.3vh;
+        font-size: 36px;
 
         @media screen and (min-height: 800px) {
-            font-size: 36px;
+
         }
     }
 

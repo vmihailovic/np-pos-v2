@@ -5,6 +5,7 @@
 
 body {
     font-family: map-get($font, family);
+    font-size: map-get($font, 15px);
   	color: map-get($font, color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -16,4 +17,44 @@ body {
 
 .no-padding {
     padding: 0 !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.border-radius {
+    border-radius: map-get($button, radius);
+}
+
+@include generate-margins-paddings(0);
+@include generate-margins-paddings(5);
+@include generate-margins-paddings(10);
+@include generate-margins-paddings(15);
+@include generate-margins-paddings(20);
+@include generate-margins-paddings(25);
+@include generate-margins-paddings(30);
+
+
+
+// Colors
+
+.bg-light-gray {
+    background: #f2f2f2;
 }

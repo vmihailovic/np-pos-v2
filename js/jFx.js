@@ -16,6 +16,10 @@ $(function() {
         }
     });
 
+    $('.burger').on( "click", function() {
+        $(this).toggleClass('active');
+    });
+
     labelAnimation('.np-form');
     menuIndicator('.main-menu');
     menuIndicator('.sub-menu');

@@ -100,11 +100,22 @@
 		}
 
 		span {
-			display: inline-block;
+			display: block;
+			text-align: center;
+			padding-bottom: 5px;
+
+			@media only screen and (min-width: 1600px) {
+				display: inline-block;
+				text-align: left;
+				padding-bottom: 0;
+			}
 
 			&.np-caption {
 				font-size: 11px;
-				padding-right: 20px;
+
+				@media only screen and (min-width: 1600px) {
+					padding-right: 20px;
+				}
 			}
 		}
 
@@ -115,11 +126,14 @@
 			position: relative;
 			z-index: 1;
 			padding: 0;
-			@include user-select(none);
 
 			span {
 				display: block;
 				padding: 0;
+
+				@media only screen and (min-width: 1600px) {
+					text-align: center;
+				}
 
 				&.np-caption {
 					padding: 0 0 8px;
@@ -144,10 +158,6 @@
 			color: map-get($button, color);
 		}
 
-		.item-info {
-
-		}
-
 		.not-relevant {
 			@include transform(translateY(-15px));
 		}
@@ -160,5 +170,46 @@
 			transform: translateY(0) !important;
 			margin: 0;
 		}
+	}
+}
+
+.customer-info {
+	line-height: normal;
+	font-size: 12px;
+
+	@media only screen and (min-width: 1280px) {
+		line-height: 20px;
+		font-size: 15px;
+	}
+}
+
+.total {
+	line-height: normal;
+	width: 100%;
+	font-size: 12px;
+
+	@media only screen and (min-width: 1280px) {
+		line-height: 20px;
+		font-size: 15px;
+	}
+
+	.np-caption {
+		text-align: left;
+		width: 45%;
+		font-weight: 600;
+		float: left;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.np-value {
+		width: 45%;
+		text-align: right;
+		display: inline-block;
+	}
+
+	.subtotal {
+		margin-bottom: 20px;
 	}
 }
