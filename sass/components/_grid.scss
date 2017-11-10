@@ -172,17 +172,26 @@
                 &.icon {
                     .np-icon {
                         float: left;
-                        width: 25%;
-                        font-size: 26px;
+                        width: 20%;
+                        font-size: 18px;
                         height: 100%;
                         @include display-flex(flex);
                         @include justify-content(center);
                         @include align-items(center);
+
+						@media only screen and (min-width: 1600px) {
+							font-size: 26px;
+							width: 25%;
+						}
                     }
 
                     span {
                         float: right;
-                        width: 75%;
+                        width: 80%;
+
+						@media only screen and (min-width: 1600px) {
+							width: 75%;
+						}
                     }
                 }
 
@@ -219,22 +228,17 @@
 }
 
 .customer-info {
-	line-height: normal;
-	font-size: 12px;
-
-	@media only screen and (min-width: 1280px) {
-		line-height: 20px;
-		font-size: 15px;
-	}
+	line-height: 20px;
+	font-size: 15px;
 }
 
 .total {
-	line-height: normal;
+	line-height: 20px;
 	width: 100%;
 	font-size: 12px;
 
 	@media only screen and (min-width: 1280px) {
-		line-height: 20px;
+		//line-height: 20px;
 		font-size: 15px;
 	}
 
