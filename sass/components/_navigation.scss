@@ -39,27 +39,8 @@
 			.burger-icon {
 				@include burger-to-cross;
 			}
-
-			.dropdown {
-				opacity: 1;
-				@include transform(translateY(0));
-			}
-		}
-
-		.dropdown {
-			position: absolute;
-			top: 50px;
-			right: 15px;
-			opacity: 0;
-			@include transition-property(all);
-			@include transition-duration(.5s);
-			@include transition-timing-function(ease-out);
-			@include transform(translateY(-100px));
-			width: 150px;
 		}
 	}
-
-
 }
 
 .np-navigation {
@@ -69,13 +50,21 @@
 
 	> div {
 		display: inline-block;
-		padding: 2vh 3vh;
+		padding: 1vh 3vh;
 		cursor: pointer;
 		text-transform: uppercase;
 		color: #bdbdbd;
 		@include transition-property(all);
 		@include transition-duration(.2s);
 		@include transition-timing-function(ease-out);
+
+		@media screen and (min-height: 550px) {
+			padding: 1.5vh 3vh;
+		}
+
+		@media screen and (min-height: 768px) {
+			padding: 2vh 3vh;
+		}
 
 		&.active {
 			color: #1c6eb2;

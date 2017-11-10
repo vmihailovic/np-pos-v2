@@ -14,11 +14,19 @@
 
     &.icon.text {
         .np-icon {
-            height: 67%;
+            height: 60%;
+
+            @media screen and (min-height: 768px) {
+                height: 67%;
+            }
         }
 
         .np-caption {
-            height: 33%;
+            height: 40%;
+
+            @media screen and (min-height: 768px) {
+                height: 33%;
+            }
 
             span {
                 white-space: nowrap;
@@ -28,10 +36,10 @@
 
     .np-icon {
         @include flex-center();
-        font-size: 36px;
+        font-size: 4vh;
 
-        @media screen and (min-height: 800px) {
-
+        @media screen and (min-height: 768px) {
+            font-size: 36px;
         }
     }
 
@@ -51,7 +59,7 @@
             overflow: hidden;
         }
 
-        @media screen and (min-height: 800px) {
+        @media screen and (min-height: 768px) {
             font-size: 14px;
         }
     }
@@ -83,8 +91,8 @@
             height: 33.607%;
             position: absolute;
             bottom: 0;
-            left: .3em;
-            width: calc(100% - 0.6em);
+            left: 5px;
+            width: calc(100% - 10px);
 
             span {
                 display: block;

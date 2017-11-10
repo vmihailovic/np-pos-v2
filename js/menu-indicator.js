@@ -26,10 +26,17 @@ function menuIndicator(el) {
         $(this).addClass('active');
 
         $indicator.velocity({
-            "right": $rightPos($(el).find('.active')) }, { duration: 100, queue: false, easing: 'easeOutQuad'
+            "right": $rightPos($(el).find('.active')) }, {
+            duration: 100,
+            queue: false,
+            easing: 'easeOutQuad'
         });
         $indicator.velocity({
-            "left": $leftPos($(el).find('.active')) }, {duration: 100, queue: false, easing: 'easeOutQuad', delay: 90
+            "left": $leftPos($(el).find('.active')) }, {
+            duration: 100,
+            queue: false,
+            easing: 'easeOutQuad',
+            delay: 90
         });
 
         /* if we dont want to use velocity for animations, comment above code and use following one:
