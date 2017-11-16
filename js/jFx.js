@@ -3,7 +3,7 @@ $(function() {
     var $npItem = $('.np-item');
 
     $npItem.each(function () {
-        $(this).find('.edit-mode').css('transform', 'translateY(' + -$(this).height() + 'px)');
+        $(this).find('.edit-mode').css('transform', 'translateY(' + -($(this).height()-20) + 'px)');
     });
 
     $npItem.on( "click", function() {
@@ -23,6 +23,10 @@ $(function() {
     labelAnimation('.np-form');
     menuIndicator('.main-menu');
     menuIndicator('.sub-menu');
+
+    setTabs('.main-menu > div', '.pages');
+    setTabs('.sub-menu > div', '.sections');
+
 
 });
 

@@ -41,8 +41,8 @@ function menuIndicator(el) {
 
         /* if we dont want to use velocity for animations, comment above code and use following one:
         $indicator.css({
-            'left' : $leftPos($npNavigation.find('.active')),
-            'right' : $rightPos($npNavigation.find('.active'))
+            'left' : $leftPos($(el).find('.active')),
+            'right' : $rightPos($(el).find('.active'))
         });
         */
     });

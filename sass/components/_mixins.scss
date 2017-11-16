@@ -1,9 +1,10 @@
+
 @mixin flex-center($orientation: row) {
-    @include display-flex(flex);
-    @include flex-direction($orientation);
-    @include flex-wrap(nowrap);
-    @include align-items(center);
-    @include justify-content(center);
+	@include display-flex(flex);
+	@include flex-direction($orientation);
+	@include flex-wrap(nowrap);
+	@include align-items(center);
+	@include justify-content(center);
 }
 
 @mixin setWH100() {
@@ -15,49 +16,49 @@
 @mixin setLayoutWidth($elCount) {
 	@while $elCount > 0 {
 		.np-layout.horizontal > {
-		  	.np-layout:first-child:nth-last-child(#{$elCount}),
-		  	.np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
-			  	width: 100% / $elCount
-		  	}
-		  	$elCount: $elCount - 1
+			.np-layout:first-child:nth-last-child(#{$elCount}),
+			.np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
+				width: 100% / $elCount
+			}
+			$elCount: $elCount - 1
 		}
 	}
 }
 
 @mixin setLayoutHeight($elCount) {
-  	@while $elCount > 0 {
-    	.np-layout.vertical > {
-      		.np-layout:first-child:nth-last-child(#{$elCount}),
-      		.np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
-        		height: 100% / $elCount
-      		}
-      		$elCount: $elCount - 1
-    	}
-  	}
+	@while $elCount > 0 {
+		.np-layout.vertical > {
+			.np-layout:first-child:nth-last-child(#{$elCount}),
+			.np-layout:first-child:nth-last-child(#{$elCount}) ~ .np-layout {
+				height: 100% / $elCount
+			}
+			$elCount: $elCount - 1
+		}
+	}
 }
 
 @mixin setGridHeight($elCount) {
-  	@while $elCount > 0 {
+	@while $elCount > 0 {
 		.np-grid:not(.visible-scroll) > {
-      		div:first-child:nth-last-child(#{$elCount}),
+			div:first-child:nth-last-child(#{$elCount}),
 			div:first-child:nth-last-child(#{$elCount}) ~ div {
-        		height: 100% / $elCount
-      		}
-      	$elCount: $elCount - 1
-    	}
-  	}
+				height: 100% / $elCount
+			}
+			$elCount: $elCount - 1
+		}
+	}
 }
 
 @mixin setBoxesWidth($elCount) {
-  	@while $elCount > 0 {
-    	.np-row:not(.vertical) > {
-      		div:first-child:nth-last-child(#{$elCount}),
-      		div:first-child:nth-last-child(#{$elCount}) ~ div {
-        		width: 100% / $elCount
-      		}
-      	$elCount: $elCount - 1
-    	}
-  	}
+	@while $elCount > 0 {
+		.np-row:not(.vertical) > {
+			div:first-child:nth-last-child(#{$elCount}),
+			div:first-child:nth-last-child(#{$elCount}) ~ div {
+				width: 100% / $elCount
+			}
+			$elCount: $elCount - 1
+		}
+	}
 }
 
 @mixin setContentWidth($elCount) {
@@ -86,3 +87,26 @@
 	.padding-right-#{$value}    {padding-right:     #{$value}px !important;}
 }
 
+@mixin tabs($el) {
+
+	.#{$el} {
+		position: relative;
+
+		> div {
+			position: absolute;
+			top: 0;
+
+			@include transform(translate3d(100%, 0, 0));
+			@include transition-property(all);
+			@include transition-duration(.3s);
+			@include transition-timing-function(ease-out);
+			//opacity: 0;
+
+			&:first-child {
+				@include transform(translate3d(0, 0, 0));
+				//opacity: 1;
+			}
+
+		}
+	}
+}

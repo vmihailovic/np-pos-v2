@@ -39,6 +39,19 @@ body {
     text-align: center;
 }
 
+.h-v-center {
+    @include justify-content(center);
+    @include align-items(center);
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+
 .border-radius {
     border-radius: map-get($button, radius);
 }
