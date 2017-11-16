@@ -21,8 +21,7 @@ $(function() {
     });
 
     labelAnimation('.np-form');
-    menuIndicator('.main-menu');
-    menuIndicator('.sub-menu');
+
 
     setTabs('.main-menu > div', '.pages');
     setTabs('.sub-menu > div', '.sections');
@@ -30,10 +29,7 @@ $(function() {
 
 });
 
-$(window).on('delayed-resize', function () {
-    menuIndicator('.main-menu');
-    menuIndicator('.sub-menu');
-});
+
 
 // Using setTimeout since Web-Kit and some other browsers call the resize function constantly upon window resizing.
 var resizeTimer;
