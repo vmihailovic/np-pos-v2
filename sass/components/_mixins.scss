@@ -96,14 +96,14 @@
 			position: absolute;
 			top: 0;
 
-			@include transform(translate3d(100%, 0, 0));
+			@include transform(translateX(100%));
 			@include transition-property(all);
-			@include transition-duration(.5s);
-			@include transition-timing-function(ease-out);
+			@include transition-duration(.3s);
+			@include transition-timing-function(linear);
 			//opacity: 0;
 
 			&:first-child {
-				@include transform(translate3d(0, 0, 0));
+				@include transform(translateX(0));
 				//opacity: 1;
 			}
 

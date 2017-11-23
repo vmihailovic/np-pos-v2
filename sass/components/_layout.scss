@@ -25,6 +25,7 @@
 .np-layout {
     @include display-flex(flex);
 	@include setWH100();
+    display: flex !important;
 
     > .control {
 		@include setWH100();

@@ -66,10 +66,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/components/_global.scss */
 * {
   box-sizing: border-box;
-  -moz-user-select: -moz-none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 /* line 6, ../sass/components/_global.scss */
@@ -82,39 +78,40 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
-/* line 18, ../sass/components/_global.scss */
+/* line 19, ../sass/components/_global.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 22, ../sass/components/_global.scss */
+/* line 23, ../sass/components/_global.scss */
 .float-right {
   float: right;
 }
 
-/* line 26, ../sass/components/_global.scss */
+/* line 27, ../sass/components/_global.scss */
 .float-left {
   float: left;
 }
 
-/* line 30, ../sass/components/_global.scss */
+/* line 31, ../sass/components/_global.scss */
 .align-right {
   text-align: right;
 }
 
-/* line 34, ../sass/components/_global.scss */
+/* line 35, ../sass/components/_global.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 38, ../sass/components/_global.scss */
+/* line 39, ../sass/components/_global.scss */
 .align-center {
   text-align: center;
 }
 
-/* line 42, ../sass/components/_global.scss */
+/* line 43, ../sass/components/_global.scss */
 .h-v-center {
   -webkit-justify-content: center;
   justify-content: center;
@@ -122,17 +119,17 @@ body {
   align-items: center;
 }
 
-/* line 47, ../sass/components/_global.scss */
+/* line 48, ../sass/components/_global.scss */
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-/* line 50, ../sass/components/_global.scss */
+/* line 51, ../sass/components/_global.scss */
 .flex-nowrap {
   flex-wrap: nowrap;
 }
 
-/* line 55, ../sass/components/_global.scss */
+/* line 56, ../sass/components/_global.scss */
 .border-radius {
   border-radius: 4px;
 }
@@ -487,9 +484,98 @@ body {
   padding-right: 30px !important;
 }
 
-/* line 71, ../sass/components/_global.scss */
+/* line 72, ../sass/components/_global.scss */
 .bg-light-gray {
   background: #f2f2f2;
+}
+
+/* line 77, ../sass/components/_global.scss */
+.tabs {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 48px;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+/* line 78, ../sass/components/_global.scss */
+.tabs.tabs-transparent {
+  background-color: transparent;
+}
+/* line 81, ../sass/components/_global.scss */
+.tabs.tabs-transparent .tab a,
+.tabs.tabs-transparent .tab.disabled a,
+.tabs.tabs-transparent .tab.disabled a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* line 87, ../sass/components/_global.scss */
+.tabs.tabs-transparent .tab a:hover,
+.tabs.tabs-transparent .tab a.active {
+  color: #fff;
+}
+/* line 92, ../sass/components/_global.scss */
+.tabs.tabs-transparent .indicator {
+  background-color: #fff;
+}
+/* line 97, ../sass/components/_global.scss */
+.tabs.tabs-fixed-width {
+  display: flex;
+}
+/* line 100, ../sass/components/_global.scss */
+.tabs.tabs-fixed-width .tab {
+  flex-grow: 1;
+}
+/* line 114, ../sass/components/_global.scss */
+.tabs .tab {
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+/* line 123, ../sass/components/_global.scss */
+.tabs .tab a {
+  color: red;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 24px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: color .28s ease;
+}
+/* line 124, ../sass/components/_global.scss */
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: red;
+}
+/* line 141, ../sass/components/_global.scss */
+.tabs .tab.disabled a, .tabs .tab.disabled a:hover {
+  color: red;
+  cursor: default;
+}
+/* line 147, ../sass/components/_global.scss */
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  background-color: blue;
+  will-change: left, right;
+}
+
+/* line 156, ../sass/components/_global.scss */
+.tabs-content {
+  width: 100%;
+}
+
+/* line 160, ../sass/components/_global.scss */
+.carousel-item {
+  position: absolute;
 }
 
 /* line 1, ../sass/components/_layout.scss */
@@ -533,22 +619,23 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  display: flex !important;
 }
-/* line 29, ../sass/components/_layout.scss */
+/* line 30, ../sass/components/_layout.scss */
 .np-layout > .control {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 33, ../sass/components/_layout.scss */
+/* line 34, ../sass/components/_layout.scss */
 .np-layout .horizontal > .control:not(:first-child) {
   padding-left: 5px;
 }
-/* line 37, ../sass/components/_layout.scss */
+/* line 38, ../sass/components/_layout.scss */
 .np-layout.horizontal > .np-layout:not(:first-child) {
   padding-left: 20px;
 }
-/* line 41, ../sass/components/_layout.scss */
+/* line 42, ../sass/components/_layout.scss */
 .np-layout.vertical > .np-layout:not(:first-child) {
   padding-top: 5px;
 }
@@ -832,29 +919,29 @@ body {
 .sections > div {
   position: absolute;
   top: 0;
-  -moz-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate3d(100%, 0, 0);
-  -webkit-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 /* line 105, ../sass/components/_mixins.scss */
 .sections > div:first-child {
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 /* line 92, ../sass/components/_mixins.scss */
@@ -865,29 +952,29 @@ body {
 .pages > div {
   position: absolute;
   top: 0;
-  -moz-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate3d(100%, 0, 0);
-  -webkit-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
   transition-property: all;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 /* line 105, ../sass/components/_mixins.scss */
 .pages > div:first-child {
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 /* line 1, ../sass/components/_forms.scss */
