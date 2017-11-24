@@ -1,8 +1,8 @@
 .np-button {
     height: 100%;
     @include flex-center(column);
-    color: map-get($button, color);
-    background: map-get($colors, default);
+    color: $primary-text;
+    background: $primary-color;
     border-radius: map-get($button, radius);
   	padding: map-get($button, padding);
   	cursor: pointer;
@@ -10,6 +10,10 @@
     &:active,
     &:focus {
         outline: none;
+    }
+
+    &:hover {
+        background: $primary-color-hover;
     }
 
     &.icon.text {
@@ -45,13 +49,11 @@
 
     .np-caption {
         font-size: 1.9vh;
-        height: 100%;
         text-align: center;
         padding: 0;
-        width: 100%;
         @include flex-center();
         line-height: 1.3;
-        overflow: hidden;
+        @include setWH100;
 
         span {
             display: block;

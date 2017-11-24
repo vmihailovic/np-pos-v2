@@ -204,8 +204,8 @@
 
 	&.active {
 		.name {
-			background: map-get($colors, default);
-			color: map-get($button, color);
+			background: $primary-color;
+			color: $primary-text;
 
             .np-icon {
                 display: block;

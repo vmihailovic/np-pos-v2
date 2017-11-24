@@ -1,15 +1,35 @@
+// Font
 $font: (
 		family: ('Segoe UI Semilight', 'Segoe UI Regular', 'Gill Sans'),
-		color: #707070,
+		color: color("grey", "darken-1"), // #757575
 		size: 15px,
 );
 
-$colors:(
-        default: #0072bc
-);
 
+// Colors
+$primary-color: color("light-blue","darken-3"); // #0277bd
+$primary-text: color("shades","white"); // #ffffff
+$primary-color-hover: darken($primary-color, 5%);
+
+
+// Buttons
 $button: (
 		radius: 4px,
-		padding: 5px,
-		color: #fff
+		padding: 5px
+);
+
+
+// Navigation
+$top-navbar: (
+		background: #f5f5f5,
+		box-shadow-color: #ccc,
+		border-bottom-color: #c2d8f3
+);
+
+$logo: ();
+
+$navigation: (
+		color: #bdbdbd,
+		active: $primary-color,
+		indicator-height: 4px
 );

@@ -63,19 +63,4005 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 365, ../sass/components/_colors.scss */
+.materialize-red {
+  background-color: #e51c23 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.materialize-red:hover {
+  background-color: #d0181e !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.materialize-red-text {
+  color: #e51c23 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.lighten-5 {
+  background-color: #fdeaeb !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.lighten-5:hover {
+  background-color: #fbd3d5 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-lighten-5 {
+  color: #fdeaeb !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.lighten-4 {
+  background-color: #f8c1c3 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.lighten-4:hover {
+  background-color: #f5aaad !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-lighten-4 {
+  color: #f8c1c3 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.lighten-3 {
+  background-color: #f3989b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.lighten-3:hover {
+  background-color: #f08185 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-lighten-3 {
+  color: #f3989b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.lighten-2 {
+  background-color: #ee6e73 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.lighten-2:hover {
+  background-color: #eb575d !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-lighten-2 {
+  color: #ee6e73 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.lighten-1 {
+  background-color: #ea454b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.lighten-1:hover {
+  background-color: #e72e35 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-lighten-1 {
+  color: #ea454b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.darken-1 {
+  background-color: #d0181e !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.darken-1:hover {
+  background-color: #b9151b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-darken-1 {
+  color: #d0181e !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.darken-2 {
+  background-color: #b9151b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.darken-2:hover {
+  background-color: #a21218 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-darken-2 {
+  color: #b9151b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.darken-3 {
+  background-color: #a21318 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.darken-3:hover {
+  background-color: #8b1015 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-darken-3 {
+  color: #a21318 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.materialize-red.darken-4 {
+  background-color: #8b1014 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.materialize-red.darken-4:hover {
+  background-color: #740d11 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.materialize-red-text.text-darken-4 {
+  color: #8b1014 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.red {
+  background-color: #F44336 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.red:hover {
+  background-color: #f32c1e !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.red-text {
+  color: #F44336 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.lighten-5 {
+  background-color: #FFEBEE !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.lighten-5:hover {
+  background-color: #ffd2d8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-lighten-5 {
+  color: #FFEBEE !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.lighten-4 {
+  background-color: #FFCDD2 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.lighten-4:hover {
+  background-color: #ffb4bb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-lighten-4 {
+  color: #FFCDD2 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.lighten-3 {
+  background-color: #EF9A9A !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.lighten-3:hover {
+  background-color: #ec8484 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-lighten-3 {
+  color: #EF9A9A !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.lighten-2 {
+  background-color: #E57373 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.lighten-2:hover {
+  background-color: #e15d5d !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-lighten-2 {
+  color: #E57373 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.lighten-1 {
+  background-color: #EF5350 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.lighten-1:hover {
+  background-color: #ed3c39 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-lighten-1 {
+  color: #EF5350 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.darken-1 {
+  background-color: #E53935 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.darken-1:hover {
+  background-color: #e2231e !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-darken-1 {
+  color: #E53935 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.darken-2 {
+  background-color: #D32F2F !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.darken-2:hover {
+  background-color: #c02929 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-darken-2 {
+  color: #D32F2F !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.darken-3 {
+  background-color: #C62828 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.darken-3:hover {
+  background-color: #b12424 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-darken-3 {
+  color: #C62828 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.darken-4 {
+  background-color: #B71C1C !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.darken-4:hover {
+  background-color: #a11919 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-darken-4 {
+  color: #B71C1C !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.accent-1 {
+  background-color: #FF8A80 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.accent-1:hover {
+  background-color: #ff7367 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-accent-1 {
+  color: #FF8A80 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.accent-2 {
+  background-color: #FF5252 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.accent-2:hover {
+  background-color: #ff3939 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-accent-2 {
+  color: #FF5252 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.accent-3 {
+  background-color: #FF1744 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.accent-3:hover {
+  background-color: #fd0031 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-accent-3 {
+  color: #FF1744 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.red.accent-4 {
+  background-color: #D50000 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.red.accent-4:hover {
+  background-color: #bc0000 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.red-text.text-accent-4 {
+  color: #D50000 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.pink {
+  background-color: #e91e63 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.pink:hover {
+  background-color: #d81558 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.pink-text {
+  color: #e91e63 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.lighten-5 {
+  background-color: #fce4ec !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.lighten-5:hover {
+  background-color: #f9cddc !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-lighten-5 {
+  color: #fce4ec !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.lighten-4 {
+  background-color: #f8bbd0 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.lighten-4:hover {
+  background-color: #f6a4c0 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-lighten-4 {
+  color: #f8bbd0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.lighten-3 {
+  background-color: #f48fb1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.lighten-3:hover {
+  background-color: #f278a1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-lighten-3 {
+  color: #f48fb1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.lighten-2 {
+  background-color: #f06292 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.lighten-2:hover {
+  background-color: #ee4b82 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-lighten-2 {
+  color: #f06292 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.lighten-1 {
+  background-color: #ec407a !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.lighten-1:hover {
+  background-color: #ea296a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-lighten-1 {
+  color: #ec407a !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.darken-1 {
+  background-color: #d81b60 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.darken-1:hover {
+  background-color: #c11856 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-darken-1 {
+  color: #d81b60 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.darken-2 {
+  background-color: #c2185b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.darken-2:hover {
+  background-color: #ab1550 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-darken-2 {
+  color: #c2185b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.darken-3 {
+  background-color: #ad1457 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.darken-3:hover {
+  background-color: #96114c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-darken-3 {
+  color: #ad1457 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.darken-4 {
+  background-color: #880e4f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.darken-4:hover {
+  background-color: #710c42 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-darken-4 {
+  color: #880e4f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.accent-1 {
+  background-color: #ff80ab !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.accent-1:hover {
+  background-color: #ff679a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-accent-1 {
+  color: #ff80ab !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.accent-2 {
+  background-color: #ff4081 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.accent-2:hover {
+  background-color: #ff2770 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-accent-2 {
+  color: #ff4081 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.accent-3 {
+  background-color: #f50057 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.accent-3:hover {
+  background-color: #dc004e !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-accent-3 {
+  color: #f50057 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.pink.accent-4 {
+  background-color: #c51162 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.pink.accent-4:hover {
+  background-color: #ae0f56 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.pink-text.text-accent-4 {
+  color: #c51162 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.purple {
+  background-color: #9c27b0 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.purple:hover {
+  background-color: #89229b !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.purple-text {
+  color: #9c27b0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.lighten-5 {
+  background-color: #f3e5f5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.lighten-5:hover {
+  background-color: #ebd3ee !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-lighten-5 {
+  color: #f3e5f5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.lighten-4 {
+  background-color: #e1bee7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.lighten-4:hover {
+  background-color: #d8abe0 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-lighten-4 {
+  color: #e1bee7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.lighten-3 {
+  background-color: #ce93d8 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.lighten-3:hover {
+  background-color: #c680d1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-lighten-3 {
+  color: #ce93d8 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.lighten-2 {
+  background-color: #ba68c8 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.lighten-2:hover {
+  background-color: #b155c1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-lighten-2 {
+  color: #ba68c8 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.lighten-1 {
+  background-color: #ab47bc !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.lighten-1:hover {
+  background-color: #9b3eab !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-lighten-1 {
+  color: #ab47bc !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.darken-1 {
+  background-color: #8e24aa !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.darken-1:hover {
+  background-color: #7c2095 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-darken-1 {
+  color: #8e24aa !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.darken-2 {
+  background-color: #7b1fa2 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.darken-2:hover {
+  background-color: #6b1b8d !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-darken-2 {
+  color: #7b1fa2 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.darken-3 {
+  background-color: #6a1b9a !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.darken-3:hover {
+  background-color: #5b1784 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-darken-3 {
+  color: #6a1b9a !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.darken-4 {
+  background-color: #4a148c !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.darken-4:hover {
+  background-color: #3e1176 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-darken-4 {
+  color: #4a148c !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.accent-1 {
+  background-color: #ea80fc !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.accent-1:hover {
+  background-color: #e667fb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-accent-1 {
+  color: #ea80fc !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.accent-2 {
+  background-color: #e040fb !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.accent-2:hover {
+  background-color: #dc27fa !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-accent-2 {
+  color: #e040fb !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.accent-3 {
+  background-color: #d500f9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.accent-3:hover {
+  background-color: #bf00e0 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-accent-3 {
+  color: #d500f9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.purple.accent-4 {
+  background-color: #aa00ff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.purple.accent-4:hover {
+  background-color: #9900e6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.purple-text.text-accent-4 {
+  color: #aa00ff !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.deep-purple {
+  background-color: #673ab7 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.deep-purple:hover {
+  background-color: #5c34a4 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.deep-purple-text {
+  color: #673ab7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.lighten-5 {
+  background-color: #ede7f6 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.lighten-5:hover {
+  background-color: #dfd4ef !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-lighten-5 {
+  color: #ede7f6 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.lighten-4 {
+  background-color: #d1c4e9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.lighten-4:hover {
+  background-color: #c3b1e2 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-lighten-4 {
+  color: #d1c4e9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.lighten-3 {
+  background-color: #b39ddb !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.lighten-3:hover {
+  background-color: #a58ad4 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-lighten-3 {
+  color: #b39ddb !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.lighten-2 {
+  background-color: #9575cd !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.lighten-2:hover {
+  background-color: #8762c6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-lighten-2 {
+  color: #9575cd !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.lighten-1 {
+  background-color: #7e57c2 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.lighten-1:hover {
+  background-color: #7044bb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-lighten-1 {
+  color: #7e57c2 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.darken-1 {
+  background-color: #5e35b1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.darken-1:hover {
+  background-color: #542f9d !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-darken-1 {
+  color: #5e35b1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.darken-2 {
+  background-color: #512da8 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.darken-2:hover {
+  background-color: #472894 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-darken-2 {
+  color: #512da8 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.darken-3 {
+  background-color: #4527a0 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.darken-3:hover {
+  background-color: #3c228b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-darken-3 {
+  color: #4527a0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.darken-4 {
+  background-color: #311b92 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.darken-4:hover {
+  background-color: #2a177c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-darken-4 {
+  color: #311b92 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.accent-1 {
+  background-color: #b388ff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.accent-1:hover {
+  background-color: #a36fff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-accent-1 {
+  color: #b388ff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.accent-2 {
+  background-color: #7c4dff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.accent-2:hover {
+  background-color: #6934ff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-accent-2 {
+  color: #7c4dff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.accent-3 {
+  background-color: #651fff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.accent-3:hover {
+  background-color: #5306ff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-accent-3 {
+  color: #651fff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-purple.accent-4 {
+  background-color: #6200ea !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-purple.accent-4:hover {
+  background-color: #5700d1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-purple-text.text-accent-4 {
+  color: #6200ea !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.indigo {
+  background-color: #3f51b5 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.indigo:hover {
+  background-color: #3849a2 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.indigo-text {
+  color: #3f51b5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.lighten-5 {
+  background-color: #e8eaf6 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.lighten-5:hover {
+  background-color: #d6d9ef !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-lighten-5 {
+  color: #e8eaf6 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.lighten-4 {
+  background-color: #c5cae9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.lighten-4:hover {
+  background-color: #b3b9e2 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-lighten-4 {
+  color: #c5cae9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.lighten-3 {
+  background-color: #9fa8da !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.lighten-3:hover {
+  background-color: #8d97d3 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-lighten-3 {
+  color: #9fa8da !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.lighten-2 {
+  background-color: #7986cb !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.lighten-2:hover {
+  background-color: #6775c4 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-lighten-2 {
+  color: #7986cb !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.lighten-1 {
+  background-color: #5c6bc0 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.lighten-1:hover {
+  background-color: #4a5ab9 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-lighten-1 {
+  color: #5c6bc0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.darken-1 {
+  background-color: #3949ab !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.darken-1:hover {
+  background-color: #334198 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-darken-1 {
+  color: #3949ab !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.darken-2 {
+  background-color: #303f9f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.darken-2:hover {
+  background-color: #2a378b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-darken-2 {
+  color: #303f9f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.darken-3 {
+  background-color: #283593 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.darken-3:hover {
+  background-color: #232e7f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-darken-3 {
+  color: #283593 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.darken-4 {
+  background-color: #1a237e !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.darken-4:hover {
+  background-color: #161d69 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-darken-4 {
+  color: #1a237e !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.accent-1 {
+  background-color: #8c9eff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.accent-1:hover {
+  background-color: #7388ff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-accent-1 {
+  color: #8c9eff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.accent-2 {
+  background-color: #536dfe !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.accent-2:hover {
+  background-color: #3a57fe !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-accent-2 {
+  color: #536dfe !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.accent-3 {
+  background-color: #3d5afe !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.accent-3:hover {
+  background-color: #2444fe !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-accent-3 {
+  color: #3d5afe !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.indigo.accent-4 {
+  background-color: #304ffe !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.indigo.accent-4:hover {
+  background-color: #1739fe !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.indigo-text.text-accent-4 {
+  color: #304ffe !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.blue {
+  background-color: #2196F3 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.blue:hover {
+  background-color: #0d8aee !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.blue-text {
+  color: #2196F3 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.lighten-5 {
+  background-color: #E3F2FD !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.lighten-5:hover {
+  background-color: #cbe7fb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-lighten-5 {
+  color: #E3F2FD !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.lighten-4 {
+  background-color: #BBDEFB !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.lighten-4:hover {
+  background-color: #a3d2fa !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-lighten-4 {
+  color: #BBDEFB !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.lighten-3 {
+  background-color: #90CAF9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.lighten-3:hover {
+  background-color: #78bef8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-lighten-3 {
+  color: #90CAF9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.lighten-2 {
+  background-color: #64B5F6 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.lighten-2:hover {
+  background-color: #4ca9f5 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-lighten-2 {
+  color: #64B5F6 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.lighten-1 {
+  background-color: #42A5F5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.lighten-1:hover {
+  background-color: #2a99f4 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-lighten-1 {
+  color: #42A5F5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.darken-1 {
+  background-color: #1E88E5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.darken-1:hover {
+  background-color: #187bd1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-darken-1 {
+  color: #1E88E5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.darken-2 {
+  background-color: #1976D2 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.darken-2:hover {
+  background-color: #1669bb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-darken-2 {
+  color: #1976D2 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.darken-3 {
+  background-color: #1565C0 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.darken-3:hover {
+  background-color: #1259a9 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-darken-3 {
+  color: #1565C0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.darken-4 {
+  background-color: #0D47A1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.darken-4:hover {
+  background-color: #0b3d89 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-darken-4 {
+  color: #0D47A1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.accent-1 {
+  background-color: #82B1FF !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.accent-1:hover {
+  background-color: #69a1ff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-accent-1 {
+  color: #82B1FF !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.accent-2 {
+  background-color: #448AFF !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.accent-2:hover {
+  background-color: #2b7aff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-accent-2 {
+  color: #448AFF !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.accent-3 {
+  background-color: #2979FF !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.accent-3:hover {
+  background-color: #1069ff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-accent-3 {
+  color: #2979FF !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue.accent-4 {
+  background-color: #2962FF !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue.accent-4:hover {
+  background-color: #104fff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-text.text-accent-4 {
+  color: #2962FF !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.light-blue {
+  background-color: #03a9f4 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.light-blue:hover {
+  background-color: #0398db !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.light-blue-text {
+  color: #03a9f4 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.lighten-5 {
+  background-color: #e1f5fe !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.lighten-5:hover {
+  background-color: #c8edfd !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-lighten-5 {
+  color: #e1f5fe !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.lighten-4 {
+  background-color: #b3e5fc !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.lighten-4:hover {
+  background-color: #9addfb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-lighten-4 {
+  color: #b3e5fc !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.lighten-3 {
+  background-color: #81d4fa !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.lighten-3:hover {
+  background-color: #68ccf9 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-lighten-3 {
+  color: #81d4fa !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.lighten-2 {
+  background-color: #4fc3f7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.lighten-2:hover {
+  background-color: #37bbf6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-lighten-2 {
+  color: #4fc3f7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.lighten-1 {
+  background-color: #29b6f6 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.lighten-1:hover {
+  background-color: #11aef5 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-lighten-1 {
+  color: #29b6f6 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.darken-1 {
+  background-color: #039be5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.darken-1:hover {
+  background-color: #038acc !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-darken-1 {
+  color: #039be5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.darken-2 {
+  background-color: #0288d1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.darken-2:hover {
+  background-color: #0278b8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-darken-2 {
+  color: #0288d1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.darken-3 {
+  background-color: #0277bd !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.darken-3:hover {
+  background-color: #0267a4 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-darken-3 {
+  color: #0277bd !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.darken-4 {
+  background-color: #01579b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.darken-4:hover {
+  background-color: #014982 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-darken-4 {
+  color: #01579b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.accent-1 {
+  background-color: #80d8ff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.accent-1:hover {
+  background-color: #67d0ff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-accent-1 {
+  color: #80d8ff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.accent-2 {
+  background-color: #40c4ff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.accent-2:hover {
+  background-color: #27bcff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-accent-2 {
+  color: #40c4ff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.accent-3 {
+  background-color: #00b0ff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.accent-3:hover {
+  background-color: #009ee6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-accent-3 {
+  color: #00b0ff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-blue.accent-4 {
+  background-color: #0091ea !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-blue.accent-4:hover {
+  background-color: #0081d1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-blue-text.text-accent-4 {
+  color: #0091ea !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.cyan {
+  background-color: #00bcd4 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.cyan:hover {
+  background-color: #00a5bb !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.cyan-text {
+  color: #00bcd4 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.lighten-5 {
+  background-color: #e0f7fa !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.lighten-5:hover {
+  background-color: #caf1f6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-lighten-5 {
+  color: #e0f7fa !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.lighten-4 {
+  background-color: #b2ebf2 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.lighten-4:hover {
+  background-color: #9ce5ee !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-lighten-4 {
+  color: #b2ebf2 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.lighten-3 {
+  background-color: #80deea !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.lighten-3:hover {
+  background-color: #6ad8e6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-lighten-3 {
+  color: #80deea !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.lighten-2 {
+  background-color: #4dd0e1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.lighten-2:hover {
+  background-color: #37cadd !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-lighten-2 {
+  color: #4dd0e1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.lighten-1 {
+  background-color: #26c6da !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.lighten-1:hover {
+  background-color: #22b3c5 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-lighten-1 {
+  color: #26c6da !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.darken-1 {
+  background-color: #00acc1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.darken-1:hover {
+  background-color: #0095a8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-darken-1 {
+  color: #00acc1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.darken-2 {
+  background-color: #0097a7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.darken-2:hover {
+  background-color: #00808e !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-darken-2 {
+  color: #0097a7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.darken-3 {
+  background-color: #00838f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.darken-3:hover {
+  background-color: #006c76 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-darken-3 {
+  color: #00838f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.darken-4 {
+  background-color: #006064 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.darken-4:hover {
+  background-color: #00484b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-darken-4 {
+  color: #006064 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.accent-1 {
+  background-color: #84ffff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.accent-1:hover {
+  background-color: #6bffff !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-accent-1 {
+  color: #84ffff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.accent-2 {
+  background-color: #18ffff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.accent-2:hover {
+  background-color: #00fefe !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-accent-2 {
+  color: #18ffff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.accent-3 {
+  background-color: #00e5ff !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.accent-3:hover {
+  background-color: #00cee6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-accent-3 {
+  color: #00e5ff !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.cyan.accent-4 {
+  background-color: #00b8d4 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.cyan.accent-4:hover {
+  background-color: #00a2bb !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.cyan-text.text-accent-4 {
+  color: #00b8d4 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.teal {
+  background-color: #009688 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.teal:hover {
+  background-color: #007d71 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.teal-text {
+  color: #009688 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.lighten-5 {
+  background-color: #e0f2f1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.lighten-5:hover {
+  background-color: #ceeae9 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-lighten-5 {
+  color: #e0f2f1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.lighten-4 {
+  background-color: #b2dfdb !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.lighten-4:hover {
+  background-color: #a0d8d3 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-lighten-4 {
+  color: #b2dfdb !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.lighten-3 {
+  background-color: #80cbc4 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.lighten-3:hover {
+  background-color: #6ec4bc !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-lighten-3 {
+  color: #80cbc4 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.lighten-2 {
+  background-color: #4db6ac !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.lighten-2:hover {
+  background-color: #44a69c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-lighten-2 {
+  color: #4db6ac !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.lighten-1 {
+  background-color: #26a69a !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.lighten-1:hover {
+  background-color: #219187 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-lighten-1 {
+  color: #26a69a !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.darken-1 {
+  background-color: #00897b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.darken-1:hover {
+  background-color: #007064 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-darken-1 {
+  color: #00897b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.darken-2 {
+  background-color: #00796b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.darken-2:hover {
+  background-color: #006054 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-darken-2 {
+  color: #00796b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.darken-3 {
+  background-color: #00695c !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.darken-3:hover {
+  background-color: #005046 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-darken-3 {
+  color: #00695c !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.darken-4 {
+  background-color: #004d40 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.darken-4:hover {
+  background-color: #00342b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-darken-4 {
+  color: #004d40 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.accent-1 {
+  background-color: #a7ffeb !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.accent-1:hover {
+  background-color: #8effe5 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-accent-1 {
+  color: #a7ffeb !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.accent-2 {
+  background-color: #64ffda !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.accent-2:hover {
+  background-color: #4bffd4 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-accent-2 {
+  color: #64ffda !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.accent-3 {
+  background-color: #1de9b6 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.accent-3:hover {
+  background-color: #15d8a7 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-accent-3 {
+  color: #1de9b6 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.teal.accent-4 {
+  background-color: #00bfa5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.teal.accent-4:hover {
+  background-color: #00a68f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.teal-text.text-accent-4 {
+  color: #00bfa5 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.green {
+  background-color: #4CAF50 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.green:hover {
+  background-color: #449d48 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.green-text {
+  color: #4CAF50 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.lighten-5 {
+  background-color: #E8F5E9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.lighten-5:hover {
+  background-color: #d6edd8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-lighten-5 {
+  color: #E8F5E9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.lighten-4 {
+  background-color: #C8E6C9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.lighten-4:hover {
+  background-color: #b6deb8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-lighten-4 {
+  color: #C8E6C9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.lighten-3 {
+  background-color: #A5D6A7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.lighten-3:hover {
+  background-color: #93ce96 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-lighten-3 {
+  color: #A5D6A7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.lighten-2 {
+  background-color: #81C784 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.lighten-2:hover {
+  background-color: #6fbf73 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-lighten-2 {
+  color: #81C784 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.lighten-1 {
+  background-color: #66BB6A !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.lighten-1:hover {
+  background-color: #54b359 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-lighten-1 {
+  color: #66BB6A !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.darken-1 {
+  background-color: #43A047 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.darken-1:hover {
+  background-color: #3b8e3f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-darken-1 {
+  color: #43A047 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.darken-2 {
+  background-color: #388E3C !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.darken-2:hover {
+  background-color: #317c34 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-darken-2 {
+  color: #388E3C !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.darken-3 {
+  background-color: #2E7D32 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.darken-3:hover {
+  background-color: #276a2b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-darken-3 {
+  color: #2E7D32 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.darken-4 {
+  background-color: #1B5E20 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.darken-4:hover {
+  background-color: #154a19 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-darken-4 {
+  color: #1B5E20 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.accent-1 {
+  background-color: #B9F6CA !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.accent-1:hover {
+  background-color: #a2f3b9 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-accent-1 {
+  color: #B9F6CA !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.accent-2 {
+  background-color: #69F0AE !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.accent-2:hover {
+  background-color: #52eea1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-accent-2 {
+  color: #69F0AE !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.accent-3 {
+  background-color: #00E676 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.accent-3:hover {
+  background-color: #00cd69 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-accent-3 {
+  color: #00E676 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.green.accent-4 {
+  background-color: #00C853 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.green.accent-4:hover {
+  background-color: #00af48 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.green-text.text-accent-4 {
+  color: #00C853 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.light-green {
+  background-color: #8bc34a !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.light-green:hover {
+  background-color: #7eb73d !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.light-green-text {
+  color: #8bc34a !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.lighten-5 {
+  background-color: #f1f8e9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.lighten-5:hover {
+  background-color: #e5f2d6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-lighten-5 {
+  color: #f1f8e9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.lighten-4 {
+  background-color: #dcedc8 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.lighten-4:hover {
+  background-color: #d0e7b5 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-lighten-4 {
+  color: #dcedc8 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.lighten-3 {
+  background-color: #c5e1a5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.lighten-3:hover {
+  background-color: #b9db92 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-lighten-3 {
+  color: #c5e1a5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.lighten-2 {
+  background-color: #aed581 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.lighten-2:hover {
+  background-color: #a2cf6e !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-lighten-2 {
+  color: #aed581 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.lighten-1 {
+  background-color: #9ccc65 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.lighten-1:hover {
+  background-color: #90c652 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-lighten-1 {
+  color: #9ccc65 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.darken-1 {
+  background-color: #7cb342 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.darken-1:hover {
+  background-color: #6fa03b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-darken-1 {
+  color: #7cb342 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.darken-2 {
+  background-color: #689f38 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.darken-2:hover {
+  background-color: #5c8c31 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-darken-2 {
+  color: #689f38 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.darken-3 {
+  background-color: #558b2f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.darken-3:hover {
+  background-color: #497829 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-darken-3 {
+  color: #558b2f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.darken-4 {
+  background-color: #33691e !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.darken-4:hover {
+  background-color: #295518 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-darken-4 {
+  color: #33691e !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.accent-1 {
+  background-color: #ccff90 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.accent-1:hover {
+  background-color: #c0ff77 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-accent-1 {
+  color: #ccff90 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.accent-2 {
+  background-color: #b2ff59 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.accent-2:hover {
+  background-color: #a6ff40 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-accent-2 {
+  color: #b2ff59 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.accent-3 {
+  background-color: #76ff03 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.accent-3:hover {
+  background-color: #6ae900 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-accent-3 {
+  color: #76ff03 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.light-green.accent-4 {
+  background-color: #64dd17 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.light-green.accent-4:hover {
+  background-color: #5ac615 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.light-green-text.text-accent-4 {
+  color: #64dd17 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.lime {
+  background-color: #cddc39 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.lime:hover {
+  background-color: #c6d626 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.lime-text {
+  color: #cddc39 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.lighten-5 {
+  background-color: #f9fbe7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.lighten-5:hover {
+  background-color: #f4f7d1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-lighten-5 {
+  color: #f9fbe7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.lighten-4 {
+  background-color: #f0f4c3 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.lighten-4:hover {
+  background-color: #ebf0ad !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-lighten-4 {
+  color: #f0f4c3 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.lighten-3 {
+  background-color: #e6ee9c !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.lighten-3:hover {
+  background-color: #e1ea86 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-lighten-3 {
+  color: #e6ee9c !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.lighten-2 {
+  background-color: #dce775 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.lighten-2:hover {
+  background-color: #d6e35f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-lighten-2 {
+  color: #dce775 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.lighten-1 {
+  background-color: #d4e157 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.lighten-1:hover {
+  background-color: #cedd41 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-lighten-1 {
+  color: #d4e157 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.darken-1 {
+  background-color: #c0ca33 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.darken-1:hover {
+  background-color: #adb62e !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-darken-1 {
+  color: #c0ca33 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.darken-2 {
+  background-color: #afb42b !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.darken-2:hover {
+  background-color: #9b9f26 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-darken-2 {
+  color: #afb42b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.darken-3 {
+  background-color: #9e9d24 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.darken-3:hover {
+  background-color: #89881f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-darken-3 {
+  color: #9e9d24 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.darken-4 {
+  background-color: #827717 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.darken-4:hover {
+  background-color: #6c6313 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-darken-4 {
+  color: #827717 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.accent-1 {
+  background-color: #f4ff81 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.accent-1:hover {
+  background-color: #f2ff68 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-accent-1 {
+  color: #f4ff81 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.accent-2 {
+  background-color: #eeff41 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.accent-2:hover {
+  background-color: #ecff28 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-accent-2 {
+  color: #eeff41 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.accent-3 {
+  background-color: #c6ff00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.accent-3:hover {
+  background-color: #b2e600 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-accent-3 {
+  color: #c6ff00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.lime.accent-4 {
+  background-color: #aeea00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.lime.accent-4:hover {
+  background-color: #9bd100 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.lime-text.text-accent-4 {
+  color: #aeea00 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.yellow {
+  background-color: #ffeb3b !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.yellow:hover {
+  background-color: #ffe822 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.yellow-text {
+  color: #ffeb3b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.lighten-5 {
+  background-color: #fffde7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.lighten-5:hover {
+  background-color: #fffbce !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-lighten-5 {
+  color: #fffde7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.lighten-4 {
+  background-color: #fff9c4 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.lighten-4:hover {
+  background-color: #fff6ab !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-lighten-4 {
+  color: #fff9c4 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.lighten-3 {
+  background-color: #fff59d !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.lighten-3:hover {
+  background-color: #fff284 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-lighten-3 {
+  color: #fff59d !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.lighten-2 {
+  background-color: #fff176 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.lighten-2:hover {
+  background-color: #ffee5d !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-lighten-2 {
+  color: #fff176 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.lighten-1 {
+  background-color: #ffee58 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.lighten-1:hover {
+  background-color: #ffeb3f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-lighten-1 {
+  color: #ffee58 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.darken-1 {
+  background-color: #fdd835 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.darken-1:hover {
+  background-color: #fdd31c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-darken-1 {
+  color: #fdd835 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.darken-2 {
+  background-color: #fbc02d !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.darken-2:hover {
+  background-color: #fbb814 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-darken-2 {
+  color: #fbc02d !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.darken-3 {
+  background-color: #f9a825 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.darken-3:hover {
+  background-color: #f89e0c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-darken-3 {
+  color: #f9a825 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.darken-4 {
+  background-color: #f57f17 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.darken-4:hover {
+  background-color: #e8720a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-darken-4 {
+  color: #f57f17 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.accent-1 {
+  background-color: #ffff8d !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.accent-1:hover {
+  background-color: #ffff74 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-accent-1 {
+  color: #ffff8d !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.accent-2 {
+  background-color: #ffff00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.accent-2:hover {
+  background-color: #e6e600 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-accent-2 {
+  color: #ffff00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.accent-3 {
+  background-color: #ffea00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.accent-3:hover {
+  background-color: #e6d300 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-accent-3 {
+  color: #ffea00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.yellow.accent-4 {
+  background-color: #ffd600 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.yellow.accent-4:hover {
+  background-color: #e6c100 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.yellow-text.text-accent-4 {
+  color: #ffd600 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.amber {
+  background-color: #ffc107 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.amber:hover {
+  background-color: #edb100 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.amber-text {
+  color: #ffc107 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.lighten-5 {
+  background-color: #fff8e1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.lighten-5:hover {
+  background-color: #fff2c8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-lighten-5 {
+  color: #fff8e1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.lighten-4 {
+  background-color: #ffecb3 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.lighten-4:hover {
+  background-color: #ffe69a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-lighten-4 {
+  color: #ffecb3 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.lighten-3 {
+  background-color: #ffe082 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.lighten-3:hover {
+  background-color: #ffda69 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-lighten-3 {
+  color: #ffe082 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.lighten-2 {
+  background-color: #ffd54f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.lighten-2:hover {
+  background-color: #ffcf36 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-lighten-2 {
+  color: #ffd54f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.lighten-1 {
+  background-color: #ffca28 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.lighten-1:hover {
+  background-color: #ffc40f !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-lighten-1 {
+  color: #ffca28 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.darken-1 {
+  background-color: #ffb300 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.darken-1:hover {
+  background-color: #e6a100 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-darken-1 {
+  color: #ffb300 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.darken-2 {
+  background-color: #ffa000 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.darken-2:hover {
+  background-color: #e69000 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-darken-2 {
+  color: #ffa000 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.darken-3 {
+  background-color: #ff8f00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.darken-3:hover {
+  background-color: #e68100 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-darken-3 {
+  color: #ff8f00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.darken-4 {
+  background-color: #ff6f00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.darken-4:hover {
+  background-color: #e66400 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-darken-4 {
+  color: #ff6f00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.accent-1 {
+  background-color: #ffe57f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.accent-1:hover {
+  background-color: #ffe066 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-accent-1 {
+  color: #ffe57f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.accent-2 {
+  background-color: #ffd740 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.accent-2:hover {
+  background-color: #ffd227 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-accent-2 {
+  color: #ffd740 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.accent-3 {
+  background-color: #ffc400 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.accent-3:hover {
+  background-color: #e6b000 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-accent-3 {
+  color: #ffc400 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.amber.accent-4 {
+  background-color: #ffab00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.amber.accent-4:hover {
+  background-color: #e69a00 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.amber-text.text-accent-4 {
+  color: #ffab00 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.orange {
+  background-color: #ff9800 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.orange:hover {
+  background-color: #e68900 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.orange-text {
+  color: #ff9800 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.lighten-5 {
+  background-color: #fff3e0 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.lighten-5:hover {
+  background-color: #ffe9c7 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-lighten-5 {
+  color: #fff3e0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.lighten-4 {
+  background-color: #ffe0b2 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.lighten-4:hover {
+  background-color: #ffd699 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-lighten-4 {
+  color: #ffe0b2 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.lighten-3 {
+  background-color: #ffcc80 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.lighten-3:hover {
+  background-color: #ffc267 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-lighten-3 {
+  color: #ffcc80 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.lighten-2 {
+  background-color: #ffb74d !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.lighten-2:hover {
+  background-color: #ffad34 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-lighten-2 {
+  color: #ffb74d !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.lighten-1 {
+  background-color: #ffa726 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.lighten-1:hover {
+  background-color: #ff9d0d !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-lighten-1 {
+  color: #ffa726 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.darken-1 {
+  background-color: #fb8c00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.darken-1:hover {
+  background-color: #e27e00 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-darken-1 {
+  color: #fb8c00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.darken-2 {
+  background-color: #f57c00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.darken-2:hover {
+  background-color: #dc6f00 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-darken-2 {
+  color: #f57c00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.darken-3 {
+  background-color: #ef6c00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.darken-3:hover {
+  background-color: #d66000 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-darken-3 {
+  color: #ef6c00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.darken-4 {
+  background-color: #e65100 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.darken-4:hover {
+  background-color: #cd4800 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-darken-4 {
+  color: #e65100 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.accent-1 {
+  background-color: #ffd180 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.accent-1:hover {
+  background-color: #ffc867 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-accent-1 {
+  color: #ffd180 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.accent-2 {
+  background-color: #ffab40 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.accent-2:hover {
+  background-color: #ffa027 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-accent-2 {
+  color: #ffab40 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.accent-3 {
+  background-color: #ff9100 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.accent-3:hover {
+  background-color: #e68300 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-accent-3 {
+  color: #ff9100 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.orange.accent-4 {
+  background-color: #ff6d00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.orange.accent-4:hover {
+  background-color: #e66200 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.orange-text.text-accent-4 {
+  color: #ff6d00 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.deep-orange {
+  background-color: #ff5722 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.deep-orange:hover {
+  background-color: #ff4409 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.deep-orange-text {
+  color: #ff5722 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.lighten-5 {
+  background-color: #fbe9e7 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.lighten-5:hover {
+  background-color: #f7d5d1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-lighten-5 {
+  color: #fbe9e7 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.lighten-4 {
+  background-color: #ffccbc !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.lighten-4:hover {
+  background-color: #ffb9a3 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-lighten-4 {
+  color: #ffccbc !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.lighten-3 {
+  background-color: #ffab91 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.lighten-3:hover {
+  background-color: #ff9878 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-lighten-3 {
+  color: #ffab91 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.lighten-2 {
+  background-color: #ff8a65 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.lighten-2:hover {
+  background-color: #ff774c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-lighten-2 {
+  color: #ff8a65 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.lighten-1 {
+  background-color: #ff7043 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.lighten-1:hover {
+  background-color: #ff5d2a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-lighten-1 {
+  color: #ff7043 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.darken-1 {
+  background-color: #f4511e !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.darken-1:hover {
+  background-color: #ed410c !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-darken-1 {
+  color: #f4511e !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.darken-2 {
+  background-color: #e64a19 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.darken-2:hover {
+  background-color: #cf4317 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-darken-2 {
+  color: #e64a19 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.darken-3 {
+  background-color: #d84315 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.darken-3:hover {
+  background-color: #c13c13 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-darken-3 {
+  color: #d84315 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.darken-4 {
+  background-color: #bf360c !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.darken-4:hover {
+  background-color: #a72f0a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-darken-4 {
+  color: #bf360c !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.accent-1 {
+  background-color: #ff9e80 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.accent-1:hover {
+  background-color: #ff8b67 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-accent-1 {
+  color: #ff9e80 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.accent-2 {
+  background-color: #ff6e40 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.accent-2:hover {
+  background-color: #ff5b27 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-accent-2 {
+  color: #ff6e40 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.accent-3 {
+  background-color: #ff3d00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.accent-3:hover {
+  background-color: #e63700 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-accent-3 {
+  color: #ff3d00 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.deep-orange.accent-4 {
+  background-color: #dd2c00 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.deep-orange.accent-4:hover {
+  background-color: #c42700 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.deep-orange-text.text-accent-4 {
+  color: #dd2c00 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.brown {
+  background-color: #795548 !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.brown:hover {
+  background-color: #694a3e !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.brown-text {
+  color: #795548 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.lighten-5 {
+  background-color: #efebe9 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.lighten-5:hover {
+  background-color: #e4deda !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-lighten-5 {
+  color: #efebe9 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.lighten-4 {
+  background-color: #d7ccc8 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.lighten-4:hover {
+  background-color: #ccbeb9 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-lighten-4 {
+  color: #d7ccc8 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.lighten-3 {
+  background-color: #bcaaa4 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.lighten-3:hover {
+  background-color: #b19c95 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-lighten-3 {
+  color: #bcaaa4 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.lighten-2 {
+  background-color: #a1887f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.lighten-2:hover {
+  background-color: #967a70 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-lighten-2 {
+  color: #a1887f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.lighten-1 {
+  background-color: #8d6e63 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.lighten-1:hover {
+  background-color: #7e6258 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-lighten-1 {
+  color: #8d6e63 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.darken-1 {
+  background-color: #6d4c41 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.darken-1:hover {
+  background-color: #5d4137 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-darken-1 {
+  color: #6d4c41 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.darken-2 {
+  background-color: #5d4037 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.darken-2:hover {
+  background-color: #4d352e !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-darken-2 {
+  color: #5d4037 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.darken-3 {
+  background-color: #4e342e !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.darken-3:hover {
+  background-color: #3e2925 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-darken-3 {
+  color: #4e342e !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.brown.darken-4 {
+  background-color: #3e2723 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.brown.darken-4:hover {
+  background-color: #2e1d1a !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.brown-text.text-darken-4 {
+  color: #3e2723 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.blue-grey {
+  background-color: #607d8b !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.blue-grey:hover {
+  background-color: #566f7c !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.blue-grey-text {
+  color: #607d8b !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.lighten-5 {
+  background-color: #eceff1 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.lighten-5:hover {
+  background-color: #dde3e6 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-lighten-5 {
+  color: #eceff1 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.lighten-4 {
+  background-color: #cfd8dc !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.lighten-4:hover {
+  background-color: #c0ccd1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-lighten-4 {
+  color: #cfd8dc !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.lighten-3 {
+  background-color: #b0bec5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.lighten-3:hover {
+  background-color: #a1b2ba !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-lighten-3 {
+  color: #b0bec5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.lighten-2 {
+  background-color: #90a4ae !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.lighten-2:hover {
+  background-color: #8198a3 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-lighten-2 {
+  color: #90a4ae !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.lighten-1 {
+  background-color: #78909c !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.lighten-1:hover {
+  background-color: #6a8491 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-lighten-1 {
+  color: #78909c !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.darken-1 {
+  background-color: #546e7a !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.darken-1:hover {
+  background-color: #4a606b !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-darken-1 {
+  color: #546e7a !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.darken-2 {
+  background-color: #455a64 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.darken-2:hover {
+  background-color: #3b4c55 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-darken-2 {
+  color: #455a64 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.darken-3 {
+  background-color: #37474f !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.darken-3:hover {
+  background-color: #2d3940 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-darken-3 {
+  color: #37474f !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.blue-grey.darken-4 {
+  background-color: #263238 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.blue-grey.darken-4:hover {
+  background-color: #1c2429 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.blue-grey-text.text-darken-4 {
+  color: #263238 !important;
+}
+
+/* line 365, ../sass/components/_colors.scss */
+.grey {
+  background-color: #9e9e9e !important;
+}
+
+/* line 368, ../sass/components/_colors.scss */
+.grey:hover {
+  background-color: #919191 !important;
+}
+
+/* line 371, ../sass/components/_colors.scss */
+.grey-text {
+  color: #9e9e9e !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.lighten-5 {
+  background-color: #fafafa !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.lighten-5:hover {
+  background-color: #ededed !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-lighten-5 {
+  color: #fafafa !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.lighten-4 {
+  background-color: #f5f5f5 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.lighten-4:hover {
+  background-color: #e8e8e8 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-lighten-4 {
+  color: #f5f5f5 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.lighten-3 {
+  background-color: #eeeeee !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.lighten-3:hover {
+  background-color: #e1e1e1 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-lighten-3 {
+  color: #eeeeee !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.lighten-2 {
+  background-color: #e0e0e0 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.lighten-2:hover {
+  background-color: lightgray !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-lighten-2 {
+  color: #e0e0e0 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.lighten-1 {
+  background-color: #bdbdbd !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.lighten-1:hover {
+  background-color: #b0b0b0 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-lighten-1 {
+  color: #bdbdbd !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.darken-1 {
+  background-color: #757575 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.darken-1:hover {
+  background-color: #686868 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-darken-1 {
+  color: #757575 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.darken-2 {
+  background-color: #616161 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.darken-2:hover {
+  background-color: #545454 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-darken-2 {
+  color: #616161 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.darken-3 {
+  background-color: #424242 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.darken-3:hover {
+  background-color: #353535 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-darken-3 {
+  color: #424242 !important;
+}
+
+/* line 376, ../sass/components/_colors.scss */
+.grey.darken-4 {
+  background-color: #212121 !important;
+}
+
+/* line 379, ../sass/components/_colors.scss */
+.grey.darken-4:hover {
+  background-color: #141414 !important;
+}
+
+/* line 382, ../sass/components/_colors.scss */
+.grey-text.text-darken-4 {
+  color: #212121 !important;
+}
+
+/* line 391, ../sass/components/_colors.scss */
+.black {
+  background-color: #000000 !important;
+}
+
+/* line 394, ../sass/components/_colors.scss */
+.black-text {
+  color: #000000 !important;
+}
+
+/* line 391, ../sass/components/_colors.scss */
+.white {
+  background-color: #FFFFFF !important;
+}
+
+/* line 394, ../sass/components/_colors.scss */
+.white-text {
+  color: #FFFFFF !important;
+}
+
+/* line 391, ../sass/components/_colors.scss */
+.transparent {
+  background-color: transparent !important;
+}
+
+/* line 394, ../sass/components/_colors.scss */
+.transparent-text {
+  color: transparent !important;
+}
+
 /* line 1, ../sass/components/_global.scss */
 * {
   box-sizing: border-box;
-  -moz-user-select: -moz-none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
-/* line 6, ../sass/components/_global.scss */
+/* line 5, ../sass/components/_global.scss */
 body {
   font-family: "Segoe UI Semilight", "Segoe UI Regular", "Gill Sans";
-  color: #707070;
+  color: #757575;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
@@ -84,37 +4070,37 @@ body {
   height: 100vh;
 }
 
-/* line 18, ../sass/components/_global.scss */
+/* line 17, ../sass/components/_global.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 22, ../sass/components/_global.scss */
+/* line 21, ../sass/components/_global.scss */
 .float-right {
   float: right;
 }
 
-/* line 26, ../sass/components/_global.scss */
+/* line 25, ../sass/components/_global.scss */
 .float-left {
   float: left;
 }
 
-/* line 30, ../sass/components/_global.scss */
+/* line 29, ../sass/components/_global.scss */
 .align-right {
   text-align: right;
 }
 
-/* line 34, ../sass/components/_global.scss */
+/* line 33, ../sass/components/_global.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 38, ../sass/components/_global.scss */
+/* line 37, ../sass/components/_global.scss */
 .align-center {
   text-align: center;
 }
 
-/* line 42, ../sass/components/_global.scss */
+/* line 41, ../sass/components/_global.scss */
 .h-v-center {
   -webkit-justify-content: center;
   justify-content: center;
@@ -122,17 +4108,17 @@ body {
   align-items: center;
 }
 
-/* line 47, ../sass/components/_global.scss */
+/* line 46, ../sass/components/_global.scss */
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-/* line 50, ../sass/components/_global.scss */
+/* line 49, ../sass/components/_global.scss */
 .flex-nowrap {
   flex-wrap: nowrap;
 }
 
-/* line 55, ../sass/components/_global.scss */
+/* line 54, ../sass/components/_global.scss */
 .border-radius {
   border-radius: 4px;
 }
@@ -487,7 +4473,7 @@ body {
   padding-right: 30px !important;
 }
 
-/* line 71, ../sass/components/_global.scss */
+/* line 70, ../sass/components/_global.scss */
 .bg-light-gray {
   background: #f2f2f2;
 }
@@ -678,7 +4664,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   background: #f5f5f5;
   padding: 0;
   box-shadow: 0 0 3px #ccc;
@@ -692,6 +4677,7 @@ body {
   -webkit-align-items: center;
   align-items: center;
   z-index: 3;
+  width: 100%;
 }
 /* line 16, ../sass/components/_navigation.scss */
 #navbar #logo {
@@ -814,22 +4800,23 @@ body {
 }
 /* line 69, ../sass/components/_navigation.scss */
 .np-navigation > div.active {
-  color: #1c6eb2;
+  color: #0277bd;
 }
 /* line 73, ../sass/components/_navigation.scss */
 .np-navigation > div.indicator {
   position: absolute;
   bottom: 0;
   padding: 0;
-  border-bottom: 4px solid #1c6eb2;
+  height: 4px;
+  background: #0277bd;
 }
 
-/* line 92, ../sass/components/_mixins.scss */
-.sections {
+/* line 83, ../sass/components/_navigation.scss */
+.tabs {
   position: relative;
 }
-/* line 95, ../sass/components/_mixins.scss */
-.sections > div {
+/* line 86, ../sass/components/_navigation.scss */
+.tabs > div {
   position: absolute;
   top: 0;
   -moz-transform: translate3d(100%, 0, 0);
@@ -849,41 +4836,8 @@ body {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-/* line 105, ../sass/components/_mixins.scss */
-.sections > div:first-child {
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-/* line 92, ../sass/components/_mixins.scss */
-.pages {
-  position: relative;
-}
-/* line 95, ../sass/components/_mixins.scss */
-.pages > div {
-  position: absolute;
-  top: 0;
-  -moz-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate3d(100%, 0, 0);
-  -webkit-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-/* line 105, ../sass/components/_mixins.scss */
-.pages > div:first-child {
+/* line 96, ../sass/components/_navigation.scss */
+.tabs > div:first-child {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
@@ -942,7 +4896,7 @@ body {
 }
 /* line 31, ../sass/components/_forms.scss */
 .np-form input {
-  border: 1px solid #0072bc;
+  border: 1px solid;
   border-radius: 4px;
   width: 100%;
   height: 100%;
@@ -1070,8 +5024,8 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  color: #fff;
-  background: #0072bc;
+  color: #FFFFFF;
+  background: #0277bd;
   border-radius: 4px;
   padding: 5px;
   cursor: pointer;
@@ -1080,31 +5034,35 @@ body {
 .np-button:active, .np-button:focus {
   outline: none;
 }
-/* line 16, ../sass/components/_buttons.scss */
+/* line 15, ../sass/components/_buttons.scss */
+.np-button:hover {
+  background: #0267a4;
+}
+/* line 20, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-icon {
   height: 60%;
 }
 @media screen and (min-height: 768px) {
-  /* line 16, ../sass/components/_buttons.scss */
+  /* line 20, ../sass/components/_buttons.scss */
   .np-button.icon.text .np-icon {
     height: 67%;
   }
 }
-/* line 24, ../sass/components/_buttons.scss */
+/* line 28, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-caption {
   height: 40%;
 }
 @media screen and (min-height: 768px) {
-  /* line 24, ../sass/components/_buttons.scss */
+  /* line 28, ../sass/components/_buttons.scss */
   .np-button.icon.text .np-caption {
     height: 33%;
   }
 }
-/* line 31, ../sass/components/_buttons.scss */
+/* line 35, ../sass/components/_buttons.scss */
 .np-button.icon.text .np-caption span {
   white-space: nowrap;
 }
-/* line 37, ../sass/components/_buttons.scss */
+/* line 41, ../sass/components/_buttons.scss */
 .np-button .np-icon {
   display: -webkit-flex;
   display: flex;
@@ -1119,18 +5077,16 @@ body {
   font-size: 4vh;
 }
 @media screen and (min-height: 768px) {
-  /* line 37, ../sass/components/_buttons.scss */
+  /* line 41, ../sass/components/_buttons.scss */
   .np-button .np-icon {
     font-size: 30px;
   }
 }
-/* line 46, ../sass/components/_buttons.scss */
+/* line 50, ../sass/components/_buttons.scss */
 .np-button .np-caption {
   font-size: 1.9vh;
-  height: 100%;
   text-align: center;
   padding: 0;
-  width: 100%;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -1142,27 +5098,29 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
   line-height: 1.3;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
-/* line 56, ../sass/components/_buttons.scss */
+/* line 58, ../sass/components/_buttons.scss */
 .np-button .np-caption span {
   display: block;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 @media screen and (min-height: 768px) {
-  /* line 46, ../sass/components/_buttons.scss */
+  /* line 50, ../sass/components/_buttons.scss */
   .np-button .np-caption {
     font-size: 14px;
   }
 }
-/* line 67, ../sass/components/_buttons.scss */
+/* line 69, ../sass/components/_buttons.scss */
 .np-button.image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 73, ../sass/components/_buttons.scss */
+/* line 75, ../sass/components/_buttons.scss */
 .np-button .np-image {
   height: 66.393%;
   width: 100%;
@@ -1175,11 +5133,11 @@ body {
   left: 0;
   z-index: -2;
 }
-/* line 86, ../sass/components/_buttons.scss */
+/* line 88, ../sass/components/_buttons.scss */
 .np-button.image-top, .np-button.image-bottom {
   position: relative;
 }
-/* line 90, ../sass/components/_buttons.scss */
+/* line 92, ../sass/components/_buttons.scss */
 .np-button.image-top .np-caption, .np-button.image-bottom .np-caption {
   height: 33.607%;
   position: absolute;
@@ -1187,20 +5145,20 @@ body {
   left: 5px;
   width: calc(100% - 10px);
 }
-/* line 97, ../sass/components/_buttons.scss */
+/* line 99, ../sass/components/_buttons.scss */
 .np-button.image-top .np-caption span, .np-button.image-bottom .np-caption span {
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 107, ../sass/components/_buttons.scss */
+/* line 109, ../sass/components/_buttons.scss */
 .np-button.image-bottom .np-image {
   top: auto;
   bottom: 0;
   border-radius: 0 0 4px 4px;
 }
-/* line 113, ../sass/components/_buttons.scss */
+/* line 115, ../sass/components/_buttons.scss */
 .np-button.image-bottom .np-caption {
   bottom: auto;
   top: 0;
@@ -1818,8 +5776,8 @@ body {
 }
 /* line 206, ../sass/components/_grid.scss */
 .np-item.active .name {
-  background: #0072bc;
-  color: #fff;
+  background: #0277bd;
+  color: #FFFFFF;
 }
 /* line 210, ../sass/components/_grid.scss */
 .np-item.active .name .np-icon {
@@ -1894,7 +5852,7 @@ body {
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
-/* line 12, ../sass/components/_waves.scss */
+/* line 12, ../sass/components/_ripple.scss */
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -1905,7 +5863,7 @@ body {
   z-index: 1;
   transition: .3s ease-out;
 }
-/* line 22, ../sass/components/_waves.scss */
+/* line 22, ../sass/components/_ripple.scss */
 .waves-effect .waves-ripple {
   position: absolute;
   border-radius: 50%;
@@ -1920,39 +5878,39 @@ body {
   transform: scale(0);
   pointer-events: none;
 }
-/* line 40, ../sass/components/_waves.scss */
+/* line 40, ../sass/components/_ripple.scss */
 .waves-effect.waves-light .waves-ripple {
   background-color: rgba(255, 255, 255, 0.45);
 }
-/* line 43, ../sass/components/_waves.scss */
+/* line 43, ../sass/components/_ripple.scss */
 .waves-effect.waves-dark .waves-ripple {
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 46, ../sass/components/_waves.scss */
+/* line 46, ../sass/components/_ripple.scss */
 .waves-effect.waves-red .waves-ripple {
   background-color: rgba(244, 67, 54, 0.7);
 }
-/* line 49, ../sass/components/_waves.scss */
+/* line 49, ../sass/components/_ripple.scss */
 .waves-effect.waves-yellow .waves-ripple {
   background-color: rgba(255, 235, 59, 0.7);
 }
-/* line 52, ../sass/components/_waves.scss */
+/* line 52, ../sass/components/_ripple.scss */
 .waves-effect.waves-orange .waves-ripple {
   background-color: rgba(255, 152, 0, 0.7);
 }
-/* line 55, ../sass/components/_waves.scss */
+/* line 55, ../sass/components/_ripple.scss */
 .waves-effect.waves-purple .waves-ripple {
   background-color: rgba(156, 39, 176, 0.7);
 }
-/* line 58, ../sass/components/_waves.scss */
+/* line 58, ../sass/components/_ripple.scss */
 .waves-effect.waves-green .waves-ripple {
   background-color: rgba(76, 175, 80, 0.7);
 }
-/* line 61, ../sass/components/_waves.scss */
+/* line 61, ../sass/components/_ripple.scss */
 .waves-effect.waves-teal .waves-ripple {
   background-color: rgba(0, 150, 136, 0.7);
 }
-/* line 66, ../sass/components/_waves.scss */
+/* line 66, ../sass/components/_ripple.scss */
 .waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
   border: 0;
   font-style: normal;
@@ -1960,29 +5918,29 @@ body {
   text-transform: inherit;
   background: none;
 }
-/* line 74, ../sass/components/_waves.scss */
+/* line 74, ../sass/components/_ripple.scss */
 .waves-effect img {
   position: relative;
   z-index: -1;
 }
 
-/* line 80, ../sass/components/_waves.scss */
+/* line 80, ../sass/components/_ripple.scss */
 .waves-notransition {
   transition: none !important;
 }
 
-/* line 84, ../sass/components/_waves.scss */
+/* line 84, ../sass/components/_ripple.scss */
 .waves-circle {
   transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
 }
 
-/* line 89, ../sass/components/_waves.scss */
+/* line 89, ../sass/components/_ripple.scss */
 .waves-input-wrapper {
   border-radius: 0.2em;
   vertical-align: bottom;
 }
-/* line 93, ../sass/components/_waves.scss */
+/* line 93, ../sass/components/_ripple.scss */
 .waves-input-wrapper .waves-button-input {
   position: relative;
   top: 0;
@@ -1990,7 +5948,7 @@ body {
   z-index: 1;
 }
 
-/* line 101, ../sass/components/_waves.scss */
+/* line 101, ../sass/components/_ripple.scss */
 .waves-circle {
   text-align: center;
   width: 2.5em;
@@ -2000,13 +5958,13 @@ body {
   -webkit-mask-image: none;
 }
 
-/* line 110, ../sass/components/_waves.scss */
+/* line 110, ../sass/components/_ripple.scss */
 .waves-block {
   display: block;
 }
 
 /* Firefox Bug: link not triggered */
-/* line 115, ../sass/components/_waves.scss */
+/* line 115, ../sass/components/_ripple.scss */
 .waves-effect .waves-ripple {
   z-index: -1;
 }

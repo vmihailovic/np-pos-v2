@@ -1,7 +1,8 @@
 @import "compass/reset";
 @import "compass/css3";
-@import "components/vars";
 @import "components/mixins";
+@import "components/colors";
+@import "components/vars";
 @import "components/burger";
 @import "components/global";
 @import "components/layout";
@@ -9,5 +10,5 @@
 @import "components/forms";
 @import "components/buttons";
 @import "components/grid";
-@import "components/waves";
+@import "components/ripple";
 @import "components/responsive";
